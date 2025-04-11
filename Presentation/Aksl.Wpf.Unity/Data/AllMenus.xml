@@ -11,7 +11,8 @@
 			  IsSelectedOnInitialize="True"
 			  IconKind="Home"
 			  ItemType="Item"
-			  ModuleName="HomeModule"
+		      ModuleName="HomeModule"
+		       RequrePermissons="True"
 		      ViewName="Aksl.Modules.Home.Views.HomeView,Aksl.Modules.Home" />
 	<MenuItem Id="0"
 			  Name="MenuSub"
@@ -20,7 +21,6 @@
 			  ItemType="Item"
 		      IsCacheable="True"
 			  ModuleName="MenuSubModule"
-		      RequrePermissons="True"
 			  ViewName="Aksl.Modules.MenuSub.Views.MenuSubHubView,Aksl.Modules.MenuSub"
 			  NavigationName="Industry">
 	</MenuItem>
@@ -36,6 +36,28 @@
 		      NavigationName="Industry">
 	</MenuItem>
 	<MenuItem Id="0"
+			  Name="HamburgerMenuNavigationBar"
+			  Title="HamburgerNavigationBar"
+			  Level="2"
+			  IconKind="HamburgerMinus"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  ModuleName="HamburgerMenuNavigationBarModule"
+			  ViewName="Aksl.Modules.HamburgerMenuNavigationBar.Views.HamburgerMenuNavigationBarHubView,Aksl.Modules.HamburgerMenuNavigationBar "
+			  NavigationName="Industry">
+	</MenuItem>
+	<MenuItem Id="0"
+			  Name="IndustryHamburgerMenuNavigationBar"
+			  Title="IndustryNavigationBar"
+			  Level="2"
+			  IconKind="HamburgerMinus"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  ModuleName="IndustryNavigationBarModule"
+			  ViewName="Aksl.Modules.IndustryNavigationBar.Views.IndustryNavigationBarHubView,Aksl.Modules.IndustryNavigationBar"
+			  NavigationName="Industry">
+	</MenuItem>
+	<MenuItem Id="0"
 		      Name="HamburgerMenuTreeBarView"
 	     	  Title="HamburgerTreeBar"
 		      Level="2"
@@ -45,16 +67,5 @@
 		      ModuleName="HamburgerMenuTreeBarViewModule"
 		      ViewName="Aksl.Modules.HamburgerMenuTreeBar.Views.HamburgerMenuTreeBarHubView,Aksl.Modules.HamburgerMenuTreeBar"
 		      NavigationName="Industry">
-	</MenuItem>
-	<MenuItem Id="0"
-	          Name="HamburgerMenuNavigationBar"
-	          Title="HamburgerNavigationBar"
-	          Level="2"
-		      IconKind="HamburgerMinus"
-	          ItemType="Item"
-	          IsCacheable="True"
-	          ModuleName="HamburgerMenuNavigationBarModule"
-	          ViewName="Aksl.Modules.HamburgerMenuNavigationBar.Views.HamburgerMenuNavigationBarHubView,Aksl.Modules.HamburgerMenuNavigationBar "
-	          NavigationName="Industry">
 	</MenuItem>
 </MenuItem>

@@ -19,7 +19,6 @@
                             BeginTime="0:0:0"
                             Storyboard.TargetName="alarm"
                             Storyboard.TargetProperty="Fill.Color">
-
             </ColorAnimation>
         </Storyboard>
 
