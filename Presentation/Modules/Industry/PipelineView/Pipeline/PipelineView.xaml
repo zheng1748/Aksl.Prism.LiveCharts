@@ -83,15 +83,6 @@
             </Style.Triggers>
         </Style>
     </UserControl.Resources>
-    <!--TargetObject="{Binding Path=DataContext,ElementName=pipelineContainer}"-->
-    <!--<ei:Interaction.Triggers>
-        <ei:EventTrigger EventName="Loaded">
-            <ei:ChangePropertyAction TargetObject="{Binding Path=DataContext,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type UserControl}}}"
-                                     PropertyName="Direction"
-                                     Value="{Binding WaterDirection,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type UserControl}}}" />
-        </ei:EventTrigger>
-    </ei:Interaction.Triggers>-->
-    <!--Binding="{Binding Path=Direction,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=UserControl}}"-->
     <Border Style="{StaticResource borderStyle}">
         <ei:Interaction.Triggers>
             <ei:DataTrigger Binding="{Binding Path=SelectedWaterDirection}"
