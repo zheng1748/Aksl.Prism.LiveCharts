@@ -87,11 +87,11 @@ namespace Aksl.Modules.HamburgerMenuSideBar.ViewModels
         #endregion
 
         #region Create HamburgerMenuItemBar ViewModel Method
-        internal async Task CreateHamburgerMenuBarItemViewModelsAsync()
+        internal Task CreateHamburgerMenuBarItemViewModelsAsync(MenuItem rootMenuItem)
         {
             IsLoading = true;
 
-            var rootMenuItem = await _menuService.GetMenuAsync("All");
+            //var rootMenuItem = await _menuService.GetMenuAsync("All");
 
             var subMenuItems = rootMenuItem.SubMenus;
             foreach (var smi in subMenuItems)
@@ -103,13 +103,15 @@ namespace Aksl.Modules.HamburgerMenuSideBar.ViewModels
                 TopLeafHamburgerMenuSideBarItems.AddRange(topLeafHierarchicalMenuItemViewModels);
             }
 
-            _selectedHamburgerMenuSideBarItem = TopLeafHamburgerMenuSideBarItems.FirstOrDefault(mi => mi.IsSelectedOnInitialize) ?? TopLeafHamburgerMenuSideBarItems[0];
-            if (_selectedHamburgerMenuSideBarItem is not null)
-            {
-                _selectedHamburgerMenuSideBarItem.IsSelected = true;
-            }
+            //_selectedHamburgerMenuSideBarItem = TopLeafHamburgerMenuSideBarItems.FirstOrDefault(mi => mi.IsSelectedOnInitialize) ?? TopLeafHamburgerMenuSideBarItems[0];
+            //if (_selectedHamburgerMenuSideBarItem is not null)
+            //{
+            //    _selectedHamburgerMenuSideBarItem.IsSelected = true;
+            //}
 
             IsLoading = false;
+
+            return Task.CompletedTask;
         }
 
         #region Get Top Leaf HamburgerMenuBarItemViewModel Method

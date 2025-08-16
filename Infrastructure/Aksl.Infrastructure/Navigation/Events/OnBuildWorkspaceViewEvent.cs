@@ -1,4 +1,6 @@
 ﻿using Prism.Events;
+using System;
+using System.Collections;
 
 namespace Aksl.Infrastructure.Events
 {
@@ -11,60 +13,122 @@ namespace Aksl.Infrastructure.Events
         #endregion
 
         #region Properties
+        public string Name { get; set; }
+
         public MenuItem CurrentMenuItem { get; set; }
         #endregion
     }
 
-    public class OnBuildHamburgerMenuSideBarWorkspaceViewEvent : OnBuildWorkspaceViewEvent<OnBuildHamburgerMenuSideBarWorkspaceViewEvent>
+    public class OnBuildWorkspaceViewEventbase : PubSubEvent<OnBuildWorkspaceViewEventbase>,IEquatable<OnBuildWorkspaceViewEventbase>
+    {
+        #region Constructors
+        public OnBuildWorkspaceViewEventbase()
+        {
+        }
+        #endregion
+
+        #region Properties
+        public string Name { get; set; }
+
+        public MenuItem CurrentMenuItem { get; set; }
+        #endregion
+
+        #region IEquatable Method
+        public bool Equals(OnBuildWorkspaceViewEventbase other)
+        {
+            if(other is null)
+            {
+                return false;
+            }
+
+            if ( string.IsNullOrEmpty(other.Name))
+            {
+                return false;
+            }
+
+
+            return this.Name.Equals(other.Name,StringComparison.InvariantCultureIgnoreCase);
+        }
+        #endregion
+    }
+
+    public class OnBuildHamburgerMenuSideBarWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
     {
         #region Constructors
         public OnBuildHamburgerMenuSideBarWorkspaceViewEvent()
         {
+            Name = typeof(OnBuildHamburgerMenuSideBarWorkspaceViewEvent).Name;
         }
         #endregion
     }
 
-    public class OnBuildHamburgerMenuTreeSideBarWorkspaceViewEvent : OnBuildWorkspaceViewEvent<OnBuildHamburgerMenuTreeSideBarWorkspaceViewEvent>
+    public class OnBuildHamburgerMenuTreeSideBarWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
     {
         #region Constructors
         public OnBuildHamburgerMenuTreeSideBarWorkspaceViewEvent()
         {
+            Name = typeof(OnBuildHamburgerMenuTreeSideBarWorkspaceViewEvent).Name;
         }
         #endregion
     }
 
-    public class OnBuildHamburgerMenuNavigationSideBarWorkspaceViewEvent : OnBuildWorkspaceViewEvent<OnBuildHamburgerMenuNavigationSideBarWorkspaceViewEvent>
+    public class OnBuildHamburgerMenuNavigationSideBarWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
     {
         #region Constructors
         public OnBuildHamburgerMenuNavigationSideBarWorkspaceViewEvent()
         {
+            Name = typeof(OnBuildHamburgerMenuNavigationSideBarWorkspaceViewEvent).Name;
         }
         #endregion
     }
 
-    public class OnBuildHamburgerMenuWorkspaceViewEvent : OnBuildWorkspaceViewEvent<OnBuildHamburgerMenuWorkspaceViewEvent>
+    public class OnBuildHamburgerMenuWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
     {
         #region Constructors
         public OnBuildHamburgerMenuWorkspaceViewEvent()
         {
+            Name = typeof(OnBuildHamburgerMenuWorkspaceViewEvent).Name;
         }
         #endregion
     }
 
-    public class OnBuildHamburgerMenuTreeBarWorkspaceViewEvent : OnBuildWorkspaceViewEvent<OnBuildHamburgerMenuTreeBarWorkspaceViewEvent>
+    public class OnBuildHamburgerMenuTreeBarWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
     {
         #region Constructors
         public OnBuildHamburgerMenuTreeBarWorkspaceViewEvent()
         {
+            Name = typeof(OnBuildHamburgerMenuTreeBarWorkspaceViewEvent).Name;
         }
         #endregion
     }
 
-    public class OnBuildHamburgerMenuNavigationBarWorkspaceViewEvent : OnBuildWorkspaceViewEvent<OnBuildHamburgerMenuNavigationBarWorkspaceViewEvent>
+    public class OnBuildHamburgerMenuNavigationBarWorkspaceViewEvent : OnBuildWorkspaceViewEventbase    
     {
         #region Constructors
         public OnBuildHamburgerMenuNavigationBarWorkspaceViewEvent()
         {
+            Name = typeof(OnBuildHamburgerMenuNavigationBarWorkspaceViewEvent).Name;
+        }
+        #endregion
+    }
+
+    public class OnBuildIndustryManagerWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildIndustryManagerWorkspaceViewEvent()
+        {
+            Name = typeof(OnBuildIndustryManagerWorkspaceViewEvent).Name;
+        }
+        #endregion
+    }
+
+
+    public class OnBuildCustomerManagerWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildCustomerManagerWorkspaceViewEvent()
+        {
+            Name = typeof(OnBuildCustomerManagerWorkspaceViewEvent).Name;
         }
         #endregion
     }

@@ -2,7 +2,8 @@
 <MenuItem Id="0"
           Title="根"
           Name="All"
-          Level="1" >
+          Level="1"
+		  WorkspaceRegionName="HamburgerMenuSideBarWorkspaceRegion">
 	<MenuItem Id="1"
 			  Name="Home"
 			  Title="主页"
@@ -24,16 +25,44 @@
 			  ViewName="Aksl.Modules.MenuSub.Views.MenuSubHubView,Aksl.Modules.MenuSub"
 			  NavigationName="Industry">
 	</MenuItem>
-	<MenuItem Id="0"
+	<!--<MenuItem Id="0"
 		      Name="HamburgerMenu"
 		      Title="Hamburger"
 		      Level="2"
 			  IconKind="HamburgerMenu"
 		      ItemType="Item"
 		      IsCacheable="True"
-		      ModuleName="HamburgerMenuModule"
+		      WorkspaceRegionName="HamburgerMenuWorkspaceRegion"
+		      WorkspaceViewEventName="OnBuildHamburgerMenuWorkspaceViewEvent"
+			  ModuleName="HamburgerMenuModule"
 		      ViewName="Aksl.Modules.HamburgerMenu.Views.HamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
 		      NavigationName="Industry">
+	</MenuItem>-->
+	<MenuItem Id="0"
+			  Name="IndustryManager"
+			  Title="Industry Manager"
+			  Level="2"
+			  IconKind="Draw"
+			  ItemType="Item"
+			   IsCacheable="True"
+			  WorkspaceRegionName="IndustryManagerWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildIndustryManagerWorkspaceViewEvent"
+			  ModuleName="HamburgerMenuModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.IndustryHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="Industry">
+	</MenuItem>
+	<MenuItem Id="0"
+			  Name="CustomerManager"
+			  Title="Customer Manager"
+			  Level="2"
+			  IconKind="Building"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="CustomerManagerWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildCustomerManagerWorkspaceViewEvent"
+			  ModuleName="HamburgerMenuModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.CustomerHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="Customer">
 	</MenuItem>
 	<MenuItem Id="0"
 			  Name="HamburgerMenuNavigationBar"

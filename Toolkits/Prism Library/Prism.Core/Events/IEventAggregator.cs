@@ -16,5 +16,7 @@ namespace Prism.Events
         /// <returns>An instance of an event object of type <typeparamref name="TEventType"/>.</returns>
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1004:GenericMethodsShouldProvideTypeParameter")]
         TEventType GetEvent<TEventType>() where TEventType : EventBase, new();
+
+        EventBase GetEvent(string eventName);
     }
 }

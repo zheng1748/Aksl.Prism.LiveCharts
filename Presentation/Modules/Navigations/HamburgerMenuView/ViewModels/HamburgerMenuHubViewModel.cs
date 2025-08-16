@@ -29,6 +29,7 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
         private readonly IDialogViewService _dialogViewService;
         private readonly IMenuService _menuService;
         private object _currentView;
+        private string _workspaceViewEventName;
         #endregion
 
         #region Constructors
@@ -48,6 +49,13 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
         #endregion
 
         #region Properties
+        private string _workspaceRegionName;
+        public string WorkspaceRegionName
+        {
+            get => _workspaceRegionName;
+            set => SetProperty<string>(ref _workspaceRegionName, value);
+        }
+
         public HamburgerMenuViewModel HamburgerMenu { get; private set; }
 
         private Brush _paneBackground = new SolidColorBrush(Colors.White);
@@ -90,10 +98,10 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
                 if (SetProperty<bool>(ref _isPaneOpen, value))
                 {
                     if (HamburgerMenu is not null)
-                    { 
-                        HamburgerMenu.IsPaneOpen = value; 
+                    {
+                        HamburgerMenu.IsPaneOpen = value;
                     }
-                        
+
                     VisualState = GetVisualState();
                 }
             }
@@ -141,7 +149,7 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
             get => _visualState;
             set => SetProperty<string>(ref _visualState, value);
         }
-      
+
         private bool _isLoading;
         public bool IsLoading
         {
@@ -206,8 +214,13 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
         #region Register BuildWorkspaceView Event
         private void RegisterBuildWorkspaceViewEvents()
         {
-            _eventAggregator.GetEvent<OnBuildHamburgerMenuWorkspaceViewEvent>().Subscribe(async (bhmwve) =>
+            var buildHWorkspaceViewEvent = _eventAggregator.GetEvent(_workspaceViewEventName) as OnBuildWorkspaceViewEventbase;
+
+            //_eventAggregator.GetEvent<OnBuildHamburgerMenuWorkspaceViewEvent>().Subscribe(async (bhmwve) =>
+            buildHWorkspaceViewEvent.Subscribe(async (bmve) =>
             {
+                var currentMenuItem = bmve.CurrentMenuItem;
+
                 try
                 {
                     #region Method
@@ -234,87 +247,75 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
                     //}
                     #endregion
 
-                    #region Method
-                    string viewTypeAssemblyQualifiedName = bhmwve.CurrentMenuItem.ViewName;
-                    Type viewType = Type.GetType(viewTypeAssemblyQualifiedName);
-                    if (viewType is not null)
+                    if (!currentMenuItem.WorkspaceRegionName.Equals(WorkspaceRegionName) && currentMenuItem.WorkspaceViewEventName.Equals(_workspaceViewEventName))
                     {
-                        IRegion region = _regionManager.Regions[RegionNames.HamburgerMenuWorkspaceRegion];
-                        var viewName = viewType.Name;
+                        return;
+                    };
 
-                        //_currentView = region.GetView(viewTypeAssemblyQualifiedName);
-                        _currentView = region.Views.FirstOrDefault(v => v.GetType() == viewType);
-                        if (_currentView is null)
-                        {
-                            _currentView = region.GetView(viewType.FullName);
-                        }
+                    await LoadViewAsync();
 
-                        if (_currentView is not null)
+                    #region Method
+                    async Task LoadViewAsync()
+                    {
+                        string viewTypeAssemblyQualifiedName = currentMenuItem.ViewName;
+                        Type viewType = Type.GetType(viewTypeAssemblyQualifiedName);
+                        if (viewType is not null)
                         {
-                            if (bhmwve.CurrentMenuItem.IsCacheable)
+                            // IRegion region = _regionManager.Regions[RegionNames.HamburgerMenuWorkspaceRegion];
+                            IRegion region = _regionManager.Regions[WorkspaceRegionName];
+                            var viewName = viewType.Name;
+
+                            //_currentView = region.GetView(viewTypeAssemblyQualifiedName);
+                            _currentView = region.Views.FirstOrDefault(v => v.GetType() == viewType);
+                            if (_currentView is null)
                             {
-                                region.Activate(_currentView);
+                                _currentView = region.GetView(viewType.FullName);
+                            }
+
+                            if (_currentView is not null)
+                            {
+                                if (currentMenuItem.IsCacheable)
+                                {
+                                    region.Activate(_currentView);
+                                }
+                                else
+                                {
+                                    region.Remove(_currentView);
+
+                                    AddView();
+                                }
                             }
                             else
                             {
-                                region.Remove(_currentView);
-
-                                // ResolveView();
                                 AddView();
-
-                                //var view = _container.Resolve(viewType);
-                                //region.Add(view, viewTypeAssemblyQualifiedName);
-
-                                //region.Activate(view);
                             }
+
+                            void AddView()
+                            {
+                                if (CanAddView())
+                                {
+                                    NavigationParameters navigationParameters = new()
+                                {
+                                    { "CurrentMenuItem", currentMenuItem }
+                                };
+
+                                    // _regionManager.RequestNavigate(RegionNames.HamburgerMenuWorkspaceRegion, viewName, navigationParameters);
+                                    _regionManager.RequestNavigate(WorkspaceRegionName, viewName, navigationParameters);
+                                }
+                            }
+
+                            bool CanAddView() => !string.IsNullOrEmpty(currentMenuItem.ModuleName) && currentMenuItem.SubMenus.Count == 0;
                         }
                         else
                         {
-                            // ResolveView();
-                            AddView();
-
-                            //var view = _container.Resolve(viewType);
-                            //region.Add(view, viewTypeAssemblyQualifiedName);
-
-                            //region.Activate(view);
+                            await _dialogViewService.AlertAsync(message: $"Unable to find \"{viewTypeAssemblyQualifiedName}\".", title: $"Error:Missing Type");
                         }
-
-                        void ResolveView()
-                        {
-                            var view = _container.Resolve(viewType);
-                            region.Add(view, viewTypeAssemblyQualifiedName);
-
-                            region.Activate(view);
-                        }
-
-                        void AddView()
-                        {
-                            if (CanAddView())
-                            {
-                                NavigationParameters navigationParameters = new()
-                                {
-                                    { "CurrentMenuItem", bhmwve.CurrentMenuItem }
-                                };
-
-                                _regionManager.RequestNavigate(RegionNames.HamburgerMenuWorkspaceRegion, viewName, navigationParameters);
-                            }
-                        }
-
-                        bool CanAddView() => !string.IsNullOrEmpty(bhmwve.CurrentMenuItem.ModuleName) && bhmwve.CurrentMenuItem.SubMenus.Count == 0;
-                    }
-                    else
-                    {
-                        //bndwve.CallBack?.Invoke(false);
-
-                        await _dialogViewService.AlertAsync(message: $"Unable to find \"{viewTypeAssemblyQualifiedName}\".", title: $"Error:Missing Type");
                     }
                     #endregion
                 }
                 catch (Exception ex)
                 {
-                    // bndwve.CallBack?.Invoke(false);
-
-                    await _dialogViewService.AlertAsync(message: $"Unable to loading \"{bhmwve.CurrentMenuItem.ModuleName}\" module.: \"{ex.Message}\"", title: "Error: Load Module");
+                    await _dialogViewService.AlertAsync(message: $"Unable to loading \"{currentMenuItem.ModuleName}\" module.: \"{ex.Message}\"", title: "Error: Load Module");
                 }
             }, ThreadOption.UIThread, true);
         }
@@ -327,9 +328,7 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
 
             try
             {
-                var rootMenuItem = await _menuService.GetMenuAsync(currentMenuItem.NavigationName);
-
-                HamburgerMenu = new(_eventAggregator);
+                HamburgerMenu = new(_eventAggregator, _menuService, currentMenuItem);
                 AddPropertyChanged();
 
                 void AddPropertyChanged()
@@ -338,10 +337,6 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
                     {
                         if (sender is HamburgerMenuViewModel hmvm)
                         {
-                            //if (!hmvm.IsLoading)
-                            //{
-                            //    IsLoading = false;
-                            //}
                             if (e.PropertyName == nameof(HamburgerMenuViewModel.IsLoading) && !hmvm.IsLoading)
                             {
                                 IsLoading = false;
@@ -350,7 +345,7 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
                     };
                 }
 
-                HamburgerMenu.CreateHamburgerMenuItemViewModels(rootMenuItem);
+                await HamburgerMenu.CreateHamburgerMenuItemViewModelsAsync();
                 HamburgerMenu.IsPaneOpen = IsPaneOpen;
                 RaisePropertyChanged(nameof(HamburgerMenu));
             }
@@ -374,6 +369,9 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
             var parameters = navigationContext.Parameters;
             if (parameters.TryGetValue("CurrentMenuItem", out MenuItem currentMenuItem))
             {
+                WorkspaceRegionName = currentMenuItem.WorkspaceRegionName;
+                _workspaceViewEventName = currentMenuItem.WorkspaceViewEventName;
+
                 RegisterBuildWorkspaceViewEvents();
 
                 CreateHamburgerMenuViewModelAsync(currentMenuItem).GetAwaiter().GetResult();

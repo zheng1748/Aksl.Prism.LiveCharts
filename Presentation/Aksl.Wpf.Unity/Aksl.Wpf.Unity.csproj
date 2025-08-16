@@ -19,6 +19,7 @@
   <ItemGroup>
     <None Remove="Configuration\appsettings.json" />
     <None Remove="Data\AllMenus.xml" />
+    <None Remove="Data\Customers.xml" />
     <None Remove="Data\Industry.xml" />
   </ItemGroup>
 
@@ -30,6 +31,9 @@
 
   <ItemGroup>
     <Resource Include="Data\AllMenus.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Customers.xml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Data\Industry.xml">
@@ -84,6 +88,8 @@
     <ProjectReference Include="..\..\Toolkits\Prism Library\Prism.Unity.Wpf\Prism.Unity.Wpf.csproj" />
     <ProjectReference Include="..\..\Toolkits\Prism Library\Prism.Wpf\Prism.Wpf.csproj" />
     <ProjectReference Include="..\Modules\Account\Account.csproj" />
+    <ProjectReference Include="..\Modules\Customers\DataGridCustomer\DataGridCustomer.csproj" />
+    <ProjectReference Include="..\Modules\Customers\ListViewCustomer\ListViewCustomer.csproj" />
     <ProjectReference Include="..\Modules\HamburgerMenuNavigationSideBarView\HamburgerMenuNavigationSideBarView.csproj" />
     <ProjectReference Include="..\Modules\HamburgerMenuSideBarView\HamburgerMenuSideBarView.csproj" />
     <ProjectReference Include="..\Modules\HamburgerMenuTreeSideBarView\HamburgerMenuTreeSideBarView.csproj" />

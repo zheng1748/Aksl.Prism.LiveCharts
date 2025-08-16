@@ -16,6 +16,8 @@ namespace Prism.Events
         // in a platform agnostic way so it can be used for UI thread dispatching
         private readonly SynchronizationContext syncContext = SynchronizationContext.Current;
 
+        private readonly Dictionary<string, EventBase> allEvents = new();
+
         /// <summary>
         /// Gets the single instance of the event managed by this EventAggregator. Multiple calls to this method with the same <typeparamref name="TEventType"/> returns the same event instance.
         /// </summary>
@@ -32,7 +34,9 @@ namespace Prism.Events
                 {
                     TEventType newEvent = new TEventType();
                     newEvent.SynchronizationContext = syncContext;
+
                     events[typeof(TEventType)] = newEvent;
+                    allEvents[typeof(TEventType).Name] = newEvent;
 
                     return newEvent;
                 }
@@ -40,6 +44,21 @@ namespace Prism.Events
                 {
                     return (TEventType)existingEvent;
                 }
+            }
+        }
+
+        public EventBase GetEvent(string eventName)
+        {
+            lock (events)
+            {
+                EventBase existingEvent = null;
+
+                if (allEvents.TryGetValue(eventName, out existingEvent))
+                {
+                    return (EventBase)existingEvent;
+                }
+
+                return default(EventBase);
             }
         }
     }

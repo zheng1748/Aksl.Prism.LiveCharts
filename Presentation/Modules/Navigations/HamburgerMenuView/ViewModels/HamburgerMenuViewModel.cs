@@ -7,6 +7,7 @@ using Prism.Events;
 using Prism.Mvvm;
 
 using Aksl.Infrastructure;
+using System.Threading.Tasks;
 
 namespace Aksl.Modules.HamburgerMenu.ViewModels
 {
@@ -14,14 +15,19 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
     {
         #region Members
         protected readonly IEventAggregator _eventAggregator;
+        private readonly IMenuService _menuService;
         private MenuItem _parentMenuItem;
+        private MenuItem _rootMenuItem;
         #endregion
 
         #region Constructors
-        public HamburgerMenuViewModel(IEventAggregator eventAggregator)
+        public HamburgerMenuViewModel(IEventAggregator eventAggregator, IMenuService menuService, MenuItem rootMenuItem)
         {
             _eventAggregator = eventAggregator;
-        
+            _menuService= menuService;
+
+            _rootMenuItem = rootMenuItem;
+
             HamburgerMenuItems = new();
         }
         #endregion
@@ -77,9 +83,11 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
         #endregion
 
         #region Create HamburgerMenuItem ViewModel Method
-        internal void CreateHamburgerMenuItemViewModels(MenuItem parentMenuItem)
+        internal async Task CreateHamburgerMenuItemViewModelsAsync()
         {
             IsLoading = true;
+
+            var parentMenuItem = await _menuService.GetMenuAsync(_rootMenuItem.NavigationName);
 
             _parentMenuItem = parentMenuItem;
 
@@ -132,6 +140,8 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
             {
                 if (!AnyEqualsMenuItem(leafMenuItems, currentMenuItem) && Isleaf(currentMenuItem) && HasTitle(currentMenuItem))
                 {
+                    currentMenuItem.WorkspaceRegionName = _rootMenuItem.WorkspaceRegionName;
+                    currentMenuItem.WorkspaceViewEventName   = _rootMenuItem.WorkspaceViewEventName;
                     leafMenuItems.Add(currentMenuItem);
                 }
 

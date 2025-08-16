@@ -52,6 +52,10 @@ namespace Aksl.Infrastructure
         public bool CanRun { get; set; }
 
         public bool IsSeparator => ItemType == MenuItemType.Separator;
+
+        public string WorkspaceRegionName { get; set; }
+
+        public string WorkspaceViewEventName { get; set; }
         #endregion
     }
 

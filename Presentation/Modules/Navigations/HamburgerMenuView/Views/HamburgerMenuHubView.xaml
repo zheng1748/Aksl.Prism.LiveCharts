@@ -924,7 +924,8 @@
                                         HorizontalAlignment="Stretch"
                                         VerticalAlignment="Stretch"
                                         Margin="0,0,0,0"
-                                        prism:RegionManager.RegionName="{x:Static inf:RegionNames.HamburgerMenuWorkspaceRegion}">
+                                        prism:RegionManager.RegionName="{Binding Path=WorkspaceRegionName,Mode=OneWay}">
+                                        <!--prism:RegionManager.RegionName="{x:Static inf:RegionNames.HamburgerMenuWorkspaceRegion}">-->
                             <!--<ContentControl.RenderTransform>
                                 <TransformGroup>
                                     <ScaleTransform />

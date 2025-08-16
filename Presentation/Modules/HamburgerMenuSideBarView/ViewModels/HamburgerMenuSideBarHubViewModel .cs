@@ -52,6 +52,13 @@ namespace Aksl.Modules.HamburgerMenuSideBar.ViewModels
         #endregion
 
         #region Properties
+        //private string _workspaceRegionName;
+        //public string WorkspaceRegionName
+        //{
+        //    get => _workspaceRegionName;
+        //    set => SetProperty<string>(ref _workspaceRegionName, value);
+        //}
+
         public HamburgerMenuSideBarViewModel HamburgerMenuSideBar { get; private set; }
 
         private Brush _paneBackground = new SolidColorBrush(Colors.White);
@@ -214,12 +221,12 @@ namespace Aksl.Modules.HamburgerMenuSideBar.ViewModels
         {
             _eventAggregator.GetEvent<OnBuildHamburgerMenuSideBarWorkspaceViewEvent>().Subscribe(async (bhmsbwve) =>
             {
+                var currentMenuItem = bhmsbwve.CurrentMenuItem;
+
                 try
                 {
                     var previewSelectedHamburgerMenuItem= HamburgerMenuSideBar.PreviewSelectedHamburgerMenuItem;
                     var selectedHamburgerMenuItem = HamburgerMenuSideBar.SelectedHamburgerMenuSideBarItem;
-
-                    var currentMenuItem = bhmsbwve.CurrentMenuItem;
 
                     if (currentMenuItem.RequrePermissons is not null)
                     {
@@ -391,7 +398,11 @@ namespace Aksl.Modules.HamburgerMenuSideBar.ViewModels
                     };
                 }
 
-                await HamburgerMenuSideBar.CreateHamburgerMenuBarItemViewModelsAsync();
+                var rootMenuItem = await _menuService.GetMenuAsync("All");
+                //WorkspaceRegionName = rootMenuItem.WorkspaceRegionName;
+
+                await HamburgerMenuSideBar.CreateHamburgerMenuBarItemViewModelsAsync(rootMenuItem);
+
                 HamburgerMenuSideBar.IsPaneOpen = IsPaneOpen;
                 RaisePropertyChanged(nameof(HamburgerMenuSideBar));
             }

@@ -1,0 +1,459 @@
+﻿<UserControl x:Class="Aksl.Modules.DataGridCustomer.Views.CustomerListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:akslToolkit="clr-namespace:Aksl.Toolkit.UI.Controls;assembly=Aksl.Toolkit"
+             xmlns:behaviors="http://schemas.microsoft.com/xaml/behaviors"
+             xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase"
+             mc:Ignorable="d"
+             d:DesignHeight="450"
+             d:DesignWidth="800">
+    <UserControl.Resources>
+        <!--https://www.wpf-tutorial.com/listview-control/listview-grouping/-->
+        <!--<LinearGradientBrush x:Key="headerBackground"
+                             StartPoint="0.5,0"
+                             EndPoint="0.5,1">
+            <GradientStop Color="#66000088"
+                          Offset="0" />
+            <GradientStop Color="#BB000088"
+                          Offset="1" />
+        </LinearGradientBrush>-->
+
+        <!--<CollectionViewSource x:Key="customerSource"
+                              Source="{Binding Path=AllCustomers}">
+            <CollectionViewSource.GroupDescriptions>
+                <PropertyGroupDescription PropertyName="IsCompany" />
+            </CollectionViewSource.GroupDescriptions>
+            --><!--<CollectionViewSource.SortDescriptions>
+                <scm:SortDescription PropertyName="IsCompany"
+                                     Direction="Descending" />
+                <scm:SortDescription PropertyName="DisplayName"
+                                     Direction="Ascending" />
+            </CollectionViewSource.SortDescriptions>--><!--
+        </CollectionViewSource>-->
+        
+        <LinearGradientBrush x:Key="headerBackground"
+                             StartPoint="0.5,0"
+                             EndPoint="0.5,1">
+            <GradientStop Color="#66000088"
+                          Offset="0" />
+            <GradientStop Color="#BB000088"
+                          Offset="1" />
+        </LinearGradientBrush>
+        
+        <DataTemplate x:Key="checkBoxHeaderTemplate">
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <CheckBox IsChecked="{Binding Path=DataContext.IsChoice,Mode=TwoWay,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type DataGrid}}}"
+                          VerticalContentAlignment="Center"
+                          Margin="2,0,5,0" />
+                <TextBlock Text="全选" />
+            </StackPanel>
+        </DataTemplate>
+
+        <Style x:Key="customerDataGridStyle"
+               TargetType="{x:Type DataGrid}">
+            <Setter Property="AutoGenerateColumns"
+                    Value="False" />
+            <Setter Property="IsSynchronizedWithCurrentItem"
+                    Value="False" />
+            <Setter Property="AlternationCount"
+                    Value="2" />
+            <!--<Setter Property="RowHeight"
+                    Value="30" />-->
+            <!--网格线颜色-->
+            <Setter Property="CanUserResizeColumns"
+                    Value="True" />
+            <!--<Setter Property="Background"
+                    Value="#E6DBBB" />
+            <Setter Property="BorderBrush"
+                    Value="#d6c79b" />--><!--
+            <Setter Property="HorizontalGridLinesBrush">
+                <Setter.Value>
+                    <SolidColorBrush Color="#d6c79b" />
+                </Setter.Value>
+            </Setter>
+            <Setter Property="VerticalGridLinesBrush">
+                <Setter.Value>
+                    <SolidColorBrush Color="#d6c79b" />
+                </Setter.Value>
+            </Setter>-->
+        </Style>
+        
+        <Style x:Key="customerDataGridColumnHeaderStyle"
+               TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="SnapsToDevicePixels"
+                    Value="True" />
+            <!--<Setter Property="MinWidth"
+                    Value="0" />
+            <Setter Property="MinHeight"
+                    Value="28" />-->
+            <Setter Property="Height"
+                    Value="40" />
+            <Setter Property="FontSize"
+                    Value="18" />
+            <Setter Property="FontWeight"
+                    Value="Bold" />
+            <Setter Property="Cursor"
+                    Value="Hand" />
+            <Setter Property="HorizontalContentAlignment"
+                    Value="Center" />
+            <Setter Property="VerticalAlignment"
+                    Value="Center" />
+            <!--<Setter Property="Foreground"
+                    Value="#323433" />-->
+            <!--<Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="DataGridColumnHeader">
+                        <Border x:Name="BackgroundBorder"
+                                BorderThickness="0,1,0,1"
+                                BorderBrush="#e6dbba"
+                                Width="Auto">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <ContentPresenter  Margin="0,0,0,0"
+                                                   VerticalAlignment="Center"
+                                                   HorizontalAlignment="Center" />
+                                <Path x:Name="SortArrow"
+                                      Visibility="Visible"
+                                      Data="M0,0 L1,0 0.5,1 z"
+                                      Stretch="Fill"
+                                      Grid.Column="2"
+                                      Width="8"
+                                      Height="6"
+                                      Fill="White"
+                                      Margin="0,0,50,0"
+                                      VerticalAlignment="Center"
+                                      RenderTransformOrigin="1,1" />
+                                <Rectangle Width="1"
+                                           Fill="#d6c79b"
+                                           HorizontalAlignment="Right"
+                                           Grid.ColumnSpan="1" />
+                                <TextBlock  Background="Red">
+                                   <ContentPresenter></ContentPresenter>
+                                </TextBlock>
+                            </Grid>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>-->
+            
+        </Style>
+
+        <Style x:Key="customerDataGridRowHeaderStyle"
+               TargetType="{x:Type DataGridRowHeader}">
+            <Setter Property="Width"
+                    Value="30" />
+            <!--<Setter Property="Height"
+                    Value="30" />-->
+            <Setter Property="FontSize"
+                    Value="15" />
+            <Setter Property="HorizontalAlignment"
+                    Value="Center" />
+            <Setter Property="VerticalAlignment"
+                    Value="Stretch" />
+        </Style>
+
+        <Style x:Key="customerDataGridRowStyle"
+               TargetType="{x:Type DataGridRow}">
+            <!--<Setter Property="Margin"
+                    Value="50,5,0,0" />-->
+            <Setter Property="Height"
+                    Value="30" />
+            <Setter Property="FontSize"
+                    Value="15" />
+            <Setter Property="IsSelected"
+                    Value="{Binding IsSelected,Mode=TwoWay}" />
+            <!--<Setter Property="HorizontalAlignment"
+                    Value="Stretch" />
+            <Setter Property="VerticalAlignment"
+                    Value="Stretch" />-->
+            <!--<Setter Property="Background"
+                    Value="#F2F2F2" />
+            <Setter Property="Foreground"
+                    Value="Black" />-->
+            <!--<Setter Property="IsSelected"
+                    Value="{Binding IsSelected,Mode=TwoWay}" />-->
+            <Style.Triggers>
+                <!--<MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="AlternationIndex"
+                                   Value="1" />
+                        <Condition Property="IsSelected"
+                                   Value="False" />
+                        <Condition Property="IsMouseOver"
+                                   Value="False" />
+                    </MultiTrigger.Conditions>
+                    <Setter Property="Background"
+                            Value="#EEEEEEEE" />
+                </MultiTrigger>-->
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsSelected"
+                                   Value="False" />
+                        <Condition Property="IsMouseOver"
+                                   Value="True" />
+                    </MultiTrigger.Conditions>
+                    <Setter Property="Background"
+                            Value="#EEEEEEEE" />
+                </MultiTrigger>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsSelected"
+                                   Value="True" />
+                        <Condition Property="Selector.IsSelectionActive"
+                                   Value="True" />
+                    </MultiTrigger.Conditions>
+                    <Setter Property="Background"
+                            Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" />
+                    <!--<Setter Property="Foreground"
+                            Value="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" />-->
+                    <Setter Property="Foreground"
+                            Value="Black" />
+                    <Setter Property="FontSize"
+                            Value="16" />
+                </MultiTrigger>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsSelected"
+                                   Value="True" />
+                        <Condition Property="Selector.IsSelectionActive"
+                                   Value="False" />
+                    </MultiTrigger.Conditions>
+                    <Setter Property="Background"
+                            Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" />
+                    <!--<Setter Property="Background"
+                            Value="#EEEEEEEE" />-->
+                    <Setter Property="FontSize"
+                            Value="14" />
+                </MultiTrigger>
+                <!--隔行换色-->
+                <!--<Trigger Property="AlternationIndex"
+                         Value="0">
+                    <Setter Property="Background"
+                            Value="#e7e7e7" />
+                </Trigger>
+                <Trigger Property="AlternationIndex"
+                         Value="1">
+                    <Setter Property="Background"
+                            Value="#f2f2f2" />
+                </Trigger>
+
+                <Trigger Property="IsMouseOver"
+                         Value="True">
+                    <Setter Property="Background"
+                            Value="LightGray" />-->
+                <!--<Setter Property="Foreground" Value="White"/>-->
+                <!--</Trigger>
+
+                <Trigger Property="IsSelected"
+                         Value="True">
+                    <Setter Property="Foreground"
+                            Value="Black" />-->
+                <!--</Trigger>-->
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="customerDataGridCellStyle"
+               TargetType="{x:Type DataGridCell}">
+            <!--<Setter Property="Margin"
+                    Value="50,5,0,0" />-->
+            <!--<Setter Property="HorizontalAlignment"
+                    Value="Center" />-->
+            <!--<Setter Property="VerticalAlignment"
+                    Value="Center" />-->
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="DataGridCell">
+                        <!--<TextBlock TextAlignment="Center"
+                                   VerticalAlignment="Center">-->
+                        <ContentPresenter  VerticalAlignment="Center"
+                                           HorizontalAlignment="Center" />
+                        <!--</TextBlock>-->
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <!--<Trigger Property="IsSelected"
+                         Value="True">
+                    <Setter Property="Background" Value="AntiqueWhite"/>
+              
+                    <Setter Property="Foreground"
+                            Value="Black" />
+                </Trigger>-->
+                <!--<Trigger Property="IsSelected"
+                         Value="True">
+                    <Setter 
+                            Property="Background"
+                            Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" />
+                    <Setter Property="Foreground"
+                            Value="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" />
+                    <Setter Property="BorderBrush"
+                            Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" />
+                </Trigger>
+                <Trigger Property="IsSelected"
+                         Value="False">
+                    <Setter Property="Background"
+                            Value="#EEEEEEEE" />
+                </Trigger>-->
+            </Style.Triggers>
+
+        </Style>
+
+        <Style x:Key="groupItemStyle"
+               TargetType="{x:Type GroupItem}">
+            <!--<Setter Property="Background"
+                    Value="{StaticResource headerBackground}" />-->
+            <Setter Property="Margin"
+                    Value="0,0,0,5" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type GroupItem}">
+                        <Expander IsExpanded="True"
+                                  BorderThickness="1,1,1,5">
+                            <Expander.Header >
+                                <StackPanel Orientation="Horizontal"
+                                            Height="24"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center">
+                                <!--<DockPanel Height="30" >-->
+                                    <TextBlock x:Name="headerTextBlock"
+                                               Text="{Binding Path=Name}"
+                                               FontWeight="Bold"
+                                               Foreground="Black"
+                                               FontSize="16" />
+                                    <TextBlock Text="{Binding ItemCount}"
+                                               FontSize="16"
+                                               Foreground="Green"
+                                               FontWeight="Bold"
+                                               FontStyle="Italic"
+                                               Margin="10,0,0,0" />
+                                    <TextBlock Text="   Item(s)"
+                                               FontWeight="Bold"
+                                               Foreground="Black"
+                                               FontSize="16" />
+                                    </StackPanel>
+                                <!--</DockPanel>-->
+                                <!--<DockPanel>
+                                    <TextBlock x:Name="headerTextBlock" FontWeight="Bold"
+                                               Text="{Binding Path=Name}"
+                                               FontSize="16"
+                                               Margin="5,0,0,0"
+                                               Width="100" />
+                                    <TextBlock FontWeight="Bold"
+                                               FontSize="16"
+                                               Text="{Binding Path=ItemCount}" />
+                                </DockPanel>-->
+                            </Expander.Header>
+                            <Expander.Content>
+                                <ItemsPresenter />
+                            </Expander.Content>
+                        </Expander>
+                        <ControlTemplate.Triggers>
+                            <DataTrigger Binding="{Binding Path=Name}"
+                                         Value="True">
+                                <Setter TargetName="headerTextBlock"
+                                        Property="Text"
+                                        Value="Companies" />
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding Path=Name}"
+                                         Value="False">
+                                <Setter TargetName="headerTextBlock"
+                                        Property="Text"
+                                        Value="People" />
+                            </DataTrigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+    </UserControl.Resources>
+
+    <DockPanel>
+
+        <akslToolkit:WindowTitle Title="{Binding Path=Title}" />
+        
+        <Grid DockPanel.Dock="Bottom"
+              Margin="0,2,4,2">
+            <StackPanel HorizontalAlignment="Right"
+                        Orientation="Horizontal"
+                        VerticalAlignment="Center">
+                <TextBlock Text="Total selected sales: " />
+                <ContentPresenter Content="{Binding Path=TotalSelectedSales}"
+                                  ContentStringFormat="c" />
+            </StackPanel>
+        </Grid>
+
+        <Grid SnapsToDevicePixels="True">
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="2" />
+                <RowDefinition Height="30" />
+            </Grid.RowDefinitions>
+
+            <DataGrid x:Name="customerDataGrid"
+                      Grid.Row="0"
+                      Style="{StaticResource customerDataGridStyle}"
+                      ColumnHeaderStyle="{StaticResource customerDataGridColumnHeaderStyle}"
+                      RowHeaderStyle="{StaticResource customerDataGridRowHeaderStyle}"
+                      RowStyle="{StaticResource customerDataGridRowStyle}"
+                      CellStyle="{StaticResource customerDataGridCellStyle}"
+                      ItemsSource="{Binding Path=AllCustomers}"
+                      SelectionMode="Single"
+                      SelectedItem="{Binding Path=SelectedCustomerItem,Mode=TwoWay}">
+                <DataGrid.GroupStyle>
+                    <GroupStyle ContainerStyle="{StaticResource groupItemStyle}" />
+                </DataGrid.GroupStyle>
+                <!--<behaviors:Interaction.Triggers>
+                    <behaviors:EventTrigger EventName="Loaded">
+                        <behaviors:CallMethodAction TargetObject="{Binding DataContext,ElementName=customerDataGrid}"
+                                                    MethodName="DataGridLoaded" />
+                    </behaviors:EventTrigger>
+                    -->
+                <!--<behaviors:EventTrigger EventName="MouseRightButtonDown">
+                        <behaviors:CallMethodAction TargetObject="{Binding DataContext,ElementName=customerDataGrid}"
+                                                    MethodName="DataGridMouseRightButtonDown" />
+                    </behaviors:EventTrigger>-->
+                <!--
+                </behaviors:Interaction.Triggers>-->
+                <DataGrid.Columns>
+                    <!--<DataGridCheckBoxColumn Header="{Binding}"
+                                    HeaderTemplate="{StaticResource checkBoxHeaderTemplate}"
+                                    Binding="{Binding Path=IsChecked,Mode=OneWay}"
+                                    MinWidth="100" />-->
+                    <DataGridTemplateColumn Width="100"
+                                            HeaderTemplate="{StaticResource checkBoxHeaderTemplate}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <CheckBox IsChecked="{Binding Path=IsChoice,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                          HorizontalAlignment="Center"
+                                          VerticalAlignment="Center" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn Header="Id"
+                                        Binding="{Binding Path=Id,Mode=OneWay}"
+                                        MinWidth="100" />
+                    <DataGridTextColumn Header="Name"
+                                        Binding="{Binding Path=DisplayName,Mode=OneWay}"
+                                        MinWidth="200" />
+                    <DataGridTextColumn  Header="E-mail"
+                                         Binding="{Binding Path=Email,Mode=OneWay}"
+                                         MinWidth="200" />
+                    <!--<DataGridTemplateColumn Header="Total Sales"
+                                     Width="200">
+                -->
+                    <DataGridTextColumn Header="TotalSales"
+                                        Binding="{Binding Path=TotalSales,Mode=OneWay,StringFormat=C}"
+                                        MinWidth="200" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </DockPanel>
+</UserControl>

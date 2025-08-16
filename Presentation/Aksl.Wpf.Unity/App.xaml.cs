@@ -44,6 +44,14 @@ using Aksl.Modules.Pipeline;
 using Aksl.Modules.Thermometer;
 using Aksl.Modules.CoolingTower;
 using Aksl.Modules.AirCompresser;
+using Aksl.Infrastructure.Events;
+using System.Reflection;
+using System.Linq;
+using Prism.Events;
+using Prism.Unity;
+using Prism;
+using Aksl.Modules.DataGridCustomer;
+using Aksl.Modules.ListViewCustomer;
 
 namespace Aksl.Wpf.Unity
 {
@@ -93,8 +101,9 @@ namespace Aksl.Wpf.Unity
             });
             #endregion
 
-            #region SocketListenOptions
-           
+            #region WorkspaceViewEventNameAttribute 
+           // var types = Assembly.GetExecutingAssembly().GetTypes().Where(type => type.GetCustomAttributes<WorkspaceViewEventNameAttribute>().Any());
+            //var workspaceViewEventName = typeof(EventBase).GetCustomAttributeValue<WorkspaceViewEventNameAttribute, string>(w => w.WorkspaceViewEventName, "OnBuildHamburgerMenuWorkspaceViewEvent");
             #endregion
 
             services.AddHttpClient();
@@ -108,6 +117,8 @@ namespace Aksl.Wpf.Unity
             containerRegistry.RegisterDialog<ConfirmView, ConfirmViewModel>();
 
             RegisterMenuFactoryAsync(containerRegistry).GetAwaiter().GetResult();
+
+            RegisterBuildWorkspaceViewEventAsync();
         }
 
         protected async Task RegisterMenuFactoryAsync(IContainerRegistry containerRegistry)
@@ -115,7 +126,8 @@ namespace Aksl.Wpf.Unity
             try
             {
                 MenuService menuService = new (new List<string> {"pack://application:,,,/Aksl.Wpf.Unity;Component/Data/AllMenus.xml",
-                                                                 "pack://application:,,,/Aksl.Wpf.Unity;Component/Data/Industry.xml"
+                                                                 "pack://application:,,,/Aksl.Wpf.Unity;Component/Data/Industry.xml",
+                                                                 "pack://application:,,,/Aksl.Wpf.Unity;Component/Data/Customers.xml"
                                                                  });
 
                 await menuService.CreateMenusAsync();
@@ -129,6 +141,35 @@ namespace Aksl.Wpf.Unity
             }
         }
 
+        protected Task RegisterBuildWorkspaceViewEventAsync()
+        {
+            try
+            {
+                var eventAggregator = Container.Resolve<IEventAggregator>();
+
+                _ = eventAggregator.GetEvent<OnBuildHamburgerMenuSideBarWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildHamburgerMenuTreeSideBarWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildHamburgerMenuNavigationSideBarWorkspaceViewEvent>();
+
+                //  var onBuildHamburgerMenuWorkspaceViewEvent = eventAggregator.GetEvent<OnBuildHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildIndustryManagerWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildCustomerManagerWorkspaceViewEvent>();
+
+                _ = eventAggregator.GetEvent<OnBuildHamburgerMenuTreeBarWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildHamburgerMenuNavigationBarWorkspaceViewEvent>();
+
+                _ = eventAggregator.GetEvent(typeof(OnBuildIndustryManagerWorkspaceViewEvent).Name) as OnBuildWorkspaceViewEventbase;
+                _ = eventAggregator.GetEvent(typeof(OnBuildCustomerManagerWorkspaceViewEvent).Name) as OnBuildWorkspaceViewEventbase;
+            }
+            catch (Exception ex)
+            {
+                Debug.Print(ex.Message);
+            }
+
+            return Task.CompletedTask;
+        }
+  
+
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
             _ = moduleCatalog.AddModule(nameof(HomeModule), typeof(HomeModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
@@ -140,6 +181,9 @@ namespace Aksl.Wpf.Unity
             _ = moduleCatalog.AddModule(nameof(CoolingTowerModule), typeof(CoolingTowerModule).AssemblyQualifiedName, nameof(IndustryNavigationBarModule));
             _ = moduleCatalog.AddModule(nameof(AirCompresserModule), typeof(AirCompresserModule).AssemblyQualifiedName, nameof(IndustryNavigationBarModule));
             _ = moduleCatalog.AddModule(nameof(IndustryNavigationBarModule), typeof(IndustryNavigationBarModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+
+            _ = moduleCatalog.AddModule(typeof(DataGridCustomerModule).Name, typeof(DataGridCustomerModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(typeof(ListViewCustomerModule).Name, typeof(ListViewCustomerModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
 
             _ = moduleCatalog.AddModule(nameof(MenuSubModule), typeof(MenuSubModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
             _ = moduleCatalog.AddModule(nameof(HamburgerMenuModule),typeof(HamburgerMenuModule).AssemblyQualifiedName,InitializationMode.WhenAvailable);

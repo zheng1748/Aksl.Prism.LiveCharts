@@ -77,7 +77,7 @@ namespace Aksl.Infrastructure
                 NavigationName = element.Attribute("NavigationName")?.Value
             };
 
-            if (element.Attribute("IconKind")?.Value  is not null)
+            if (element.Attribute("IconKind")?.Value is not null)
             {
                 var iconKind = element.Attribute("IconKind").Value;
                 menuItem.IconKind = iconKind;
@@ -119,6 +119,11 @@ namespace Aksl.Infrastructure
                 var isCacheable = element.Attribute("IsCacheable").Value;
                 menuItem.IsCacheable = bool.Parse(isCacheable);
             }
+
+            menuItem.WorkspaceRegionName = element.Attribute("WorkspaceRegionName")?.Value;
+
+            menuItem.WorkspaceViewEventName = element.Attribute("WorkspaceViewEventName")?.Value;
+
             //  menuItem.IsHome = bool.Parse(element.Attribute("isHome")?.Value);
             return menuItem;
         }
