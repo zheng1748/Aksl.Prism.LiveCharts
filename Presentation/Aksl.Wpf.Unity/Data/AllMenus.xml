@@ -3,7 +3,7 @@
           Title="根"
           Name="All"
           Level="1"
-		  WorkspaceRegionName="HamburgerMenuSideBarWorkspaceRegion">
+		  >
 	<MenuItem Id="1"
 			  Name="Home"
 			  Title="主页"
@@ -39,32 +39,32 @@
 		      NavigationName="Industry">
 	</MenuItem>-->
 	<MenuItem Id="0"
-			  Name="IndustryManager"
-			  Title="Industry Manager"
+			  Name="IndustryManagerHamburgerMenu"
+			  Title="Industry Manager For HamburgerMenu"
 			  Level="2"
 			  IconKind="Draw"
 			  ItemType="Item"
-			   IsCacheable="True"
-			  WorkspaceRegionName="IndustryManagerWorkspaceRegion"
-			  WorkspaceViewEventName="OnBuildIndustryManagerWorkspaceViewEvent"
+			  IsCacheable="True"
+			  WorkspaceRegionName="IndustryManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildIndustryManagerHamburgerMenuWorkspaceViewEvent"
 			  ModuleName="HamburgerMenuModule"
 			  ViewName="Aksl.Modules.HamburgerMenu.Views.IndustryHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
 			  NavigationName="Industry">
 	</MenuItem>
 	<MenuItem Id="0"
-			  Name="CustomerManager"
-			  Title="Customer Manager"
+			  Name="CustomerManagerHamburgerMenu"
+			  Title="Customer Manager For HamburgerMenu"
 			  Level="2"
 			  IconKind="Building"
 			  ItemType="Item"
 			  IsCacheable="True"
-			  WorkspaceRegionName="CustomerManagerWorkspaceRegion"
-			  WorkspaceViewEventName="OnBuildCustomerManagerWorkspaceViewEvent"
+			  WorkspaceRegionName="CustomerManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildCustomerManagerHamburgerMenuWorkspaceViewEvent"
 			  ModuleName="HamburgerMenuModule"
 			  ViewName="Aksl.Modules.HamburgerMenu.Views.CustomerHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
 			  NavigationName="Customer">
 	</MenuItem>
-	<MenuItem Id="0"
+	<!--<MenuItem Id="0"
 			  Name="HamburgerMenuNavigationBar"
 			  Title="HamburgerNavigationBar"
 			  Level="2"
@@ -74,6 +74,32 @@
 			  ModuleName="HamburgerMenuNavigationBarModule"
 			  ViewName="Aksl.Modules.HamburgerMenuNavigationBar.Views.HamburgerMenuNavigationBarHubView,Aksl.Modules.HamburgerMenuNavigationBar "
 			  NavigationName="Industry">
+	</MenuItem>-->
+    <MenuItem Id="0"
+			  Name="IndustryHamburgerMenuNavigationBar"
+		      Title="Industry Manager For HamburgerNavigationBar"
+			  Level="2"
+			  IconKind="HamburgerMinus"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="IndustryManagerHamburgerNavigationBarWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildIndustryManagerHamburgerNavigationBarWorkspaceViewEvent"
+			  ModuleName="HamburgerMenuNavigationBarModule"
+			  ViewName="Aksl.Modules.HamburgerMenuNavigationBar.Views.IndustryHamburgerMenuNavigationBarHubView,Aksl.Modules.HamburgerMenuNavigationBar "
+			  NavigationName="Industry">
+	</MenuItem>
+	 <MenuItem Id="0"
+			  Name="CustomerHamburgerMenuNavigationBar"
+		      Title="Customer Manager For HamburgerNavigationBar"
+			  Level="2"
+			  IconKind="HamburgerMinus"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="CustomerManagerHamburgerNavigationBarWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildCustomerManagerHamburgerNavigationBarWorkspaceViewEvent"
+			  ModuleName="HamburgerMenuNavigationBarModule"
+			  ViewName="Aksl.Modules.HamburgerMenuNavigationBar.Views.CustomerHamburgerMenuNavigationBarHubView,Aksl.Modules.HamburgerMenuNavigationBar "
+			  NavigationName="Customer">
 	</MenuItem>
 	<MenuItem Id="0"
 			  Name="IndustryHamburgerMenuNavigationBar"

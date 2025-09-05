@@ -17,6 +17,7 @@ using Aksl.Toolkit.Services;
 
 using Aksl.Infrastructure;
 using Aksl.Infrastructure.Events;
+using System.Diagnostics;
 
 namespace Aksl.Modules.HamburgerMenuTreeBar.ViewModels
 {
@@ -29,6 +30,7 @@ namespace Aksl.Modules.HamburgerMenuTreeBar.ViewModels
         private readonly IDialogViewService _dialogViewService;
         private readonly IMenuService _menuService;
         private object _currentView;
+        private string _workspaceViewEventName;
         #endregion
 
         #region Constructors
@@ -48,6 +50,13 @@ namespace Aksl.Modules.HamburgerMenuTreeBar.ViewModels
         #endregion
 
         #region Properties
+        private string _workspaceRegionName;
+        public string WorkspaceRegionName
+        {
+            get => _workspaceRegionName;
+            set => SetProperty<string>(ref _workspaceRegionName, value);
+        }
+
         public TreeBarViewModel TreeBar { get; private set; }
 
         private Brush _paneBackground = new SolidColorBrush(Colors.White);
@@ -145,113 +154,6 @@ namespace Aksl.Modules.HamburgerMenuTreeBar.ViewModels
         }
         #endregion
 
-        #region RegisterEvent Method
-        private void RegisterBuildWorkspaceViewEvents()
-        {
-            _eventAggregator.GetEvent<OnBuildHamburgerMenuTreeBarWorkspaceViewEvent>().Subscribe(async (bhmtbwve) =>
-            {
-                try
-                {
-                    #region Method
-                    string viewTypeAssemblyQualifiedName = bhmtbwve.CurrentMenuItem.ViewName;
-                    Type viewType = Type.GetType(viewTypeAssemblyQualifiedName);
-                    if (viewType is not null)
-                    {
-                        IRegion region = _regionManager.Regions[RegionNames.HamburgerMenuTreeBarWorkspaceRegion];
-                        var viewName = viewType.Name;
-
-                        _currentView = region.Views.FirstOrDefault(v => v.GetType() == viewType);
-                        if (_currentView is null)
-                        {
-                            _currentView = region.GetView(viewType.FullName);
-                        }
-
-                        if (_currentView is not null)
-                        {
-                            if (bhmtbwve.CurrentMenuItem.IsCacheable)
-                            {
-                                region.Activate(_currentView);
-                            }
-                            else
-                            {
-                                region.Remove(_currentView);
-
-                                AddView();
-                            }
-                        }
-                        else
-                        {
-                           
-                            AddView();
-                        }
-
-                        void AddView()
-                        {
-                            if (CanAddView())
-                            {
-                                NavigationParameters navigationParameters = new()
-                                {
-                                    { "CurrentMenuItem", bhmtbwve.CurrentMenuItem }
-                                };
-
-                                _regionManager.RequestNavigate(RegionNames.HamburgerMenuTreeBarWorkspaceRegion, viewName, navigationParameters);
-                            }
-                        }
-
-                        bool CanAddView() => !string.IsNullOrEmpty(bhmtbwve.CurrentMenuItem.ModuleName) && bhmtbwve.CurrentMenuItem.SubMenus.Count == 0;
-                    }
-                    else
-                    {
-                        await _dialogViewService.AlertAsync(message: $"Unable to find \"{viewTypeAssemblyQualifiedName}\".", title: $"Error:Missing Type");
-                    }
-                    #endregion
-                }
-                catch (Exception ex)
-                {
-                    await _dialogViewService.AlertAsync(message: $"Unable to loading \"{bhmtbwve.CurrentMenuItem.ModuleName}\" module.: \"{ex.Message}\"", title: "Error: Load Module");
-                }
-            }, ThreadOption.UIThread, true);
-        }
-        #endregion
-
-        #region Create TreeBar ViewModel Method
-        private async Task CreateTreeBarViewModelAsync(MenuItem currentMenuItem)
-        {
-            IsLoading = true;
-
-            try
-            {
-                var rootMenuItem = await _menuService.GetMenuAsync(currentMenuItem.NavigationName);
-
-                TreeBar = new(_eventAggregator);
-                TreeBar.PropertyChanged += (sender, propertyName) =>
-                {
-                    if (sender is TreeBarViewModel tvm)
-                    {
-                        if (!tvm.IsLoading)
-                        {
-                            IsLoading = false;
-                        }
-                    }
-                };
-
-                TreeBar.CreateTreeBarItemViewModels(rootMenuItem);
-                RaisePropertyChanged(nameof(TreeBar));
-            }
-            catch (Exception ex)
-            {
-                await _dialogViewService.AlertAsync(message: $"Unable to create tree bar : \"{ex.Message}\"", title: "Error: Create TreeBar");
-            }
-            finally
-            {
-                if (IsLoading)
-                {
-                    IsLoading = false;
-                }
-            }
-        }
-        #endregion
-
         #region Get State Method
         private bool IsCompact
         {
@@ -305,12 +207,194 @@ namespace Aksl.Modules.HamburgerMenuTreeBar.ViewModels
         }
         #endregion
 
+        #region RegisterEvent Method
+        private void RegisterBuildWorkspaceViewEvents()
+        {
+            var buildHWorkspaceViewEvent = _eventAggregator.GetEvent(_workspaceViewEventName) as OnBuildWorkspaceViewEventbase;
+            Debug.Assert(buildHWorkspaceViewEvent is not null);
+
+            //_eventAggregator.GetEvent<OnBuildHamburgerMenuTreeBarWorkspaceViewEvent>().Subscribe(async (bhmtbwve) =>
+            buildHWorkspaceViewEvent.Subscribe(async (bmve) =>
+            {
+                var currentMenuItem = bmve.CurrentMenuItem;
+
+                try
+                {
+                    if (!currentMenuItem.WorkspaceRegionName.Equals(WorkspaceRegionName) && currentMenuItem.WorkspaceViewEventName.Equals(_workspaceViewEventName))
+                    {
+                        return;
+                    };
+
+                    #region Method
+                    //string viewTypeAssemblyQualifiedName = bhmtbwve.CurrentMenuItem.ViewName;
+                    //Type viewType = Type.GetType(viewTypeAssemblyQualifiedName);
+                    //if (viewType is not null)
+                    //{
+                    //    IRegion region = _regionManager.Regions[RegionNames.HamburgerMenuTreeBarWorkspaceRegion];
+                    //    var viewName = viewType.Name;
+
+                    //    _currentView = region.Views.FirstOrDefault(v => v.GetType() == viewType);
+                    //    if (_currentView is null)
+                    //    {
+                    //        _currentView = region.GetView(viewType.FullName);
+                    //    }
+
+                    //    if (_currentView is not null)
+                    //    {
+                    //        if (bhmtbwve.CurrentMenuItem.IsCacheable)
+                    //        {
+                    //            region.Activate(_currentView);
+                    //        }
+                    //        else
+                    //        {
+                    //            region.Remove(_currentView);
+
+                    //            AddView();
+                    //        }
+                    //    }
+                    //    else
+                    //    {
+
+                    //        AddView();
+                    //    }
+
+                    //    void AddView()
+                    //    {
+                    //        if (CanAddView())
+                    //        {
+                    //            NavigationParameters navigationParameters = new()
+                    //            {
+                    //                { "CurrentMenuItem", bhmtbwve.CurrentMenuItem }
+                    //            };
+
+                    //            _regionManager.RequestNavigate(RegionNames.HamburgerMenuTreeBarWorkspaceRegion, viewName, navigationParameters);
+                    //        }
+                    //    }
+
+                    //    bool CanAddView() => !string.IsNullOrEmpty(bhmtbwve.CurrentMenuItem.ModuleName) && bhmtbwve.CurrentMenuItem.SubMenus.Count == 0;
+                    //}
+                    //else
+                    //{
+                    //    await _dialogViewService.AlertAsync(message: $"Unable to find \"{viewTypeAssemblyQualifiedName}\".", title: $"Error:Missing Type");
+                    //}
+                    #endregion
+
+                    await LoadViewAsync();
+
+                    #region LoadView Method
+                    async Task LoadViewAsync()
+                    {
+                        string viewTypeAssemblyQualifiedName = currentMenuItem.ViewName;
+                        Type viewType = Type.GetType(viewTypeAssemblyQualifiedName);
+                        if (viewType is not null)
+                        {
+                            // IRegion region = _regionManager.Regions[RegionNames.HamburgerMenuWorkspaceRegion];
+                            IRegion region = _regionManager.Regions[WorkspaceRegionName];
+                            var viewName = viewType.Name;
+
+                            //_currentView = region.GetView(viewTypeAssemblyQualifiedName);
+                            _currentView = region.Views.FirstOrDefault(v => v.GetType() == viewType);
+                            if (_currentView is null)
+                            {
+                                _currentView = region.GetView(viewType.FullName);
+                            }
+
+                            if (_currentView is not null)
+                            {
+                                if (currentMenuItem.IsCacheable)
+                                {
+                                    region.Activate(_currentView);
+                                }
+                                else
+                                {
+                                    region.Remove(_currentView);
+
+                                    AddView();
+                                }
+                            }
+                            else
+                            {
+                                AddView();
+                            }
+
+                            void AddView()
+                            {
+                                if (CanAddView())
+                                {
+                                    NavigationParameters navigationParameters = new()
+                                {
+                                    { "CurrentMenuItem", currentMenuItem }
+                                };
+
+                                    // _regionManager.RequestNavigate(RegionNames.HamburgerMenuWorkspaceRegion, viewName, navigationParameters);
+                                    _regionManager.RequestNavigate(WorkspaceRegionName, viewName, navigationParameters);
+                                }
+                            }
+
+                            bool CanAddView() => !string.IsNullOrEmpty(currentMenuItem.ModuleName) && currentMenuItem.SubMenus.Count == 0;
+                        }
+                        else
+                        {
+                            await _dialogViewService.AlertAsync(message: $"Unable to find \"{viewTypeAssemblyQualifiedName}\".", title: $"Error:Missing Type");
+                        }
+                    }
+                    #endregion
+                }
+                catch (Exception ex)
+                {
+                    await _dialogViewService.AlertAsync(message: $"Unable to loading \"{currentMenuItem.ModuleName}\" module.: \"{ex.Message}\"", title: "Error: Load Module");
+                }
+            }, ThreadOption.UIThread, true);
+        }
+        #endregion
+
+        #region Create TreeBar ViewModel Method
+        private async Task CreateTreeBarViewModelAsync(MenuItem currentMenuItem)
+        {
+            IsLoading = true;
+
+            try
+            {
+               // var rootMenuItem = await _menuService.GetMenuAsync(currentMenuItem.NavigationName);
+
+                TreeBar = new(_eventAggregator,_menuService, currentMenuItem);
+                TreeBar.PropertyChanged += (sender,e) =>
+                {
+                    if (sender is TreeBarViewModel tvm)
+                    {
+                        if (e.PropertyName == nameof(TreeBarViewModel.IsLoading) &&  !tvm.IsLoading)
+                        {
+                            IsLoading = false;
+                        }
+                    }
+                };
+
+               await TreeBar.CreateTreeBarItemViewModelsAsync();
+                RaisePropertyChanged(nameof(TreeBar));
+            }
+            catch (Exception ex)
+            {
+                await _dialogViewService.AlertAsync(message: $"Unable to create tree bar : \"{ex.Message}\"", title: "Error: Create TreeBar");
+            }
+            finally
+            {
+                if (IsLoading)
+                {
+                    IsLoading = false;
+                }
+            }
+        }
+        #endregion
+
         #region INavigationAware
         public void OnNavigatedTo(NavigationContext navigationContext)
         {
             var parameters = navigationContext.Parameters;
             if (parameters.TryGetValue("CurrentMenuItem", out MenuItem currentMenuItem))
             {
+                WorkspaceRegionName = currentMenuItem.WorkspaceRegionName;
+                _workspaceViewEventName = currentMenuItem.WorkspaceViewEventName;
+
                 RegisterBuildWorkspaceViewEvents();
 
                 CreateTreeBarViewModelAsync(currentMenuItem).GetAwaiter().GetResult();

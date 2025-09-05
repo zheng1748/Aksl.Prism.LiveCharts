@@ -4,6 +4,7 @@ using Prism.Events;
 using Prism.Mvvm;
 
 using Aksl.Infrastructure;
+using System.Threading.Tasks;
 
 namespace Aksl.Modules.HamburgerMenuTreeBar.ViewModels
 {
@@ -11,13 +12,18 @@ namespace Aksl.Modules.HamburgerMenuTreeBar.ViewModels
     {
         #region Members
         private readonly IEventAggregator _eventAggregator;
+        private readonly IMenuService _menuService;
+        private MenuItem _rootMenuItem;
         private MenuItem _parentMenuItem;
         #endregion
 
         #region Constructors
-        public TreeBarViewModel(IEventAggregator eventAggregator)
+        public TreeBarViewModel(IEventAggregator eventAggregator, IMenuService menuService, MenuItem rootMenuItem)
         {
             _eventAggregator = eventAggregator;
+            _menuService = menuService;
+
+            _rootMenuItem = rootMenuItem;
 
             TreeBarItems = new();
         }
@@ -35,9 +41,11 @@ namespace Aksl.Modules.HamburgerMenuTreeBar.ViewModels
         #endregion
 
         #region Create TreeBarItem ViewModel Method
-        internal void CreateTreeBarItemViewModels(MenuItem parentMenuItem)
+        internal async Task CreateTreeBarItemViewModelsAsync()
         {
             IsLoading = true;
+
+            var parentMenuItem = await _menuService.GetMenuAsync(_rootMenuItem.NavigationName);
 
             _parentMenuItem = parentMenuItem;
 

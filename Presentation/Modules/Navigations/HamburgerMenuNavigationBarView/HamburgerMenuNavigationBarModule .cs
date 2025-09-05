@@ -26,12 +26,22 @@ namespace Aksl.Modules.HamburgerMenuNavigationBar
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterForNavigation<HamburgerMenuNavigationBarHubView>();
+
+            containerRegistry.RegisterForNavigation<IndustryHamburgerMenuNavigationBarHubView>();
+
+            containerRegistry.RegisterForNavigation<CustomerHamburgerMenuNavigationBarHubView>();
         }
 
         public void OnInitialized(IContainerProvider containerProvider)
         {
             ViewModelLocationProvider.Register(typeof(HamburgerMenuNavigationBarHubView).ToString(),
                                                () => this._container.Resolve<HamburgerMenuNavigationBarHubViewModel>());
+
+            ViewModelLocationProvider.Register(typeof(IndustryHamburgerMenuNavigationBarHubView).ToString(),
+                                             () => this._container.Resolve<IndustryHamburgerMenuNavigationBarHubViewModel>());
+
+            ViewModelLocationProvider.Register(typeof(CustomerHamburgerMenuNavigationBarHubView).ToString(),
+                                             () => this._container.Resolve<CustomerHamburgerMenuNavigationBarHubViewModel>());
         }
         #endregion
     }

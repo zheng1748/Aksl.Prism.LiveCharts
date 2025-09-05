@@ -16,8 +16,8 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
         #region Members
         protected readonly IEventAggregator _eventAggregator;
         private readonly IMenuService _menuService;
-        private MenuItem _parentMenuItem;
         private MenuItem _rootMenuItem;
+        private MenuItem _parentMenuItem;
         #endregion
 
         #region Constructors

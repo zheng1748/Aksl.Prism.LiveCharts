@@ -48,7 +48,10 @@ namespace Aksl.Modules.HamburgerMenuNavigationBar.ViewModels
                 {
                     if (Isleaf && _isSelected)
                     {
-                        _eventAggregator.GetEvent<OnBuildHamburgerMenuNavigationBarWorkspaceViewEvent>().Publish(new() { CurrentMenuItem = _menuItem });
+                        // _eventAggregator.GetEvent<OnBuildHamburgerMenuNavigationBarWorkspaceViewEvent>().Publish(new() { CurrentMenuItem = _menuItem });
+
+                        var buildHWorkspaceViewEvent = _eventAggregator.GetEvent(_menuItem.WorkspaceViewEventName) as OnBuildWorkspaceViewEventbase;
+                        buildHWorkspaceViewEvent.Publish(new() { CurrentMenuItem = _menuItem });
                     }
                 }
             }

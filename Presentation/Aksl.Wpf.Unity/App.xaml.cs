@@ -152,14 +152,20 @@ namespace Aksl.Wpf.Unity
                 _ = eventAggregator.GetEvent<OnBuildHamburgerMenuNavigationSideBarWorkspaceViewEvent>();
 
                 //  var onBuildHamburgerMenuWorkspaceViewEvent = eventAggregator.GetEvent<OnBuildHamburgerMenuWorkspaceViewEvent>();
-                _ = eventAggregator.GetEvent<OnBuildIndustryManagerWorkspaceViewEvent>();
-                _ = eventAggregator.GetEvent<OnBuildCustomerManagerWorkspaceViewEvent>();
+                //_ = eventAggregator.GetEvent<OnBuildIndustryManagerWorkspaceViewEvent>();
+                //_ = eventAggregator.GetEvent<OnBuildCustomerManagerWorkspaceViewEvent>();
+
+                _ = eventAggregator.GetEvent<OnBuildIndustryManagerHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildCustomerManagerHamburgerMenuWorkspaceViewEvent>();
+
+                _ = eventAggregator.GetEvent<OnBuildIndustryManagerHamburgerNavigationBarWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildCustomerManagerHamburgerNavigationBarWorkspaceViewEvent>();
 
                 _ = eventAggregator.GetEvent<OnBuildHamburgerMenuTreeBarWorkspaceViewEvent>();
                 _ = eventAggregator.GetEvent<OnBuildHamburgerMenuNavigationBarWorkspaceViewEvent>();
 
-                _ = eventAggregator.GetEvent(typeof(OnBuildIndustryManagerWorkspaceViewEvent).Name) as OnBuildWorkspaceViewEventbase;
-                _ = eventAggregator.GetEvent(typeof(OnBuildCustomerManagerWorkspaceViewEvent).Name) as OnBuildWorkspaceViewEventbase;
+                _ = eventAggregator.GetEvent(typeof(OnBuildIndustryManagerHamburgerMenuWorkspaceViewEvent).Name) as OnBuildWorkspaceViewEventbase;
+                _ = eventAggregator.GetEvent(typeof(OnBuildHamburgerMenuNavigationBarWorkspaceViewEvent).Name) as OnBuildWorkspaceViewEventbase;
             }
             catch (Exception ex)
             {

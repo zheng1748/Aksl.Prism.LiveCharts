@@ -82,12 +82,42 @@ namespace Aksl.Infrastructure.Events
         #endregion
     }
 
-    public class OnBuildHamburgerMenuWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    public class OnBuildIndustryManagerHamburgerMenuWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
     {
         #region Constructors
-        public OnBuildHamburgerMenuWorkspaceViewEvent()
+        public OnBuildIndustryManagerHamburgerMenuWorkspaceViewEvent()
         {
-            Name = typeof(OnBuildHamburgerMenuWorkspaceViewEvent).Name;
+            Name =nameof(OnBuildIndustryManagerHamburgerMenuWorkspaceViewEvent);
+        }
+        #endregion
+    }
+
+    public class OnBuildCustomerManagerHamburgerMenuWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildCustomerManagerHamburgerMenuWorkspaceViewEvent()
+        {
+            Name = nameof(OnBuildCustomerManagerHamburgerMenuWorkspaceViewEvent);
+        }
+        #endregion
+    }
+
+    public class OnBuildIndustryManagerHamburgerNavigationBarWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildIndustryManagerHamburgerNavigationBarWorkspaceViewEvent()
+        {
+            Name = nameof(OnBuildIndustryManagerHamburgerMenuWorkspaceViewEvent);
+        }
+        #endregion
+    }
+
+    public class OnBuildCustomerManagerHamburgerNavigationBarWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildCustomerManagerHamburgerNavigationBarWorkspaceViewEvent()
+        {
+            Name = nameof(OnBuildCustomerManagerHamburgerMenuWorkspaceViewEvent);
         }
         #endregion
     }
@@ -112,24 +142,23 @@ namespace Aksl.Infrastructure.Events
         #endregion
     }
 
-    public class OnBuildIndustryManagerWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
-    {
-        #region Constructors
-        public OnBuildIndustryManagerWorkspaceViewEvent()
-        {
-            Name = typeof(OnBuildIndustryManagerWorkspaceViewEvent).Name;
-        }
-        #endregion
-    }
+    //public class OnBuildIndustryManagerWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    //{
+    //    #region Constructors
+    //    public OnBuildIndustryManagerWorkspaceViewEvent()
+    //    {
+    //        Name = typeof(OnBuildIndustryManagerWorkspaceViewEvent).Name;
+    //    }
+    //    #endregion
+    //}
 
-
-    public class OnBuildCustomerManagerWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
-    {
-        #region Constructors
-        public OnBuildCustomerManagerWorkspaceViewEvent()
-        {
-            Name = typeof(OnBuildCustomerManagerWorkspaceViewEvent).Name;
-        }
-        #endregion
-    }
+    //public class OnBuildCustomerManagerWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    //{
+    //    #region Constructors
+    //    public OnBuildCustomerManagerWorkspaceViewEvent()
+    //    {
+    //        Name = typeof(OnBuildCustomerManagerWorkspaceViewEvent).Name;
+    //    }
+    //    #endregion
+    //}
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
@@ -29,6 +30,7 @@ namespace Aksl.Modules.HamburgerMenuNavigationBar.ViewModels
         private readonly IDialogViewService _dialogViewService;
         private readonly IMenuService _menuService;
         private object _currentView;
+        private string _workspaceViewEventName;
         #endregion
 
         #region Constructors
@@ -48,6 +50,13 @@ namespace Aksl.Modules.HamburgerMenuNavigationBar.ViewModels
         #endregion
 
         #region Properties
+        private string _workspaceRegionName;
+        public string WorkspaceRegionName
+        {
+            get => _workspaceRegionName;
+            set => SetProperty<string>(ref _workspaceRegionName, value);
+        }
+
         public GroupedMenusViewModel NavigationBar { get; private set; }
 
         private Brush _paneBackground = new SolidColorBrush(Colors.White);
@@ -145,118 +154,6 @@ namespace Aksl.Modules.HamburgerMenuNavigationBar.ViewModels
         }
         #endregion
 
-        #region RegisterEvent Method
-        private void RegisterBuildWorkspaceViewEvents()
-        {
-            _eventAggregator.GetEvent<OnBuildHamburgerMenuNavigationBarWorkspaceViewEvent>().Subscribe(async (bhmnbwve) =>
-            {
-                try
-                {
-                    #region Method
-                    string viewTypeAssemblyQualifiedName = bhmnbwve.CurrentMenuItem.ViewName;
-                    Type viewType = Type.GetType(viewTypeAssemblyQualifiedName);
-                    if (viewType is not null)
-                    {
-                        IRegion region = _regionManager.Regions[RegionNames.HamburgerNavigationBarWorkspaceRegion];
-                        var viewName = viewType.Name;
-
-                        //_currentView = region.GetView(viewTypeAssemblyQualifiedName);
-                        _currentView = region.Views.FirstOrDefault(v => v.GetType() == viewType);
-                        if (_currentView is null)
-                        {
-                            _currentView = region.GetView(viewType.FullName);
-                        }
-
-                        if (_currentView is not null)
-                        {
-                            if (bhmnbwve.CurrentMenuItem.IsCacheable)
-                            {
-                                region.Activate(_currentView);
-                            }
-                            else
-                            {
-                                region.Remove(_currentView);
-
-                                AddView();
-                            }
-                        }
-                        else
-                        {
-                            AddView();
-                        }
-
-                        void AddView()
-                        {
-                            if (CanAddView())
-                            {
-                                NavigationParameters navigationParameters = new()
-                                {
-                                    { "CurrentMenuItem", bhmnbwve.CurrentMenuItem }
-                                };
-
-                                _regionManager.RequestNavigate(RegionNames.HamburgerNavigationBarWorkspaceRegion, viewName, navigationParameters);
-                            }
-                        }
-
-                        bool CanAddView() => !string.IsNullOrEmpty(bhmnbwve.CurrentMenuItem.ModuleName) && bhmnbwve.CurrentMenuItem.SubMenus.Count == 0;
-                    }
-                    else
-                    {
-                        await _dialogViewService.AlertAsync(message: $"Unable to find \"{viewTypeAssemblyQualifiedName}\".", title: $"Error:Missing Type");
-                    }
-                    #endregion
-                }
-                catch (Exception ex)
-                {
-                    await _dialogViewService.AlertAsync(message: $"Unable to loading \"{bhmnbwve.CurrentMenuItem.ModuleName}\" module.: \"{ex.Message}\"", title: "Error: Load Module");
-                }
-            }, ThreadOption.UIThread, true);
-        }
-        #endregion
-
-        #region Create GroupedMenus ViewModel Method
-        private async Task CreateGroupedMenusViewModelAsync(MenuItem currentMenuItem)
-        {
-            IsLoading = true;
-
-            try
-            {
-                var rootMenuItem = await _menuService.GetMenuAsync(currentMenuItem.NavigationName);
-
-                NavigationBar = new(_eventAggregator);
-                AddPropertyChanged();
-
-                void AddPropertyChanged()
-                {
-                    NavigationBar.PropertyChanged += (sender, propertyName) =>
-                    {
-                        if (sender is GroupedMenusViewModel gmvm)
-                        {
-                            if (!gmvm.IsLoading)
-                            {
-                                IsLoading = false;
-                            }
-                        }
-                    };
-                }
-
-                NavigationBar.CreateGroupedMenuViewModels(rootMenuItem);
-                RaisePropertyChanged(nameof(NavigationBar));
-            }
-            catch (Exception ex)
-            {
-                await _dialogViewService.AlertAsync(message: $"Unable to create grouped menu : \"{ex.Message}\"", title: "Error: Create GroupedMenu");
-            }
-            finally
-            {
-                if (IsLoading)
-                {
-                    IsLoading = false;
-                }
-            }
-        }
-        #endregion
-
         #region Get State Method
         private bool IsCompact
         {
@@ -310,12 +207,199 @@ namespace Aksl.Modules.HamburgerMenuNavigationBar.ViewModels
         }
         #endregion
 
+        #region RegisterEvent Method
+        private void RegisterBuildWorkspaceViewEvents()
+        {
+            var buildHWorkspaceViewEvent = _eventAggregator.GetEvent(_workspaceViewEventName) as OnBuildWorkspaceViewEventbase;
+            Debug.Assert(buildHWorkspaceViewEvent is not null);
+
+            //_eventAggregator.GetEvent<OnBuildHamburgerMenuNavigationBarWorkspaceViewEvent>().Subscribe(async (bhmnbwve) =>
+            buildHWorkspaceViewEvent.Subscribe(async (bmve) =>
+            {
+                var currentMenuItem = bmve.CurrentMenuItem;
+
+                try
+                {
+                    if (!currentMenuItem.WorkspaceRegionName.Equals(WorkspaceRegionName) && currentMenuItem.WorkspaceViewEventName.Equals(_workspaceViewEventName))
+                    {
+                        return;
+                    };
+
+                    #region Method
+                    //string viewTypeAssemblyQualifiedName = currentMenuItem.ViewName;
+                    //Type viewType = Type.GetType(viewTypeAssemblyQualifiedName);
+                    //if (viewType is not null)
+                    //{
+                    //    IRegion region = _regionManager.Regions[RegionNames.HamburgerNavigationBarWorkspaceRegion];
+                    //    var viewName = viewType.Name;
+
+                    //    //_currentView = region.GetView(viewTypeAssemblyQualifiedName);
+                    //    _currentView = region.Views.FirstOrDefault(v => v.GetType() == viewType);
+                    //    if (_currentView is null)
+                    //    {
+                    //        _currentView = region.GetView(viewType.FullName);
+                    //    }
+
+                    //    if (_currentView is not null)
+                    //    {
+                    //        if (bhmnbwve.CurrentMenuItem.IsCacheable)
+                    //        {
+                    //            region.Activate(_currentView);
+                    //        }
+                    //        else
+                    //        {
+                    //            region.Remove(_currentView);
+
+                    //            AddView();
+                    //        }
+                    //    }
+                    //    else
+                    //    {
+                    //        AddView();
+                    //    }
+
+                    //    void AddView()
+                    //    {
+                    //        if (CanAddView())
+                    //        {
+                    //            NavigationParameters navigationParameters = new()
+                    //            {
+                    //                { "CurrentMenuItem", bhmnbwve.CurrentMenuItem }
+                    //            };
+
+                    //            _regionManager.RequestNavigate(RegionNames.HamburgerNavigationBarWorkspaceRegion, viewName, navigationParameters);
+                    //        }
+                    //    }
+
+                    //    bool CanAddView() => !string.IsNullOrEmpty(bhmnbwve.CurrentMenuItem.ModuleName) && bhmnbwve.CurrentMenuItem.SubMenus.Count == 0;
+                    //}
+                    //else
+                    //{
+                    //    await _dialogViewService.AlertAsync(message: $"Unable to find \"{viewTypeAssemblyQualifiedName}\".", title: $"Error:Missing Type");
+                    //}
+                    #endregion
+
+                    await LoadViewAsync();
+
+                    #region LoadView Method
+                    async Task LoadViewAsync()
+                    {
+                        string viewTypeAssemblyQualifiedName = currentMenuItem.ViewName;
+                        Type viewType = Type.GetType(viewTypeAssemblyQualifiedName);
+                        if (viewType is not null)
+                        {
+                            // IRegion region = _regionManager.Regions[RegionNames.HamburgerMenuWorkspaceRegion];
+                            IRegion region = _regionManager.Regions[WorkspaceRegionName];
+                            var viewName = viewType.Name;
+
+                            //_currentView = region.GetView(viewTypeAssemblyQualifiedName);
+                            _currentView = region.Views.FirstOrDefault(v => v.GetType() == viewType);
+                            if (_currentView is null)
+                            {
+                                _currentView = region.GetView(viewType.FullName);
+                            }
+
+                            if (_currentView is not null)
+                            {
+                                if (currentMenuItem.IsCacheable)
+                                {
+                                    region.Activate(_currentView);
+                                }
+                                else
+                                {
+                                    region.Remove(_currentView);
+
+                                    AddView();
+                                }
+                            }
+                            else
+                            {
+                                AddView();
+                            }
+
+                            void AddView()
+                            {
+                                if (CanAddView())
+                                {
+                                    NavigationParameters navigationParameters = new()
+                                {
+                                    { "CurrentMenuItem", currentMenuItem }
+                                };
+
+                                    // _regionManager.RequestNavigate(RegionNames.HamburgerMenuWorkspaceRegion, viewName, navigationParameters);
+                                    _regionManager.RequestNavigate(WorkspaceRegionName, viewName, navigationParameters);
+                                }
+                            }
+
+                            bool CanAddView() => !string.IsNullOrEmpty(currentMenuItem.ModuleName) && currentMenuItem.SubMenus.Count == 0;
+                        }
+                        else
+                        {
+                            await _dialogViewService.AlertAsync(message: $"Unable to find \"{viewTypeAssemblyQualifiedName}\".", title: $"Error:Missing Type");
+                        }
+                    }
+                    #endregion
+                }
+                catch (Exception ex)
+                {
+                    await _dialogViewService.AlertAsync(message: $"Unable to loading \"{currentMenuItem.ModuleName}\" module.: \"{ex.Message}\"", title: "Error: Load Module");
+                }
+            }, ThreadOption.UIThread, true);
+        }
+        #endregion
+
+        #region Create GroupedMenus ViewModel Method
+        private async Task CreateGroupedMenusViewModelAsync(MenuItem currentMenuItem)
+        {
+            IsLoading = true;
+
+            try
+            {
+              //  var rootMenuItem = await _menuService.GetMenuAsync(currentMenuItem.NavigationName);
+
+                NavigationBar = new(_eventAggregator, _menuService, currentMenuItem);
+                AddPropertyChanged();
+
+                void AddPropertyChanged()
+                {
+                    NavigationBar.PropertyChanged += (sender, e) =>
+                    {
+                        if (sender is GroupedMenusViewModel gmvm)
+                        {
+                            if (e.PropertyName == nameof(GroupedMenusViewModel.IsLoading) && !gmvm.IsLoading)
+                            {
+                                IsLoading = false;
+                            }
+                        }
+                    };
+                }
+
+                await NavigationBar.CreateGroupedMenuViewModelsAsync();
+                RaisePropertyChanged(nameof(NavigationBar));
+            }
+            catch (Exception ex)
+            {
+                await _dialogViewService.AlertAsync(message: $"Unable to create grouped menu : \"{ex.Message}\"", title: "Error: Create GroupedMenu");
+            }
+            finally
+            {
+                if (IsLoading)
+                {
+                    IsLoading = false;
+                }
+            }
+        }
+        #endregion
+
         #region INavigationAware
         public void OnNavigatedTo(NavigationContext navigationContext)
         {
             var parameters = navigationContext.Parameters;
             if (parameters.TryGetValue("CurrentMenuItem", out MenuItem currentMenuItem))
             {
+                WorkspaceRegionName = currentMenuItem.WorkspaceRegionName;
+                _workspaceViewEventName = currentMenuItem.WorkspaceViewEventName;
+
                 RegisterBuildWorkspaceViewEvents();
 
                 CreateGroupedMenusViewModelAsync(currentMenuItem).GetAwaiter().GetResult();

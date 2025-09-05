@@ -20,17 +20,10 @@ namespace Aksl.Toolkit.UI
                 {
                     DependencyObject child = VisualTreeHelper.GetChild(currenyObject, i);
 
-                    //if (child is not null && child is T t)
-                    //{
-                    //List<T> childs = new();
-                    //RecursiveVisualChildCore<T>(child, childs);
                     if (HasChild(child))
                     {
                         RecursiveVisualChild(child);
                     }
-
-                        // allChilds.AddRange(childs);
-                    //}
                 }
 
                 void RecursiveVisualChild(DependencyObject parent)
@@ -50,24 +43,6 @@ namespace Aksl.Toolkit.UI
                         }
                     }
                 }
-
-                //void RecursiveVisualChild(DependencyObject parent, List<T> childs)
-                //{
-                //    if (!childs.Contains(parent) && parent is not null && parent is T tt)
-                //    {
-                //        childs.Add(tt);
-                //    }
-
-                //    if (HasChild(parent))
-                //    {
-                //        for (int i = 0; i < VisualTreeHelper.GetChildrenCount(parent); i++)
-                //        {
-                //            DependencyObject child = VisualTreeHelper.GetChild(parent, i);
-
-                //            RecursiveVisualChild(child, childs);
-                //        }
-                //    }
-                //}
             }
             catch (Exception ex)
             {

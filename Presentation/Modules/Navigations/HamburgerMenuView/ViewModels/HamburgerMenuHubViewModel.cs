@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
@@ -215,6 +216,7 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
         private void RegisterBuildWorkspaceViewEvents()
         {
             var buildHWorkspaceViewEvent = _eventAggregator.GetEvent(_workspaceViewEventName) as OnBuildWorkspaceViewEventbase;
+            Debug.Assert(buildHWorkspaceViewEvent is not null);
 
             //_eventAggregator.GetEvent<OnBuildHamburgerMenuWorkspaceViewEvent>().Subscribe(async (bhmwve) =>
             buildHWorkspaceViewEvent.Subscribe(async (bmve) =>
@@ -223,30 +225,6 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
 
                 try
                 {
-                    #region Method
-                    //_moduleManager.LoadModule(bwve.CurrentMenuItem.ModuleName);
-
-                    //string viewTypeAssemblyQualifiedName = bwve.CurrentMenuItem.ViewName;
-
-                    //Type viewType = Type.GetType(viewTypeAssemblyQualifiedName);
-                    //var view = _container.Resolve(viewType);
-                    //if (view != null)
-                    //{
-                    //    IRegion region = _regionManager.Regions[RegionNames.NavigationBarWorkspaceRegion];
-                    //    region.RemoveAll();
-
-                    //    //_currentView = region.GetView(viewTypeAssemblyQualifiedName);
-
-                    //    //if (_currentView != null)
-                    //    //{
-                    //    //    region.Remove(_currentView);
-                    //    //}
-
-                    //    _currentView = view;
-                    //    region.Add(_currentView, viewTypeAssemblyQualifiedName);
-                    //}
-                    #endregion
-
                     if (!currentMenuItem.WorkspaceRegionName.Equals(WorkspaceRegionName) && currentMenuItem.WorkspaceViewEventName.Equals(_workspaceViewEventName))
                     {
                         return;
@@ -254,7 +232,7 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
 
                     await LoadViewAsync();
 
-                    #region Method
+                    #region LoadView Method
                     async Task LoadViewAsync()
                     {
                         string viewTypeAssemblyQualifiedName = currentMenuItem.ViewName;

@@ -7,6 +7,7 @@ using Prism.Events;
 using Prism.Mvvm;
 
 using Aksl.Infrastructure;
+using System.Threading.Tasks;
 
 namespace Aksl.Modules.HamburgerMenuNavigationBar.ViewModels
 {
@@ -14,14 +15,19 @@ namespace Aksl.Modules.HamburgerMenuNavigationBar.ViewModels
     {
         #region Members
         private readonly IEventAggregator _eventAggregator;
+        private readonly IMenuService _menuService;
+        private MenuItem _rootMenuItem;
         private MenuItem _parentMenuItem;
         private int _currentGroupeIndex = -1;
         #endregion
 
         #region Constructors
-        public GroupedMenusViewModel(IEventAggregator eventAggregator)
+        public GroupedMenusViewModel(IEventAggregator eventAggregator, IMenuService menuService, MenuItem rootMenuItem)
         {
             _eventAggregator = eventAggregator;
+            _menuService = menuService;
+
+            _rootMenuItem = rootMenuItem;
 
             GroupedMenus = new();
         }
@@ -54,9 +60,11 @@ namespace Aksl.Modules.HamburgerMenuNavigationBar.ViewModels
         #endregion
 
         #region Create GroupedMenu ViewModels Method
-        internal void CreateGroupedMenuViewModels(MenuItem parentMenuItem)
+        internal async Task CreateGroupedMenuViewModelsAsync()
         {
             IsLoading = true;
+
+            var parentMenuItem = await _menuService.GetMenuAsync(_rootMenuItem.NavigationName);
 
             _parentMenuItem = parentMenuItem;
 
@@ -66,7 +74,7 @@ namespace Aksl.Modules.HamburgerMenuNavigationBar.ViewModels
                 //List<MenuItem>  leafs = new();
                 //GetLeafMenuItems(smi, leafs);
 
-                IEnumerable<MenuItem> leafMenuItems = GetAllLeafMenuItems(smi);
+                var leafMenuItems = GetAllLeafMenuItems(smi);
 
                 GroupedMenuViewModel groupedMenuViewModel = new(_eventAggregator, index++, smi, leafMenuItems);
                 AddPropertyChanged();
@@ -126,6 +134,8 @@ namespace Aksl.Modules.HamburgerMenuNavigationBar.ViewModels
             {
                 if (!AnyEqualsMenuItem(leafMenuItems, currentMenuItem) && Isleaf(currentMenuItem) && HasTitle(currentMenuItem))
                 {
+                    currentMenuItem.WorkspaceRegionName = _rootMenuItem.WorkspaceRegionName;
+                    currentMenuItem.WorkspaceViewEventName = _rootMenuItem.WorkspaceViewEventName;
                     leafMenuItems.Add(currentMenuItem);
                 }
 
