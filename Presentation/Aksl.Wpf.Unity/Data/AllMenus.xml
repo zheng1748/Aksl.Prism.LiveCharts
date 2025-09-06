@@ -112,7 +112,7 @@
 			  ViewName="Aksl.Modules.IndustryNavigationBar.Views.IndustryNavigationBarHubView,Aksl.Modules.IndustryNavigationBar"
 			  NavigationName="Industry">
 	</MenuItem>
-	<MenuItem Id="0"
+	<!--<MenuItem Id="0"
 		      Name="HamburgerMenuTreeBarView"
 	     	  Title="HamburgerTreeBar"
 		      Level="2"
@@ -122,5 +122,31 @@
 		      ModuleName="HamburgerMenuTreeBarViewModule"
 		      ViewName="Aksl.Modules.HamburgerMenuTreeBar.Views.HamburgerMenuTreeBarHubView,Aksl.Modules.HamburgerMenuTreeBar"
 		      NavigationName="Industry">
+	</MenuItem>-->
+	<MenuItem Id="0"
+			  Name="IndustryHamburgerMenuTreeBar"
+			  Title="Industry Manager For HamburgerTreeBar"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="IndustryManagerHamburgerTreeBarWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildIndustryManagerHamburgerTreeBarWorkspaceViewEvent"
+			  ModuleName="HamburgerMenuTreeBarViewModule"
+			  ViewName="Aksl.Modules.HamburgerMenuTreeBar.Views.IndustryHamburgerMenuTreeBarHubView,Aksl.Modules.HamburgerMenuTreeBar"
+			  NavigationName="Industry">
+	</MenuItem>
+	<MenuItem Id="0"
+			  Name="CustomerHamburgerMenuTreeBar"
+			  Title="Customer Manager For HamburgerTreeBar"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="CustomerManagerHamburgerTreeBarWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildCustomerManagerHamburgerTreeBarWorkspaceViewEvent"
+			  ModuleName="HamburgerMenuTreeBarViewModule"
+			  ViewName="Aksl.Modules.HamburgerMenuTreeBar.Views.CustomerHamburgerMenuTreeBarHubView,Aksl.Modules.HamburgerMenuTreeBar"
+			  NavigationName="Customer">
 	</MenuItem>
 </MenuItem>

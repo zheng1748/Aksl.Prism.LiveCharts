@@ -52,6 +52,7 @@ using Prism.Unity;
 using Prism;
 using Aksl.Modules.DataGridCustomer;
 using Aksl.Modules.ListViewCustomer;
+using Polly;
 
 namespace Aksl.Wpf.Unity
 {
@@ -102,12 +103,25 @@ namespace Aksl.Wpf.Unity
             #endregion
 
             #region WorkspaceViewEventNameAttribute 
-           // var types = Assembly.GetExecutingAssembly().GetTypes().Where(type => type.GetCustomAttributes<WorkspaceViewEventNameAttribute>().Any());
+            // var types = Assembly.GetExecutingAssembly().GetTypes().Where(type => type.GetCustomAttributes<WorkspaceViewEventNameAttribute>().Any());
             //var workspaceViewEventName = typeof(EventBase).GetCustomAttributeValue<WorkspaceViewEventNameAttribute, string>(w => w.WorkspaceViewEventName, "OnBuildHamburgerMenuWorkspaceViewEvent");
             #endregion
 
-            services.AddHttpClient();
+            //services.AddTransient<IMenuService>((sp) =>
+            //{
+            //    MenuService menuService = new(new List<string> {"pack://application:,,,/Aksl.Wpf.Unity;Component/Data/AllMenus.xml",
+            //                                                     "pack://application:,,,/Aksl.Wpf.Unity;Component/Data/Industry.xml",
+            //                                                     "pack://application:,,,/Aksl.Wpf.Unity;Component/Data/Customers.xml"
+            //                                                     });
+
+            //    menuService.CreateMenusAsync().GetAwaiter().GetResult();
+
+            //    return menuService;
+            //});
+            //services.AddHttpClient();
             var serviceProvider = services.BuildServiceProvider();
+
+            //var menuService = serviceProvider.GetRequiredService< IMenuService > ();
 
             containerRegistry.RegisterInstance<IServiceProvider>(serviceProvider);
 
@@ -117,6 +131,7 @@ namespace Aksl.Wpf.Unity
             containerRegistry.RegisterDialog<ConfirmView, ConfirmViewModel>();
 
             RegisterMenuFactoryAsync(containerRegistry).GetAwaiter().GetResult();
+           
 
             RegisterBuildWorkspaceViewEventAsync();
         }
@@ -132,8 +147,7 @@ namespace Aksl.Wpf.Unity
 
                 await menuService.CreateMenusAsync();
 
-                containerRegistry.RegisterInstance<IMenuService>(menuService );
-
+                containerRegistry.RegisterInstance<IMenuService>(menuService);
             }
             catch (Exception ex)
             {
@@ -161,8 +175,8 @@ namespace Aksl.Wpf.Unity
                 _ = eventAggregator.GetEvent<OnBuildIndustryManagerHamburgerNavigationBarWorkspaceViewEvent>();
                 _ = eventAggregator.GetEvent<OnBuildCustomerManagerHamburgerNavigationBarWorkspaceViewEvent>();
 
-                _ = eventAggregator.GetEvent<OnBuildHamburgerMenuTreeBarWorkspaceViewEvent>();
-                _ = eventAggregator.GetEvent<OnBuildHamburgerMenuNavigationBarWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildIndustryManagerHamburgerTreeBarWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildCustomerManagerHamburgerTreeBarWorkspaceViewEvent>();
 
                 _ = eventAggregator.GetEvent(typeof(OnBuildIndustryManagerHamburgerMenuWorkspaceViewEvent).Name) as OnBuildWorkspaceViewEventbase;
                 _ = eventAggregator.GetEvent(typeof(OnBuildHamburgerMenuNavigationBarWorkspaceViewEvent).Name) as OnBuildWorkspaceViewEventbase;

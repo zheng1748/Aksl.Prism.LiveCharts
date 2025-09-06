@@ -1,10 +1,11 @@
 ﻿using System.Collections.ObjectModel;
+using System.Linq;
+using System.Threading.Tasks;
 
 using Prism.Events;
 using Prism.Mvvm;
 
 using Aksl.Infrastructure;
-using System.Threading.Tasks;
 
 namespace Aksl.Modules.HamburgerMenuTreeBar.ViewModels
 {
@@ -49,12 +50,30 @@ namespace Aksl.Modules.HamburgerMenuTreeBar.ViewModels
 
             _parentMenuItem = parentMenuItem;
 
+            RecursiveSubMenuItem(_parentMenuItem);
+
             foreach (var sm in _parentMenuItem.SubMenus)
             {
                 TreeBarItemViewModel treeBarItemViewModel = new(_eventAggregator, sm);
 
                 TreeBarItems.Add(treeBarItemViewModel);
             }
+
+            void RecursiveSubMenuItem(MenuItem currentMenuItem)
+            {
+                currentMenuItem.WorkspaceRegionName = _rootMenuItem.WorkspaceRegionName;
+                currentMenuItem.WorkspaceViewEventName = _rootMenuItem.WorkspaceViewEventName;
+
+                if (HasSubMenu(currentMenuItem))
+                {
+                    foreach (var smi in currentMenuItem.SubMenus)
+                    {
+                        RecursiveSubMenuItem(smi);
+                    }
+                }
+            }
+
+            bool HasSubMenu(MenuItem mi) => (mi is not null) && mi.SubMenus.Any();
 
             IsLoading = false;
         }

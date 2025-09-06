@@ -122,17 +122,37 @@ namespace Aksl.Infrastructure.Events
         #endregion
     }
 
-    public class OnBuildHamburgerMenuTreeBarWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    public class OnBuildIndustryManagerHamburgerTreeBarWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
     {
         #region Constructors
-        public OnBuildHamburgerMenuTreeBarWorkspaceViewEvent()
+        public OnBuildIndustryManagerHamburgerTreeBarWorkspaceViewEvent()
         {
-            Name = typeof(OnBuildHamburgerMenuTreeBarWorkspaceViewEvent).Name;
+            Name = nameof(OnBuildIndustryManagerHamburgerMenuWorkspaceViewEvent);
         }
         #endregion
     }
 
-    public class OnBuildHamburgerMenuNavigationBarWorkspaceViewEvent : OnBuildWorkspaceViewEventbase    
+    public class OnBuildCustomerManagerHamburgerTreeBarWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildCustomerManagerHamburgerTreeBarWorkspaceViewEvent()
+        {
+            Name = nameof(OnBuildCustomerManagerHamburgerMenuWorkspaceViewEvent);
+        }
+        #endregion
+    }
+
+    //public class OnBuildHamburgerMenuTreeBarWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    //{
+    //    #region Constructors
+    //    public OnBuildHamburgerMenuTreeBarWorkspaceViewEvent()
+    //    {
+    //        Name = typeof(OnBuildHamburgerMenuTreeBarWorkspaceViewEvent).Name;
+    //    }
+    //    #endregion
+    //}
+
+    public class OnBuildHamburgerMenuNavigationBarWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
     {
         #region Constructors
         public OnBuildHamburgerMenuNavigationBarWorkspaceViewEvent()

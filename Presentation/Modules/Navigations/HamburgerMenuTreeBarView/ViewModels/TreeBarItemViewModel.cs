@@ -1,4 +1,5 @@
 ﻿using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Linq;
 
 using Prism.Events;
@@ -6,6 +7,7 @@ using Prism.Mvvm;
 
 using Aksl.Infrastructure;
 using Aksl.Infrastructure.Events;
+
 
 namespace Aksl.Modules.HamburgerMenuTreeBar.ViewModels
 {
@@ -25,8 +27,8 @@ namespace Aksl.Modules.HamburgerMenuTreeBar.ViewModels
         public TreeBarItemViewModel(IEventAggregator eventAggregator, MenuItem menuItem, TreeBarItemViewModel parent)
         {
             _eventAggregator = eventAggregator;
-            _menuItem = menuItem;
             _parent = parent;
+            _menuItem = menuItem;
 
             _children = new((from child in _menuItem.SubMenus
                              select new TreeBarItemViewModel(eventAggregator, child, this)).ToList<TreeBarItemViewModel>());
@@ -68,7 +70,11 @@ namespace Aksl.Modules.HamburgerMenuTreeBar.ViewModels
                 {
                     if (Isleaf && _isSelected)
                     {
-                        _eventAggregator.GetEvent<OnBuildHamburgerMenuTreeBarWorkspaceViewEvent>().Publish(new (){ CurrentMenuItem = _menuItem });
+                        //_eventAggregator.GetEvent<OnBuildHamburgerMenuTreeBarWorkspaceViewEvent>().Publish(new (){ CurrentMenuItem = _menuItem });
+
+                        var buildHWorkspaceViewEvent = _eventAggregator.GetEvent(_menuItem.WorkspaceViewEventName) as OnBuildWorkspaceViewEventbase;
+                        Debug.Assert(buildHWorkspaceViewEvent is not null);
+                        buildHWorkspaceViewEvent.Publish(new() { CurrentMenuItem = _menuItem });
                     }
                 }
             }

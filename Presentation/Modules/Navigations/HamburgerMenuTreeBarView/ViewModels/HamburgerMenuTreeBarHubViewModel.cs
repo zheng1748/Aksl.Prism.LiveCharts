@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
@@ -17,7 +18,6 @@ using Aksl.Toolkit.Services;
 
 using Aksl.Infrastructure;
 using Aksl.Infrastructure.Events;
-using System.Diagnostics;
 
 namespace Aksl.Modules.HamburgerMenuTreeBar.ViewModels
 {
