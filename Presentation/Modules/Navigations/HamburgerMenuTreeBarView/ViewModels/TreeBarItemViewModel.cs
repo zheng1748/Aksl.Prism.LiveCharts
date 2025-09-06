@@ -8,7 +8,6 @@ using Prism.Mvvm;
 using Aksl.Infrastructure;
 using Aksl.Infrastructure.Events;
 
-
 namespace Aksl.Modules.HamburgerMenuTreeBar.ViewModels
 {
     public class TreeBarItemViewModel : BindableBase

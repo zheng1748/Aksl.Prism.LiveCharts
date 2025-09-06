@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Threading.Tasks;
 
 using Prism.Events;
 using Prism.Mvvm;
 
 using Aksl.Infrastructure;
-using System.Threading.Tasks;
 
 namespace Aksl.Modules.HamburgerMenuNavigationBar.ViewModels
 {
