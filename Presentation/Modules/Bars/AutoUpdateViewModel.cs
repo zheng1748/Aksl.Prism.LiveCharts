@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.Threading.Tasks;
 
 using Prism;
 using Prism.Commands;
@@ -106,6 +107,19 @@ namespace Aksl.Modules.LiveCharts.Bars.ViewModels
 
             // The chart will update the point at the specified index // mark
             ObservablePoints[randomIndex] = new(ObservablePoints[randomIndex].X, _random.Next(1, 10));
+        }
+
+        private bool? _isStreaming = false;
+        public async void ConstantChangesClick(object sender, System.Windows.RoutedEventArgs e)
+        {
+            _isStreaming = _isStreaming is null ? true : !_isStreaming;
+
+            while (_isStreaming.Value)
+            {
+                RemoveItemClick();
+                AddItemClick();
+                await Task.Delay(1000);
+            }
         }
         #endregion
 
