@@ -4,8 +4,8 @@
   <PropertyGroup>
     <TargetFramework>net8.0-windows8.0</TargetFramework>
 	<UseWPF>true</UseWPF>
-	<AssemblyName>Aksl.Modules.LiveCharts.Axes</AssemblyName>
-	<RootNamespace>Aksl.Modules.LiveCharts.Axes</RootNamespace>
+	<AssemblyName>Aksl.Modules.LiveCharts.Bars</AssemblyName>
+	<RootNamespace>Aksl.Modules.LiveCharts.Bars</RootNamespace>
 	<Authors>zheng ming</Authors>
 	<Company>Aksl</Company>
   </PropertyGroup>
