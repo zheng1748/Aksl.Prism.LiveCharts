@@ -18,7 +18,7 @@ namespace Aksl.Modules.HamburgerMenu
         #region Constructors
         public HamburgerMenuModule(IUnityContainer container)
         {
-            this._container = container; 
+            this._container = container;
         }
         #endregion
 
@@ -27,21 +27,17 @@ namespace Aksl.Modules.HamburgerMenu
         {
             containerRegistry.RegisterForNavigation<HamburgerMenuHubView>();
 
-            containerRegistry.RegisterForNavigation<IndustryHamburgerMenuHubView>();
 
-            containerRegistry.RegisterForNavigation<CustomerHamburgerMenuHubView>();
+            containerRegistry.RegisterForNavigation<AxesHamburgerMenuHubView>();
         }
 
         public void OnInitialized(IContainerProvider containerProvider)
         {
             ViewModelLocationProvider.Register(typeof(HamburgerMenuHubView).ToString(),
-                                               () => this._container.Resolve<HamburgerMenuHubViewModel>());
+                                               () => this._container.Resolve<HamburgerMenuHubViewModel>());;
 
-            ViewModelLocationProvider.Register(typeof(IndustryHamburgerMenuHubView).ToString(),
-                                             () => this._container.Resolve< IndustryHamburgerMenuHubViewModel >());
-
-            ViewModelLocationProvider.Register(typeof(CustomerHamburgerMenuHubView).ToString(),
-                                           () => this._container.Resolve<CustomerHamburgerMenuHubViewModel>());
+            ViewModelLocationProvider.Register(typeof(AxesHamburgerMenuHubView).ToString(),
+                                          () => this._container.Resolve<AxesHamburgerMenuHubViewModel>());
         }
         #endregion
     }

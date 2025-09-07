@@ -13,11 +13,11 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Aksl.Modules.HamburgerMenuNavigationBar.Views
+namespace Aksl.Modules.LiveCharts.Axes.Views
 {
-    public partial class CustomerHamburgerMenuNavigationBarHubView : UserControl
+    public partial class ColorsAndPositionView : UserControl
     {
-        public CustomerHamburgerMenuNavigationBarHubView()
+        public ColorsAndPositionView()
         {
             InitializeComponent();
         }

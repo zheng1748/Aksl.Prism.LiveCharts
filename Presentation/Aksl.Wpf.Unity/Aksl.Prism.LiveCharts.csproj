@@ -10,7 +10,7 @@
     <!--<Nullable>enable</Nullable>-->
     <!--<ImplicitUsings>enable</ImplicitUsings>-->
     <UseWPF>true</UseWPF>
-	<AssemblyName>Aksl.Wpf.Unity</AssemblyName>
+	<AssemblyName>Aksl.Prism.LiveCharts</AssemblyName>
 	<RootNamespace>Aksl.Wpf</RootNamespace>
 	<Authors>zheng ming</Authors>
 	<Company>Aksl</Company>
@@ -19,8 +19,7 @@
   <ItemGroup>
     <None Remove="Configuration\appsettings.json" />
     <None Remove="Data\AllMenus.xml" />
-    <None Remove="Data\Customers.xml" />
-    <None Remove="Data\Industry.xml" />
+    <None Remove="Data\Axes.xml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -33,10 +32,7 @@
     <Resource Include="Data\AllMenus.xml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Data\Customers.xml">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Data\Industry.xml">
+    <Resource Include="Data\Axes.xml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
@@ -45,6 +41,7 @@
     <PackageReference Include="AutoMapper" Version="12.0.1" />
 	<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
 	<PackageReference Include="CommonServiceLocator" Version="2.0.7" />
+	<PackageReference Include="LiveChartsCore.SkiaSharpView.WPF" Version="2.0.0-beta.90" />
     <PackageReference Include="Unity" Version="5.11.10" />
 	<PackageReference Include="Unity.Container" Version="5.11.11" />
 	<!--<PackageReference Include="Microsoft.Windows.Compatibility" Version="8.0.2" />-->
@@ -88,17 +85,11 @@
     <ProjectReference Include="..\..\Toolkits\Prism Library\Prism.Unity.Wpf\Prism.Unity.Wpf.csproj" />
     <ProjectReference Include="..\..\Toolkits\Prism Library\Prism.Wpf\Prism.Wpf.csproj" />
     <ProjectReference Include="..\Modules\Account\Account.csproj" />
-    <ProjectReference Include="..\Modules\Customers\DataGridCustomer\DataGridCustomer.csproj" />
-    <ProjectReference Include="..\Modules\Customers\ListViewCustomer\ListViewCustomer.csproj" />
+    <ProjectReference Include="..\Modules\Axes\Axes.csproj" />
     <ProjectReference Include="..\Modules\HamburgerMenuNavigationSideBarView\HamburgerMenuNavigationSideBarView.csproj" />
     <ProjectReference Include="..\Modules\HamburgerMenuSideBarView\HamburgerMenuSideBarView.csproj" />
     <ProjectReference Include="..\Modules\HamburgerMenuTreeSideBarView\HamburgerMenuTreeSideBarView.csproj" />
     <ProjectReference Include="..\Modules\HomeView\HomeView.csproj" />
-    <ProjectReference Include="..\Modules\Industry\AirCompresserView\AirCompresserView.csproj" />
-    <ProjectReference Include="..\Modules\Industry\CoolingTowerView\CoolingTowerView.csproj" />
-    <ProjectReference Include="..\Modules\Industry\IndustryNavigationBarView\IndustryNavigationBarView.csproj" />
-    <ProjectReference Include="..\Modules\Industry\PipelineView\PipelineView.csproj" />
-    <ProjectReference Include="..\Modules\Industry\ThermometerrView\ThermometerView.csproj" />
     <ProjectReference Include="..\Modules\Navigations\HamburgerMenuNavigationBarView\HamburgerMenuNavigationBarView.csproj" />
     <ProjectReference Include="..\Modules\Navigations\HamburgerMenuTreeBarView\HamburgerMenuTreeBarView.csproj" />
     <ProjectReference Include="..\Modules\Navigations\HamburgerMenuView\HamburgerMenuView.csproj" />
