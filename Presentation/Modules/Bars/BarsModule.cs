@@ -8,7 +8,6 @@ using Aksl.Modules.LiveCharts.Bars.Views;
 using System;
 
 //install-package LiveChartsCore.SkiaSharpView.WPF -Version 2.0.0-beta.90
-//install-package LiveChartsCore.SkiaSharpView.WPF--version 2.0.0-rc5.4
 
 namespace Aksl.Modules.LiveCharts.Bars
 {

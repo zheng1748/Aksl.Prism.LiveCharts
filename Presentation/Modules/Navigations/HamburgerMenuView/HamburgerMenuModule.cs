@@ -29,6 +29,8 @@ namespace Aksl.Modules.HamburgerMenu
 
 
             containerRegistry.RegisterForNavigation<AxesHamburgerMenuHubView>();
+
+            containerRegistry.RegisterForNavigation<BarsHamburgerMenuHubView>();
         }
 
         public void OnInitialized(IContainerProvider containerProvider)

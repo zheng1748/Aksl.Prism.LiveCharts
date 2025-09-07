@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MenuItem Id="0"
+          Name="Bars"  
+		  Title="Root"
+          Level="0" >
+		<MenuItem Id="1"
+				  Name="AutoUpdateView"
+				  Title="Auto UpdateView"
+			      Level="2" 
+				  IsCacheable="True"
+			      IconKind="LineScan"
+				  ItemType="Item"
+				  ModuleName="BarsModule"
+				  ViewName="Aksl.Modules.LiveCharts.Bars.Views.AutoUpdateView,Aksl.Modules.LiveCharts.Bars"
+				  RequrePermissons=""/>
+</MenuItem>
+
+

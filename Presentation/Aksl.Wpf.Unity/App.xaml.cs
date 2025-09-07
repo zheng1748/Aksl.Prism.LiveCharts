@@ -45,6 +45,7 @@ using Aksl.Modules.Account;
 using Aksl.Infrastructure.Events;
 
 using Aksl.Modules.LiveCharts.Axes;
+using Aksl.Modules.LiveCharts.Bars;
 
 namespace Aksl.Wpf.Unity
 {
@@ -133,7 +134,8 @@ namespace Aksl.Wpf.Unity
             try
             {
                 MenuService menuService = new (new List<string> {"pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/AllMenus.xml",
-                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Axes.xml"
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Axes.xml",
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Bars.xml"
                                                                  });
 
                 await menuService.CreateMenusAsync();
@@ -156,23 +158,8 @@ namespace Aksl.Wpf.Unity
                 _ = eventAggregator.GetEvent<OnBuildHamburgerMenuTreeSideBarWorkspaceViewEvent>();
                 _ = eventAggregator.GetEvent<OnBuildHamburgerMenuNavigationSideBarWorkspaceViewEvent>();
 
-                //  var onBuildHamburgerMenuWorkspaceViewEvent = eventAggregator.GetEvent<OnBuildHamburgerMenuWorkspaceViewEvent>();
-                //_ = eventAggregator.GetEvent<OnBuildIndustryManagerWorkspaceViewEvent>();
-                //_ = eventAggregator.GetEvent<OnBuildCustomerManagerWorkspaceViewEvent>();
-
-                //_ = eventAggregator.GetEvent<OnBuildIndustryManagerHamburgerMenuWorkspaceViewEvent>();
-                //_ = eventAggregator.GetEvent<OnBuildCustomerManagerHamburgerMenuWorkspaceViewEvent>();
-
-                //_ = eventAggregator.GetEvent<OnBuildIndustryManagerHamburgerNavigationBarWorkspaceViewEvent>();
-                //_ = eventAggregator.GetEvent<OnBuildCustomerManagerHamburgerNavigationBarWorkspaceViewEvent>();
-
-                //_ = eventAggregator.GetEvent<OnBuildIndustryManagerHamburgerTreeBarWorkspaceViewEvent>();
-                //_ = eventAggregator.GetEvent<OnBuildCustomerManagerHamburgerTreeBarWorkspaceViewEvent>();
-
-                //_ = eventAggregator.GetEvent(typeof(OnBuildIndustryManagerHamburgerMenuWorkspaceViewEvent).Name) as OnBuildWorkspaceViewEventbase;
-                //_ = eventAggregator.GetEvent(typeof(OnBuildHamburgerMenuNavigationBarWorkspaceViewEvent).Name) as OnBuildWorkspaceViewEventbase;
-
                 _ = eventAggregator.GetEvent<OnBuildAxesManagerHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildBarsManagerHamburgerMenuWorkspaceViewEvent>();
             }
             catch (Exception ex)
             {
@@ -209,6 +196,7 @@ namespace Aksl.Wpf.Unity
             _ = moduleCatalog.AddModule(typeof(ShellModule).Name, typeof(ShellModule).AssemblyQualifiedName, InitializationMode.WhenAvailable, typeof(HamburgerMenuSideBarModule).Name);
 
             _ = moduleCatalog.AddModule(nameof(AxesModule), typeof(AxesModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(nameof(BarsModule), typeof(BarsModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
         }
 
         protected override Window CreateShell()

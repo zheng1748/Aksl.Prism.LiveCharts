@@ -28,4 +28,17 @@
 			  ViewName="Aksl.Modules.HamburgerMenu.Views.AxesHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
 			  NavigationName="Axes">
 	</MenuItem>
+	<MenuItem Id="0"
+			  Name="AxesManagerHamburgerMenu"
+			  Title="Bars Manager"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="BarsManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildBarsManagerHamburgerMenuWorkspaceViewEvent"
+			  ModuleName="AxesModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.BarsHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="Bars">
+	</MenuItem>
 </MenuItem>

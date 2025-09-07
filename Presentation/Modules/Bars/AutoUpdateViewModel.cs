@@ -60,7 +60,7 @@ namespace Aksl.Modules.LiveCharts.Bars.ViewModels
         #endregion
 
         #region Methods
-        public void AddSeriesClick()
+        public void AddItemClick()
         {
             // Because the Series property is an ObservableCollection, // mark
             // the chart will listen for changes and update // mark
@@ -70,7 +70,7 @@ namespace Aksl.Modules.LiveCharts.Bars.ViewModels
             Series.Add(newColumnSeries);
         }
 
-        public void RemoveSeriesClick()
+        public void RemoveItemClick()
         {
             if (Series.Count == 1) return;
 
@@ -78,7 +78,15 @@ namespace Aksl.Modules.LiveCharts.Bars.ViewModels
             Series.RemoveAt(Series.Count - 1);
         }
 
-        public void AddItemClick()
+        public void ReplaceItemClick()
+        {
+            var randomIndex = _random.Next(0, ObservablePoints.Count - 1);
+
+            // The chart will update the point at the specified index // mark
+            ObservablePoints[randomIndex] = new(ObservablePoints[randomIndex].X, _random.Next(1, 10));
+        }
+
+        public void AddSeriesClick()
         {
             var newPoint = new ObservablePoint
             {
@@ -90,7 +98,7 @@ namespace Aksl.Modules.LiveCharts.Bars.ViewModels
             ObservablePoints.Add(newPoint);
         }
 
-        public void RemoveItemClick()
+        public void RemoveSeriesClick()
         {
             if (ObservablePoints.Count < 2) return;
 
@@ -99,14 +107,6 @@ namespace Aksl.Modules.LiveCharts.Bars.ViewModels
             // in this case a point is removed from the chart // mark
 
             ObservablePoints.RemoveAt(0);
-        }
-
-        public void ReplaceItemClick()
-        {
-            var randomIndex = _random.Next(0, ObservablePoints.Count - 1);
-
-            // The chart will update the point at the specified index // mark
-            ObservablePoints[randomIndex] = new(ObservablePoints[randomIndex].X, _random.Next(1, 10));
         }
 
         private bool? _isStreaming = false;

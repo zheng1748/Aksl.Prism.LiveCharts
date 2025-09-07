@@ -29,7 +29,7 @@
                     Content="Add item">
                 <ei:Interaction.Triggers>
                     <ei:EventTrigger EventName="Click">
-                        <ei:CallMethodAction TargetObject="{Binding DataContext,ElementName=addItemButtonn}"
+                        <ei:CallMethodAction TargetObject="{Binding DataContext,ElementName=addItemButton}"
                                              MethodName="AddItemClick" />
                     </ei:EventTrigger>
                 </ei:Interaction.Triggers>
