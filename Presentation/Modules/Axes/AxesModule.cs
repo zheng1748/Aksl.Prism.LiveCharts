@@ -27,12 +27,32 @@ namespace Aksl.Modules.LiveCharts.Axes
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterForNavigation<ColorsAndPositionView>();
+
+            containerRegistry.RegisterForNavigation<CrosshairsView>();
+
+            containerRegistry.RegisterForNavigation<CustomSeparatorsIntervalView>();
+
+            containerRegistry.RegisterForNavigation<DateTimeScaledView>();
+
+            containerRegistry.RegisterForNavigation<LabelsFormatView>();
         }
 
         public void OnInitialized(IContainerProvider containerProvider)
         {
             ViewModelLocationProvider.Register(typeof(ColorsAndPositionView).ToString(),
                                          () => this._container.Resolve<ColorsAndPositionViewModel>());
+
+            ViewModelLocationProvider.Register(typeof(CrosshairsView).ToString(),
+                                     () => this._container.Resolve<CrosshairsViewModel>());
+
+            ViewModelLocationProvider.Register(typeof(CustomSeparatorsIntervalView).ToString(),
+                                 () => this._container.Resolve<CustomSeparatorsIntervalViewModel>());
+
+            ViewModelLocationProvider.Register(typeof(DateTimeScaledView).ToString(),
+                                () => this._container.Resolve<DateTimeScaledViewModel>());
+
+            ViewModelLocationProvider.Register(typeof(LabelsFormatView).ToString(),
+                              () => this._container.Resolve<LabelsFormatViewModel>());
         }
         #endregion
     }

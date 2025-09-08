@@ -28,12 +28,17 @@ namespace Aksl.Modules.LiveCharts.Bars
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterForNavigation<AutoUpdateView>();
+
+            containerRegistry.RegisterForNavigation<BasicView>();
         }
 
         public void OnInitialized(IContainerProvider containerProvider)
         {
             ViewModelLocationProvider.Register(typeof(AutoUpdateView).ToString(),
                                          () => this._container.Resolve<AutoUpdateViewModel>());
+
+            ViewModelLocationProvider.Register(typeof(BasicView).ToString(),
+                                        () => this._container.Resolve<BasicViewModel>());
         }
         #endregion
     }

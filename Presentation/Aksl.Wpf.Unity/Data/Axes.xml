@@ -13,6 +13,46 @@
 				  ModuleName="AxesModule"
 				  ViewName="Aksl.Modules.LiveCharts.Axes.Views.ColorsAndPositionView,Aksl.Modules.LiveCharts.Axes"
 				  RequrePermissons=""/>
+	<MenuItem Id="1"
+			  Name="Crosshairs"
+			  Title="Cross Hairs"
+			  Level="2"
+			  IsCacheable="True"
+			  IconKind="LineScan"
+			  ItemType="Item"
+			  ModuleName="AxesModule"
+			  ViewName="Aksl.Modules.LiveCharts.Axes.Views.CrosshairsView,Aksl.Modules.LiveCharts.Axes"
+			  RequrePermissons=""/>
+	<MenuItem Id="1"
+			  Name="CustomSeparatorsInterval"
+			  Title="Custom SeparatorsInterval"
+			  Level="2"
+			  IsCacheable="True"
+			  IconKind="LineScan"
+			  ItemType="Item"
+			  ModuleName="AxesModule"
+			  ViewName="Aksl.Modules.LiveCharts.Axes.Views.CustomSeparatorsIntervalView,Aksl.Modules.LiveCharts.Axes"
+			  RequrePermissons=""/>
+	<MenuItem Id="1"
+			  Name="DateTimeScaled"
+			  Title="DateTime Scaled"
+			  Level="2"
+			  IsCacheable="True"
+			  IconKind="LineScan"
+			  ItemType="Item"
+			  ModuleName="AxesModule"
+			  ViewName="Aksl.Modules.LiveCharts.Axes.Views.DateTimeScaledView,Aksl.Modules.LiveCharts.Axes"
+			  RequrePermissons=""/>
+	<MenuItem Id="1"
+			  Name="LabelsFormat"
+			  Title="Labels Format"
+			  Level="2"
+			  IsCacheable="True"
+			  IconKind="LineScan"
+			  ItemType="Item"
+			  ModuleName="AxesModule"
+			  ViewName="Aksl.Modules.LiveCharts.Axes.Views.LabelsFormatView,Aksl.Modules.LiveCharts.Axes"
+			  RequrePermissons=""/>
 </MenuItem>
 
 
