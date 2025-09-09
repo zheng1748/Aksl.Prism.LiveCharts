@@ -27,5 +27,9 @@
 	<ProjectReference Include="..\..\..\..\Toolkits\Prism Library\Prism.Unity.Wpf\Prism.Unity.Wpf.csproj" />
 	<ProjectReference Include="..\..\..\..\Toolkits\Prism Library\Prism.Wpf\Prism.Wpf.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="新文件夹\" />
+  </ItemGroup>
   
 </Project>

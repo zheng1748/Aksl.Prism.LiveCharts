@@ -46,6 +46,8 @@ using Aksl.Infrastructure.Events;
 
 using Aksl.Modules.LiveCharts.Axes;
 using Aksl.Modules.LiveCharts.Bars;
+using Aksl.Modules.LiveCharts.Box;
+using Aksl.Modules.LiveCharts.Design;
 
 namespace Aksl.Wpf.Unity
 {
@@ -135,7 +137,9 @@ namespace Aksl.Wpf.Unity
             {
                 MenuService menuService = new (new List<string> {"pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/AllMenus.xml",
                                                                  "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Axes.xml",
-                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Bars.xml"
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Bars.xml",
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Box.xml",
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Design.xml"
                                                                  });
 
                 await menuService.CreateMenusAsync();
@@ -160,6 +164,8 @@ namespace Aksl.Wpf.Unity
 
                 _ = eventAggregator.GetEvent<OnBuildAxesManagerHamburgerMenuWorkspaceViewEvent>();
                 _ = eventAggregator.GetEvent<OnBuildBarsManagerHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildBoxManagerHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildDesignManagerHamburgerMenuWorkspaceViewEvent>();
             }
             catch (Exception ex)
             {
@@ -197,6 +203,8 @@ namespace Aksl.Wpf.Unity
 
             _ = moduleCatalog.AddModule(nameof(AxesModule), typeof(AxesModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
             _ = moduleCatalog.AddModule(nameof(BarsModule), typeof(BarsModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(nameof(BoxModule), typeof(BoxModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(nameof(DesignModule), typeof(DesignModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
         }
 
         protected override Window CreateShell()

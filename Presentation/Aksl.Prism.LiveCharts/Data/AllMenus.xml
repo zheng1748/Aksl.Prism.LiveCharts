@@ -40,4 +40,30 @@
 			  ViewName="Aksl.Modules.HamburgerMenu.Views.BarsHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
 			  NavigationName="Bars">
 	</MenuItem>
+	<MenuItem Id="0"
+			  Name="BoxManagerHamburgerMenu"
+			  Title="Box Manager"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="BoxManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildBoxManagerHamburgerMenuWorkspaceViewEvent"
+			  ModuleName="BoxModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.BoxHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="Box">
+	</MenuItem>
+	<MenuItem Id="0"
+			  Name="DesignManagerHamburgerMenu"
+			  Title="Design"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="DesignManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildDesignManagerHamburgerMenuWorkspaceViewEvent"
+			  ModuleName="BoxModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.DesignHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="Design">
+	</MenuItem>
 </MenuItem>

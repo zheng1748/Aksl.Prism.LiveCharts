@@ -21,6 +21,23 @@
     <None Remove="Data\AllMenus.xml" />
     <None Remove="Data\Axes.xml" />
     <None Remove="Data\Bars.xml" />
+    <None Remove="Data\Box.xml" />
+    <None Remove="Data\Design.xml" />
+    <None Remove="Data\Error.xml" />
+    <None Remove="Data\Events.xml" />
+    <None Remove="Data\Financial.xml" />
+    <None Remove="Data\General.xml" />
+    <None Remove="Data\Heat.xml" />
+    <None Remove="Data\Lines.xml" />
+    <None Remove="Data\Maps.xml" />
+    <None Remove="Data\Pies.xml" />
+    <None Remove="Data\Polar.xml" />
+    <None Remove="Data\Scatter.xml" />
+    <None Remove="Data\StackedArea.xml" />
+    <None Remove="Data\StackedBars.xml" />
+    <None Remove="Data\StepLines.xml" />
+    <None Remove="Data\Test.xml" />
+    <None Remove="Data\VisualTest.xml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,6 +48,57 @@
 
   <ItemGroup>
     <Resource Include="Data\AllMenus.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Box.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Financial.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Heat.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Pies.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Scatter.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\StackedArea.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\StepLines.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\VisualTest.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Test.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\StackedBars.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Polar.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Lines.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Maps.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\General.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Error.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Events.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Design.xml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Data\Bars.xml">
@@ -91,6 +159,8 @@
     <ProjectReference Include="..\Modules\Account\Account.csproj" />
     <ProjectReference Include="..\Modules\Axes\Axes.csproj" />
     <ProjectReference Include="..\Modules\Bars\Bars.csproj" />
+    <ProjectReference Include="..\Modules\Box\Box.csproj" />
+    <ProjectReference Include="..\Modules\Design\Design.csproj" />
     <ProjectReference Include="..\Modules\HamburgerMenuNavigationSideBarView\HamburgerMenuNavigationSideBarView.csproj" />
     <ProjectReference Include="..\Modules\HamburgerMenuSideBarView\HamburgerMenuSideBarView.csproj" />
     <ProjectReference Include="..\Modules\HamburgerMenuTreeSideBarView\HamburgerMenuTreeSideBarView.csproj" />

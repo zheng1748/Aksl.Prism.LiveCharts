@@ -31,6 +31,12 @@ namespace Aksl.Modules.HamburgerMenu
             containerRegistry.RegisterForNavigation<AxesHamburgerMenuHubView>();
 
             containerRegistry.RegisterForNavigation<BarsHamburgerMenuHubView>();
+
+            containerRegistry.RegisterForNavigation<BarsHamburgerMenuHubView>();
+
+            containerRegistry.RegisterForNavigation<BoxHamburgerMenuHubView>();
+
+            containerRegistry.RegisterForNavigation<DesignHamburgerMenuHubView>();
         }
 
         public void OnInitialized(IContainerProvider containerProvider)
@@ -40,6 +46,15 @@ namespace Aksl.Modules.HamburgerMenu
 
             ViewModelLocationProvider.Register(typeof(AxesHamburgerMenuHubView).ToString(),
                                           () => this._container.Resolve<AxesHamburgerMenuHubViewModel>());
+
+            ViewModelLocationProvider.Register(typeof(BoxHamburgerMenuHubView).ToString(),
+                                        () => this._container.Resolve<BoxHamburgerMenuHubViewModel>());
+
+            ViewModelLocationProvider.Register(typeof(BoxHamburgerMenuHubView).ToString(),
+                                       () => this._container.Resolve<BoxHamburgerMenuHubViewModel>());
+
+            ViewModelLocationProvider.Register(typeof(DesignHamburgerMenuHubView).ToString(),
+                                      () => this._container.Resolve< DesignHamburgerMenuHubViewModel >());
         }
         #endregion
     }
