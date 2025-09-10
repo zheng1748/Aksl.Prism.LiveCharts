@@ -181,4 +181,14 @@ namespace Aksl.Infrastructure.Events
     //    }
     //    #endregion
     //}
+
+    public class OnBuildAxesManagerHamburgerMenuWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildAxesManagerHamburgerMenuWorkspaceViewEvent()
+        {
+            Name = nameof(OnBuildIndustryManagerHamburgerMenuWorkspaceViewEvent);
+        }
+        #endregion
+    }
 }

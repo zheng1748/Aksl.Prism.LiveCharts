@@ -149,4 +149,30 @@
 			  ViewName="Aksl.Modules.HamburgerMenuTreeBar.Views.CustomerHamburgerMenuTreeBarHubView,Aksl.Modules.HamburgerMenuTreeBar"
 			  NavigationName="Customer">
 	</MenuItem>
+	<MenuItem Id="0"
+			  Name="CustomerHamburgerMenuTreeBar"
+			  Title="Customer Manager For HamburgerTreeBar"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="CustomerManagerHamburgerTreeBarWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildCustomerManagerHamburgerTreeBarWorkspaceViewEvent"
+			  ModuleName="HamburgerMenuTreeBarViewModule"
+			  ViewName="Aksl.Modules.HamburgerMenuTreeBar.Views.CustomerHamburgerMenuTreeBarHubView,Aksl.Modules.HamburgerMenuTreeBar"
+			  NavigationName="Customer">
+	</MenuItem>
+	<MenuItem Id="0"
+			  Name="AxesManagerHamburgerMenu"
+			  Title="Axes Manager"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="AxesManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildAxesManagerHamburgerMenuWorkspaceViewEvent"
+			  ModuleName="AxesModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.AxesHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="Axes">
+	</MenuItem>
 </MenuItem>

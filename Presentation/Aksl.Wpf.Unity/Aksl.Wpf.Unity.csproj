@@ -19,6 +19,7 @@
   <ItemGroup>
     <None Remove="Configuration\appsettings.json" />
     <None Remove="Data\AllMenus.xml" />
+    <None Remove="Data\Axes.xml" />
     <None Remove="Data\Customers.xml" />
     <None Remove="Data\Industry.xml" />
   </ItemGroup>
@@ -36,6 +37,9 @@
     <Resource Include="Data\Customers.xml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Data\Axes.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Data\Industry.xml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
@@ -45,6 +49,7 @@
     <PackageReference Include="AutoMapper" Version="12.0.1" />
 	<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
 	<PackageReference Include="CommonServiceLocator" Version="2.0.7" />
+	<PackageReference Include="LiveChartsCore.SkiaSharpView.WPF" Version="2.0.0-beta.90" />
     <PackageReference Include="Unity" Version="5.11.10" />
 	<PackageReference Include="Unity.Container" Version="5.11.11" />
 	<!--<PackageReference Include="Microsoft.Windows.Compatibility" Version="8.0.2" />-->
@@ -88,6 +93,7 @@
     <ProjectReference Include="..\..\Toolkits\Prism Library\Prism.Unity.Wpf\Prism.Unity.Wpf.csproj" />
     <ProjectReference Include="..\..\Toolkits\Prism Library\Prism.Wpf\Prism.Wpf.csproj" />
     <ProjectReference Include="..\Modules\Account\Account.csproj" />
+    <ProjectReference Include="..\Modules\Axes\Axes.csproj" />
     <ProjectReference Include="..\Modules\Customers\DataGridCustomer\DataGridCustomer.csproj" />
     <ProjectReference Include="..\Modules\Customers\ListViewCustomer\ListViewCustomer.csproj" />
     <ProjectReference Include="..\Modules\HamburgerMenuNavigationSideBarView\HamburgerMenuNavigationSideBarView.csproj" />
