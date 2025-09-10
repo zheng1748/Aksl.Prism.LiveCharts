@@ -3,21 +3,21 @@ using Prism.Modularity;
 using Prism.Mvvm;
 using Unity;
 
-using Aksl.Modules.LiveCharts.Box.ViewModels;
-using Aksl.Modules.LiveCharts.Box.Views;
+using Aksl.Modules.LiveCharts.Error.ViewModels;
+using Aksl.Modules.LiveCharts.Error.Views;
 
 //install-package LiveChartsCore.SkiaSharpView.WPF -Version 2.0.0-beta.90
 
-namespace Aksl.Modules.LiveCharts.Box
+namespace Aksl.Modules.LiveCharts.Error
 {
-    public class BoxModule : IModule
+    public class ErrorModule : IModule
     {
         #region Members
         private readonly IUnityContainer _container;
         #endregion
 
         #region Constructors
-        public BoxModule(IUnityContainer container)
+        public ErrorModule(IUnityContainer container)
         {
             this._container = container;
         }
@@ -26,13 +26,13 @@ namespace Aksl.Modules.LiveCharts.Box
         #region IModule 成员
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            containerRegistry.RegisterForNavigation<BasicView>();
+            containerRegistry.RegisterForNavigation<ErrorBasicView>();
         }
 
         public void OnInitialized(IContainerProvider containerProvider)
         {
-            ViewModelLocationProvider.Register(typeof(BasicView).ToString(),
-                                        () => this._container.Resolve<BasicViewModel>());
+            ViewModelLocationProvider.Register(typeof(ErrorBasicView).ToString(),
+                                        () => this._container.Resolve<ErrorBasicViewModel>());
         }
         #endregion
     }

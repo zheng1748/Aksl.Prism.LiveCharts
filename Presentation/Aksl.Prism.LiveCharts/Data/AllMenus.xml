@@ -66,4 +66,17 @@
 			  ViewName="Aksl.Modules.HamburgerMenu.Views.DesignHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
 			  NavigationName="Design">
 	</MenuItem>
+	<MenuItem Id="0"
+			  Name="ErrorManagerHamburgerMenu"
+			  Title="Error"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="ErrorManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildErrorManagerHamburgerMenuWorkspaceViewEvent"
+			  ModuleName="ErrorModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.ErrorHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="Error">
+	</MenuItem>
 </MenuItem>
