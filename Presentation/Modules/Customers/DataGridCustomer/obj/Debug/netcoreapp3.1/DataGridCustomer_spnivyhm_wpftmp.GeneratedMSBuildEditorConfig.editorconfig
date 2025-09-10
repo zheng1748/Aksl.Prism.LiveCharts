@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Contoso.Modules.DataGridUI
+build_property.ProjectDir = C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridSamples\DataGridCustomer\

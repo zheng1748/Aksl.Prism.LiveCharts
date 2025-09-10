@@ -1,0 +1,361 @@
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.deps.json
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Aksl.Toolkit.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Infrastructure.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Infrastructure.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Aksl.Toolkit.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.xml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll.config
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.xml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.xml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.AssemblyReference.cache
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\ContextMenuView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\ContextMenuView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\GroupSortView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI_MarkupCompile.cache
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI_MarkupCompile.lref
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\GroupSortView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.g.resources
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.AssemblyInfoInputs.cache
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.AssemblyInfo.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.CoreCompileInputs.cache
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.CopyComplete
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemHeader.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenusView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenuView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuContentView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemHeader.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\NavigationBarHubView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenusView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenuView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuContentView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V002\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\NavigationBarHubView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.deps.json
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Aksl.Toolkit.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Infrastructure.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Infrastructure.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Aksl.Toolkit.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.xml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll.config
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.xml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.xml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.AssemblyReference.cache
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemHeader.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\ContextMenuView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenusView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenuView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuContentView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemHeader.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\NavigationBarHubView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\ContextMenuView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\GroupSortView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI_MarkupCompile.cache
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI_MarkupCompile.lref
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenusView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenuView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuContentView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\NavigationBarHubView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\GroupSortView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.g.resources
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.AssemblyInfoInputs.cache
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.AssemblyInfo.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.CoreCompileInputs.cache
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.CopyComplete
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.V003\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.AssemblyReference.cache
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerListView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemHeader.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\ContextMenuView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerHubView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerListView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenusView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenuView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuContentView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemHeader.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\NavigationBarHubView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\ContextMenuView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\GroupSortView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI_MarkupCompile.cache
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI_MarkupCompile.lref
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerItemView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerItemView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerWindow.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.deps.json
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Microsoft.Toolkit.Win32.UI.XamlHost.xml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Aksl.Toolkit.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Infrastructure.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Microsoft.Toolkit.Win32.UI.XamlHost.winmd
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Infrastructure.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Aksl.Toolkit.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.xml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll.config
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.xml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.xml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerHubView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenusView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenuView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuContentView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\NavigationBarHubView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\GroupSortView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerWindow.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.g.resources
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.AssemblyInfoInputs.cache
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.AssemblyInfo.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.CoreCompileInputs.cache
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.CopyComplete
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.4.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.deps.json
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Microsoft.Toolkit.Win32.UI.XamlHost.xml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Aksl.Toolkit.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Infrastructure.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Microsoft.Toolkit.Win32.UI.XamlHost.winmd
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Infrastructure.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Aksl.Toolkit.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.xml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll.config
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.xml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.pdb
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.xml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.AssemblyReference.cache
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerListView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerItemView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemHeader.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\ContextMenuView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerHubView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerListView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerItemView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerWindow.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenusView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenuView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuContentView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemHeader.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\NavigationBarHubView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\ContextMenuView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\GroupSortView.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI_MarkupCompile.cache
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI_MarkupCompile.lref
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerHubView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerWindow.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenusView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenuView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuContentView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\NavigationBarHubView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\GroupSortView.baml
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.g.resources
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.AssemblyInfoInputs.cache
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.AssemblyInfo.cs
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.CoreCompileInputs.cache
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.CopyComplete
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.dll
+C:\Aksl 5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.deps.json
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.dll
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Microsoft.Toolkit.Win32.UI.XamlHost.xml
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Aksl.Toolkit.dll
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Infrastructure.dll
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Microsoft.Toolkit.Win32.UI.XamlHost.winmd
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.dll
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Infrastructure.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Aksl.Toolkit.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.xml
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll.config
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.xml
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.xml
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.AssemblyReference.cache
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerListView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerItemView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemHeader.baml
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\ContextMenuView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerListView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerItemView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerWindow.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenusView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenuView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuContentView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemHeader.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\NavigationBarHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\ContextMenuView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\GroupSortView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI_MarkupCompile.cache
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI_MarkupCompile.lref
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerWindow.baml
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenusView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenuView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuContentView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\NavigationBarHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\GroupSortView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.g.resources
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.AssemblyInfoInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.AssemblyInfo.cs
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.CoreCompileInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.CopyComplete
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.dll
+C:\Users\zheng\Documents\GitHub\Aksl.5.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.deps.json
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.dll
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Microsoft.Toolkit.Win32.UI.XamlHost.xml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Aksl.Toolkit.dll
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Infrastructure.dll
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Microsoft.Toolkit.Win32.UI.XamlHost.winmd
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.dll
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Infrastructure.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Aksl.Toolkit.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.xml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll.config
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.xml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.xml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.AssemblyReference.cache
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerListView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerItemView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemHeader.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\ContextMenuView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerListView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerItemView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerWindow.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenusView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenuView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuContentView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemHeader.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\NavigationBarHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\ContextMenuView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\GroupSortView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI_MarkupCompile.cache
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI_MarkupCompile.lref
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerWindow.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenusView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenuView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuContentView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\NavigationBarHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\GroupSortView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.g.resources
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.AssemblyInfoInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.AssemblyInfo.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.CoreCompileInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.CopyComplete
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.dll
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.deps.json
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.dll
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Microsoft.Toolkit.Win32.UI.XamlHost.xml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Aksl.Toolkit.dll
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Infrastructure.dll
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Microsoft.Toolkit.Win32.UI.XamlHost.winmd
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.dll
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Contoso.Infrastructure.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Aksl.Toolkit.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.xml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll.config
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.Wpf.xml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\bin\Debug\netcoreapp3.1\Prism.xml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.AssemblyReference.cache
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerListView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerItemView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemHeader.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\ContextMenuView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerListView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerItemView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerWindow.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenusView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenuView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuContentView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemHeader.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuItemView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\NavigationBarHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\ContextMenuView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\GroupSortView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI_MarkupCompile.cache
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI_MarkupCompile.lref
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\CustomerHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Customers\Views\Edit\EditableCustomerWindow.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenusView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\GroupedMenuView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\MenuContentView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\NavigationBar\Views\NavigationBarHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Workspace\Views\GroupSortView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.g.resources
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.AssemblyInfoInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.AssemblyInfo.cs
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.CoreCompileInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\DataGridUI.csproj.CopyComplete
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.dll
+C:\Users\zheng\Documents\GitHub\Aksl.6.0\Wpf\Contoso.UI.Wpf.5.0.1\Presentation\Modules\DataGridUI\obj\Debug\netcoreapp3.1\Contoso.Modules.DataGridUI.pdb

@@ -1,0 +1,550 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Presentation\\Modules\\DataGridSamples\\DataGridCustomer\\DataGridCustomer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Infrastructure\\Contoso.Infrastructure\\Contoso.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Infrastructure\\Contoso.Infrastructure\\Contoso.Infrastructure.csproj",
+        "projectName": "Contoso.Infrastructure",
+        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Infrastructure\\Contoso.Infrastructure\\Contoso.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\zheng\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Infrastructure\\Contoso.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism\\Prism.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism\\Prism.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Windows.Compatibility": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "System.Runtime.WindowsRuntime": {
+              "target": "Package",
+              "version": "[4.6.0-preview.19073.11, )"
+            },
+            "System.Runtime.WindowsRuntime.UI.Xaml": {
+              "target": "Package",
+              "version": "[4.6.0-preview.19073.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Presentation\\Modules\\DataGridSamples\\DataGridCustomer\\DataGridCustomer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Presentation\\Modules\\DataGridSamples\\DataGridCustomer\\DataGridCustomer.csproj",
+        "projectName": "Contoso.Modules.DataGridUI",
+        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Presentation\\Modules\\DataGridSamples\\DataGridCustomer\\DataGridCustomer.csproj",
+        "packagesPath": "C:\\Users\\zheng\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Presentation\\Modules\\DataGridSamples\\DataGridCustomer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Infrastructure\\Contoso.Infrastructure\\Contoso.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Infrastructure\\Contoso.Infrastructure\\Contoso.Infrastructure.csproj"
+              },
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Aksl.Toolkit\\Aksl.Toolkit.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Aksl.Toolkit\\Aksl.Toolkit.csproj"
+              },
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj"
+              },
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj"
+              },
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism\\Prism.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism\\Prism.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Logging.Configuration": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Toolkit.Wpf.UI.Controls": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.VCRTForwarders.140": {
+              "target": "Package",
+              "version": "[1.0.2-rc, )"
+            },
+            "Microsoft.Windows.Compatibility": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.19, )"
+            },
+            "System.Runtime.WindowsRuntime": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Runtime.WindowsRuntime.UI.Xaml": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Unity": {
+              "target": "Package",
+              "version": "[5.11.3, )"
+            }
+          },
+          "imports": [
+            "uap10.0.18362",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Aksl.Toolkit\\Aksl.Toolkit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Aksl.Toolkit\\Aksl.Toolkit.csproj",
+        "projectName": "Aksl.Toolkit",
+        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Aksl.Toolkit\\Aksl.Toolkit.csproj",
+        "packagesPath": "C:\\Users\\zheng\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Aksl.Toolkit\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj"
+              },
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism\\Prism.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism\\Prism.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.0.35, )"
+            },
+            "Microsoft.Toolkit.Wpf.UI.Controls": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.VCRTForwarders.140": {
+              "target": "Package",
+              "version": "[1.0.2-rc, )"
+            },
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.19, )"
+            },
+            "Win2D.uwp": {
+              "target": "Package",
+              "version": "[1.24.0, )"
+            }
+          },
+          "imports": [
+            "uap10.0.18362",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj",
+        "projectName": "Prism.Unity",
+        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj",
+        "packagesPath": "C:\\Users\\zheng\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj"
+              },
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism\\Prism.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism\\Prism.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Unity.Container": {
+              "target": "Package",
+              "version": "[5.11.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj",
+        "projectName": "Prism.Wpf",
+        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj",
+        "packagesPath": "C:\\Users\\zheng\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism.Wpf\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism\\Prism.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism\\Prism.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "CommonServiceLocator": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.19, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism\\Prism.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism\\Prism.csproj",
+        "projectName": "Prism.Core",
+        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism\\Prism.csproj",
+        "packagesPath": "C:\\Users\\zheng\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.6.0\\Wpf\\Contoso.UI.Wpf.5.0.1\\Toolkits\\Prism Library\\Prism\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
