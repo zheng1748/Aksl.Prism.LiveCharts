@@ -93,7 +93,6 @@
     <ProjectReference Include="..\..\Toolkits\Prism Library\Prism.Unity.Wpf\Prism.Unity.Wpf.csproj" />
     <ProjectReference Include="..\..\Toolkits\Prism Library\Prism.Wpf\Prism.Wpf.csproj" />
     <ProjectReference Include="..\Modules\Account\Account.csproj" />
-    <ProjectReference Include="..\Modules\Axes\Axes.csproj" />
     <ProjectReference Include="..\Modules\Customers\DataGridCustomer\DataGridCustomer.csproj" />
     <ProjectReference Include="..\Modules\Customers\ListViewCustomer\ListViewCustomer.csproj" />
     <ProjectReference Include="..\Modules\HamburgerMenuNavigationSideBarView\HamburgerMenuNavigationSideBarView.csproj" />

@@ -1262,28 +1262,6 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "Aksl.Modules.LiveCharts.Axes/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Aksl.Infrastructure": "1.0.0",
-          "Aksl.Toolkit": "1.0.0",
-          "Aksl.Toolkit.Controls": "1.0.0",
-          "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-beta.90",
-          "Prism.Core": "1.0.0",
-          "Prism.Unity": "1.0.0",
-          "Prism.Wpf": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Aksl.Modules.LiveCharts.Axes.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Aksl.Modules.LiveCharts.Axes.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WPF"
-        ]
-      },
       "Aksl.Modules.MenuSub/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -3204,11 +3182,6 @@
       "path": "../Modules/Customers/ListViewCustomer/ListViewCustomer.csproj",
       "msbuildProject": "../Modules/Customers/ListViewCustomer/ListViewCustomer.csproj"
     },
-    "Aksl.Modules.LiveCharts.Axes/1.0.0": {
-      "type": "project",
-      "path": "../Modules/Axes/Axes.csproj",
-      "msbuildProject": "../Modules/Axes/Axes.csproj"
-    },
     "Aksl.Modules.MenuSub/1.0.0": {
       "type": "project",
       "path": "../Modules/Navigations/MenuSubView/MenuSubView.csproj",
@@ -3266,7 +3239,6 @@
       "Aksl.Modules.Home >= 1.0.0",
       "Aksl.Modules.IndustryNavigationBar >= 1.0.0",
       "Aksl.Modules.ListViewCustomer >= 1.0.0",
-      "Aksl.Modules.LiveCharts.Axes >= 1.0.0",
       "Aksl.Modules.MenuSub >= 1.0.0",
       "Aksl.Modules.Pipeline >= 1.0.0",
       "Aksl.Modules.Thermometer >= 1.0.0",
@@ -3342,9 +3314,6 @@
             },
             "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.Wpf\\Presentation\\Modules\\Account\\Account.csproj": {
               "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.Wpf\\Presentation\\Modules\\Account\\Account.csproj"
-            },
-            "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.Wpf\\Presentation\\Modules\\Axes\\Axes.csproj": {
-              "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.Wpf\\Presentation\\Modules\\Axes\\Axes.csproj"
             },
             "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.Wpf\\Presentation\\Modules\\Customers\\DataGridCustomer\\DataGridCustomer.csproj": {
               "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.Wpf\\Presentation\\Modules\\Customers\\DataGridCustomer\\DataGridCustomer.csproj"
