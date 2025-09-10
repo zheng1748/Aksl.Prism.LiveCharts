@@ -34,11 +34,11 @@ namespace Aksl.Modules.LiveCharts.Events.ViewModels
             _dialogViewService = (PrismApplication.Current as PrismApplicationBase).Container.Resolve<IDialogViewService>();
 
             Points =
-           [
+            [
               new(0, 5),
               new(3, 8),
               new(7, 9)
-           ];
+            ];
 
             SeriesCollection = [
                 new LineSeries<ObservablePoint>
