@@ -162,6 +162,7 @@
     <ProjectReference Include="..\Modules\Box\Box.csproj" />
     <ProjectReference Include="..\Modules\Design\Design.csproj" />
     <ProjectReference Include="..\Modules\Error\Error.csproj" />
+    <ProjectReference Include="..\Modules\Events\Events.csproj" />
     <ProjectReference Include="..\Modules\HamburgerMenuNavigationSideBarView\HamburgerMenuNavigationSideBarView.csproj" />
     <ProjectReference Include="..\Modules\HamburgerMenuSideBarView\HamburgerMenuSideBarView.csproj" />
     <ProjectReference Include="..\Modules\HamburgerMenuTreeSideBarView\HamburgerMenuTreeSideBarView.csproj" />

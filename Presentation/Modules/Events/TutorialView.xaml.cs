@@ -13,11 +13,11 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Aksl.Modules.LiveCharts.Box.Views
+namespace Aksl.Modules.LiveCharts.Events.Views
 {
-    public partial class BasicView : UserControl
+    public partial class TutorialView : UserControl
     {
-        public BasicView()
+        public TutorialView()
         {
             InitializeComponent();
         }

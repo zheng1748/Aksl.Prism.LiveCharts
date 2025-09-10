@@ -49,6 +49,7 @@ using Aksl.Modules.LiveCharts.Bars;
 using Aksl.Modules.LiveCharts.Box;
 using Aksl.Modules.LiveCharts.Design;
 using Aksl.Modules.LiveCharts.Error;
+using Aksl.Modules.LiveCharts.Events;
 
 namespace Aksl.Wpf.Unity
 {
@@ -170,6 +171,7 @@ namespace Aksl.Wpf.Unity
                 _ = eventAggregator.GetEvent<OnBuildBoxManagerHamburgerMenuWorkspaceViewEvent>();
                 _ = eventAggregator.GetEvent<OnBuildDesignManagerHamburgerMenuWorkspaceViewEvent>();
                 _ = eventAggregator.GetEvent<OnBuildErrorManagerHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildEventsManagerHamburgerMenuWorkspaceViewEvent>();
             }
             catch (Exception ex)
             {
@@ -210,6 +212,7 @@ namespace Aksl.Wpf.Unity
             _ = moduleCatalog.AddModule(nameof(BoxModule), typeof(BoxModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
             _ = moduleCatalog.AddModule(nameof(DesignModule), typeof(DesignModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
             _ = moduleCatalog.AddModule(nameof(ErrorModule), typeof(ErrorModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(nameof(EventsModule), typeof(EventsModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
         }
 
         protected override Window CreateShell()

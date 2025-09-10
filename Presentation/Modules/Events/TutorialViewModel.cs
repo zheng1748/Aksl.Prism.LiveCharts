@@ -19,9 +19,9 @@ using SkiaSharp;
 
 using Aksl.Toolkit.Services;
 
-namespace Aksl.Modules.LiveCharts.Box.ViewModels
+namespace Aksl.Modules.LiveCharts.Events.ViewModels
 {
-    public class BasicViewModel : BindableBase, INavigationAware
+    public class TutorialViewModel : BindableBase, INavigationAware
     {
         #region Members
         private readonly IDialogViewService _dialogViewService;
@@ -29,7 +29,7 @@ namespace Aksl.Modules.LiveCharts.Box.ViewModels
         #endregion
 
         #region Constructors
-        public BasicViewModel()
+        public TutorialViewModel()
         {
             _dialogViewService = (PrismApplication.Current as PrismApplicationBase).Container.Resolve<IDialogViewService>();
         }
