@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.ObjectModel;
-using System.Threading.Tasks;
+using System.Windows.Input;
 
 using Prism;
 using Prism.Commands;
@@ -14,13 +14,10 @@ using Unity;
 using LiveChartsCore;
 using LiveChartsCore.Defaults;
 using LiveChartsCore.SkiaSharpView;
-using LiveChartsCore.SkiaSharpView.Painting;
-using SkiaSharp;
-
-using Aksl.Toolkit.Services;
-using System.Windows.Input;
 using LiveChartsCore.Kernel.Sketches;
 using LiveChartsCore.Kernel.Events;
+
+using Aksl.Toolkit.Services;
 
 namespace Aksl.Modules.LiveCharts.Events.ViewModels
 {
@@ -36,10 +33,11 @@ namespace Aksl.Modules.LiveCharts.Events.ViewModels
         {
             _dialogViewService = (PrismApplication.Current as PrismApplicationBase).Container.Resolve<IDialogViewService>();
 
-            Points = [
+            Points =
+           [
               new(0, 5),
-                new(3, 8),
-                new(7, 9)
+              new(3, 8),
+              new(7, 9)
            ];
 
             SeriesCollection = [
