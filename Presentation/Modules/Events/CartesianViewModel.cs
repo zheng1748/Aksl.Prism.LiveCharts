@@ -4,8 +4,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 
 using Prism;
-using Prism.Commands;
-using Prism.Events;
 using Prism.Ioc;
 using Prism.Mvvm;
 using Prism.Regions;
@@ -13,7 +11,6 @@ using Prism.Unity;
 using Unity;
 
 using LiveChartsCore;
-using LiveChartsCore.Defaults;
 using LiveChartsCore.SkiaSharpView;
 using LiveChartsCore.SkiaSharpView.Painting;
 using LiveChartsCore.Kernel.Events;

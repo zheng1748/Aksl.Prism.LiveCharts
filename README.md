@@ -1,1 +1,2 @@
-# Aksl.Prism.Wpf
+# Aksl.Prism.LiveCharts
+
