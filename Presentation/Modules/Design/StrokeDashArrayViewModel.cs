@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.Windows.Media.Effects;
 using System.Threading.Tasks;
 
 using Prism;
@@ -15,11 +16,10 @@ using LiveChartsCore;
 using LiveChartsCore.Defaults;
 using LiveChartsCore.SkiaSharpView;
 using LiveChartsCore.SkiaSharpView.Painting;
+using LiveChartsCore.SkiaSharpView.Painting.Effects;
 using SkiaSharp;
 
 using Aksl.Toolkit.Services;
-using LiveChartsCore.SkiaSharpView.Painting.Effects;
-using System.Windows.Media.Effects;
 
 namespace Aksl.Modules.LiveCharts.Design.ViewModels
 {
