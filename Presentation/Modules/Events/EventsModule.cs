@@ -28,7 +28,7 @@ namespace Aksl.Modules.LiveCharts.Events
         {
             containerRegistry.RegisterForNavigation<AddPointOnClickView>();
             containerRegistry.RegisterForNavigation<CartesianView>();
-            containerRegistry.RegisterForNavigation<CartesianView>();
+            containerRegistry.RegisterForNavigation<OverrideFindView>();
             containerRegistry.RegisterForNavigation<PieView>();
             containerRegistry.RegisterForNavigation<PolarView>();
             containerRegistry.RegisterForNavigation<TutorialView>();
@@ -40,7 +40,7 @@ namespace Aksl.Modules.LiveCharts.Events
                                         () => this._container.Resolve<AddPointOnClickViewModel>());
             ViewModelLocationProvider.Register(typeof(CartesianView).ToString(),
                                        () => this._container.Resolve<CartesianViewModel>());
-            ViewModelLocationProvider.Register(typeof(CartesianView).ToString(),
+            ViewModelLocationProvider.Register(typeof(OverrideFindView).ToString(),
                                        () => this._container.Resolve<OverrideFindViewModel>());
             ViewModelLocationProvider.Register(typeof(PieView).ToString(),
                                        () => this._container.Resolve<PieViewModel>());

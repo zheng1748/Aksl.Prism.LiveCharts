@@ -7,7 +7,7 @@
 			  Name="AddPointOnClick"
 			  Title="Add Point OnClick"
 			  Level="2"
-			  IsCacheable="True"
+			  IsCacheable="False"
 			  IconKind="LineScan"
 			  ItemType="Item"
 			  ModuleName="BarsModule"

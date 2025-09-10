@@ -14,10 +14,13 @@
     </UserControl.Resources>
 
     <Grid Margin="5,5,5,5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
         <lvc:CartesianChart Series="{Binding Series}"
-                            XAxes="{Binding XAxes}"
-                            LegendPosition="Right">
+                            FindingStrategy="CompareOnlyX">
         </lvc:CartesianChart>
+
     </Grid>
 
 </UserControl>
