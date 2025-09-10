@@ -245,8 +245,8 @@ namespace Aksl.Modules.HamburgerMenu.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.HamburgerMenu;component/customers/customerhamburgermenuhubview.xaml" +
-                    "", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.HamburgerMenu;V1.0.0.0;component/customers/customerhamburgermenuhub" +
+                    "view.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Customers\CustomerHamburgerMenuHubView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

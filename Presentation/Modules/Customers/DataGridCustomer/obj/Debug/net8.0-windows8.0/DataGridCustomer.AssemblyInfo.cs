@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aksl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+189d747659e089c99e6b5cf0f5863c2ac34a4eb8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aksl.Modules.DataGridCustomer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aksl.Modules.DataGridCustomer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -19,7 +19,6 @@
   <ItemGroup>
     <None Remove="Configuration\appsettings.json" />
     <None Remove="Data\AllMenus.xml" />
-    <None Remove="Data\Axes.xml" />
     <None Remove="Data\Customers.xml" />
     <None Remove="Data\Industry.xml" />
   </ItemGroup>
@@ -35,9 +34,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Data\Customers.xml">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Data\Axes.xml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Data\Industry.xml">

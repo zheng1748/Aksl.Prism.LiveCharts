@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 209-1723565097
 Views\GroupedMenusView.xaml;Views\GroupedMenuView.xaml;Views\IndustryNavigationBarHubView.xaml;Views\MenuContentView.xaml;Views\MenuItemHeader.xaml;Views\MenuItemView.xaml;
 
-False
+True
 

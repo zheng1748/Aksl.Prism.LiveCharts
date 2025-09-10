@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 209-1723565097
 Customers\Views\CustomerHubView.xaml;Customers\Views\CustomerListView.xaml;Customers\Views\Edit\EditableCustomerItemView.xaml;Customers\Views\Edit\EditableCustomerWindow.xaml;
 
-True
+False
 
