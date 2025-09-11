@@ -2,25 +2,4 @@
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
-/.vs/Aksl.Prism.Wpf/DesignTimeBuild/.dtbcache.v2
-/.vs/Aksl.Prism.Wpf/FileContentIndex/0b7e11db-6a21-4e03-9259-f9a41e0ad25d.vsidx
-/.vs/Aksl.Prism.Wpf/FileContentIndex/55ea73b8-7019-4b83-b6dc-886f01eaabb6.vsidx
-/.vs/Aksl.Prism.Wpf/FileContentIndex/e644c5ac-3303-481b-8476-f72f6aa20fc2.vsidx
-/.vs/Aksl.Prism.Wpf/FileContentIndex/d3a4307b-f511-4e71-b315-9dd663ffa825.vsidx
-/.vs/Aksl.Prism.Wpf/v17/.futdcache.v2
-/.vs/Aksl.Prism.Wpf/v17/.suo
-/.vs/Aksl.Prism.Wpf/v17/fileList.bin
-/.vs/Aksl.LiveCharts/FileContentIndex/88c51dd6-9b7f-493b-963b-38b050bc6951.vsidx
-/.vs/Aksl.LiveCharts/FileContentIndex/da5fdf16-d16c-46ac-9d1a-f814a30544e0.vsidx
-/.vs/Aksl.LiveCharts/v17/.futdcache.v2
-/.vs/Aksl.LiveCharts/DesignTimeBuild/.dtbcache.v2
-/.vs/ProjectEvaluation/aksl.livecharts.metadata.v7.bin
-/.vs/ProjectEvaluation/aksl.prism.wpf.metadata.v7.bin
-/.vs/ProjectEvaluation/aksl.prism.wpf.projects.v7.bin
-/.vs/Aksl.Prism.LiveCharts/FileContentIndex/3c8f6aae-9867-4da1-bfc7-167e19f7fda7.vsidx
-/.vs/Aksl.Prism.LiveCharts/FileContentIndex/5016e159-bacc-4a0a-a469-aba06ff70c04.vsidx
-/.vs/Aksl.Prism.LiveCharts/FileContentIndex/8ef98d15-1d7c-4961-8122-454b53fae9f5.vsidx
-/.vs/Aksl.Prism.LiveCharts/FileContentIndex/52529681-fa21-4af9-8996-a4b7dfa3cff9.vsidx
-/.vs/Aksl.Prism.LiveCharts/FileContentIndex/ac52b88c-979a-4ce8-bf52-a8d0f8a3071b.vsidx
-/.vs/Aksl.Prism.LiveCharts/FileContentIndex/5399c85b-7757-415e-a33e-f55562545cdd.vsidx
 /.vs/Aksl.Prism.LiveCharts/FileContentIndex/5a0c242b-efee-401f-b238-b385c315a1e4.vsidx
