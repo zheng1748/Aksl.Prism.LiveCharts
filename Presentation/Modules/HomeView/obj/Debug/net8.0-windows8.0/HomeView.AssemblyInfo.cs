@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aksl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f7779f1edd777da2a42665a5db679bc10fc6ba6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aksl.Modules.Home")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aksl.Modules.Home")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

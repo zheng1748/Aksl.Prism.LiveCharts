@@ -60,7 +60,7 @@ namespace Aksl.Modules.LiveCharts.Design.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.Design;V1.0.0.0;component/lineargradientsview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.Design;component/lineargradientsview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\LinearGradientsView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

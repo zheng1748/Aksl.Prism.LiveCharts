@@ -234,8 +234,8 @@ namespace Aksl.Modules.HamburgerMenuTreeBar.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.HamburgerMenuTreeBar;component/industry/industryhamburgermenutreeba" +
-                    "rhubview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.HamburgerMenuTreeBar;V1.0.0.0;component/industry/industryhamburgerm" +
+                    "enutreebarhubview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Industry\IndustryHamburgerMenuTreeBarHubView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

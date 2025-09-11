@@ -62,7 +62,7 @@ namespace Aksl.Modules.HamburgerMenuTreeBar.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.HamburgerMenuTreeBar;component/views/treebarview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.HamburgerMenuTreeBar;V1.0.0.0;component/views/treebarview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\TreeBarView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

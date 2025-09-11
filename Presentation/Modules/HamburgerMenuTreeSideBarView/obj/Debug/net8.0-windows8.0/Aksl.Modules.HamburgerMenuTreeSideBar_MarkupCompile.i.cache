@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 208-1755663612
 Views\HamburgerMenuTreeSideBarHubView.xaml;Views\TreeSideBarItemView.xaml;Views\TreeSideBarView.xaml;
 
-False
+True
 
