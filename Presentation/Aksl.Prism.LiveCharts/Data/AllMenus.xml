@@ -29,7 +29,7 @@
 	</MenuItem>
 	<MenuItem Id="0"
 			  Name="AxesManagerHamburgerMenu"
-			  Title="Bars Manager"
+			  Title="Bars"
 			  Level="2"
 			  IconKind="HamburgerMenuBack"
 			  ItemType="Item"
@@ -42,7 +42,7 @@
 	</MenuItem>
 	<MenuItem Id="0"
 			  Name="BoxManagerHamburgerMenu"
-			  Title="Box Manager"
+			  Title="Box"
 			  Level="2"
 			  IconKind="HamburgerMenuBack"
 			  ItemType="Item"
