@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aksl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea0d7593952d73b95df3408c0140908a78ce538b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15341a46eb7ef07c1d07a9f83ee5f1bd53746a12")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aksl.Wpf.Unity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aksl.Wpf.Unity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
