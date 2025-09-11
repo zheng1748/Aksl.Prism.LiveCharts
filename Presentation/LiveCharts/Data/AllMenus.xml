@@ -16,7 +16,7 @@
 			  ViewName="Aksl.Modules.Home.Views.HomeView,Aksl.Modules.Home" />
 	<MenuItem Id="0"
 			  Name="AxesManagerHamburgerMenu"
-			  Title="Axes Manager"
+			  Title="Axes"
 			  Level="2"
 			  IconKind="HamburgerMenuBack"
 			  ItemType="Item"
