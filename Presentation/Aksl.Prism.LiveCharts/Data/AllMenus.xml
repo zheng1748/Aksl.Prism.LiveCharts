@@ -42,7 +42,7 @@
 	</MenuItem>
 	<MenuItem Id="0"
 			  Name="BoxManagerHamburgerMenu"
-			  Title="Box Manager"
+			  Title="Box"
 			  Level="2"
 			  IconKind="HamburgerMenuBack"
 			  ItemType="Item"
