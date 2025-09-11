@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Page Update="Bars\BarsHamburgerMenuHubView .xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Axes\AxesHamburgerMenuHubView .xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Box\BoxHamburgerMenuHubView .xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Design\DesignHamburgerMenuHubView .xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Error\ErrorHamburgerMenuHubView .xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Events\EventsHamburgerMenuHubView .xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

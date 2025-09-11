@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MenuItem Id="0"
+		  Name="Error"
+		  Title="Root"
+		  Level="0" >
+	<MenuItem Id="1"
+			  Name="ErrorBasic"
+			  Title="Basic"
+			  Level="2"
+			  IsCacheable="False"
+			  IconKind="LineScan"
+			  ItemType="Item"
+			  ModuleName="ErrorModule"
+			  ViewName="Aksl.Modules.LiveCharts.Error.Views.ErrorBasicView,Aksl.Modules.LiveCharts.Error"
+			  RequrePermissons=""/>
+</MenuItem>

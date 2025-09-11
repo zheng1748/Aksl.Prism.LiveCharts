@@ -1,0 +1,406 @@
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.AssemblyReference.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\GeneratedInternalTypeHelper.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.lref
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.deps.json
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll.config
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.g.resources
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfoInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfo.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CoreCompileInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CopyComplete
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.sourcelink.json
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.deps.json
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll.config
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.AssemblyReference.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\GeneratedInternalTypeHelper.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.lref
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.g.resources
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfoInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfo.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CoreCompileInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.sourcelink.json
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CopyComplete
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\MaterialDesignThemes.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.8.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\MaterialDesignThemes.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.deps.json
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\MaterialDesignThemes.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\MaterialDesignThemes.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll.config
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.AssemblyReference.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\GeneratedInternalTypeHelper.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.lref
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.g.resources
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfoInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfo.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CoreCompileInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.sourcelink.json
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CopyComplete
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.Hamburger.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.deps.json
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\MaterialDesignThemes.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\MaterialDesignThemes.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll.config
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.AssemblyReference.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\GeneratedInternalTypeHelper.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.lref
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.g.resources
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfoInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfo.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CoreCompileInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.sourcelink.json
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CopyComplete
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerBar.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.deps.json
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll.config
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.AssemblyReference.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\GeneratedInternalTypeHelper.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.lref
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.g.resources
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfoInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfo.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CoreCompileInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.sourcelink.json
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CopyComplete
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.HamburgerMenu.0.0.0\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.deps.json
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll.config
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.AssemblyReference.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\GeneratedInternalTypeHelper.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.lref
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.g.resources
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfoInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfo.cs
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CoreCompileInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.sourcelink.json
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CopyComplete
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.8.0\Wpf\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.deps.json
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll.config
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.AssemblyReference.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\GeneratedInternalTypeHelper.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.lref
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.g.resources
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfoInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfo.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CoreCompileInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.sourcelink.json
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CopyComplete
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Wpf.UI\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.deps.json
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll.config
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.AssemblyReference.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\GeneratedInternalTypeHelper.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.lref
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.g.resources
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfoInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfo.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CoreCompileInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CopyComplete
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.sourcelink.json
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Industry\IndustryHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Industry\IndustryHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Customers\CustomerHamburgerMenuHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Customers\CustomerHamburgerMenuHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Axes\AxesHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Axes\AxesHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.deps.json
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll.config
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.AssemblyReference.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Axes\AxesHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\GeneratedInternalTypeHelper.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.lref
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Axes\AxesHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.g.resources
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfoInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfo.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CoreCompileInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.sourcelink.json
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CopyComplete
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Bars\BarsHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Bars\BarsHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Box\BoxHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Box\BoxHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Design\DesignHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Design\DesignHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Error\ErrorHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Error\ErrorHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Events\EventsHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Events\EventsHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.deps.json
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll.config
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\bin\Debug\net8.0-windows8.0\Prism.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.AssemblyReference.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Axes\AxesHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Bars\BarsHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Box\BoxHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Design\DesignHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Error\ErrorHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Events\EventsHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuItemView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\GeneratedInternalTypeHelper.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu_MarkupCompile.lref
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Axes\AxesHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Bars\BarsHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Box\BoxHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Design\DesignHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Error\ErrorHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Events\EventsHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.g.resources
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfoInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.AssemblyInfo.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CoreCompileInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.sourcelink.json
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\HamburgerMenuView.csproj.CopyComplete
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.HamburgerMenu.dll

@@ -1,0 +1,62 @@
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Box.deps.json
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Box.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Box.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Prism.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Prism.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Prism.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll.config
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Prism.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Box.csproj.AssemblyReference.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Box_MarkupCompile.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Box.g.resources
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Box.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Box.AssemblyInfoInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Box.AssemblyInfo.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Box.csproj.CoreCompileInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Box.sourcelink.json
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Box.csproj.CopyComplete
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Box.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.LiveCharts.Box.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Box.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.LiveCharts.Box.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\BoxBasicView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\BoxBasicView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Box.deps.json
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Box.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Box.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Prism.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Prism.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Prism.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll.config
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\bin\Debug\net8.0-windows8.0\Prism.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Box.csproj.AssemblyReference.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\BoxBasicView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\BoxBasicView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Box_MarkupCompile.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Box.g.resources
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Box.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Box.AssemblyInfoInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Box.AssemblyInfo.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Box.csproj.CoreCompileInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Box.sourcelink.json
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Box.csproj.CopyComplete
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Box.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.LiveCharts.Box.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Box.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Box\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.LiveCharts.Box.dll

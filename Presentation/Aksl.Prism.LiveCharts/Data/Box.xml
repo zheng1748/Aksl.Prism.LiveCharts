@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MenuItem Id="0"
+		  Name="Box"
+		  Title="Root"
+		  Level="0" >
+	<MenuItem Id="1"
+			  Name="BoxBasic"
+			  Title="Basic"
+			  Level="2"
+			  IsCacheable="True"
+			  IconKind="LineScan"
+			  ItemType="Item"
+			  ModuleName="BoxModule"
+			  ViewName="Aksl.Modules.LiveCharts.Box.Views.BoxBasicView,Aksl.Modules.LiveCharts.Box"
+			  RequrePermissons=""/>
+</MenuItem>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MenuItem Id="0"
+		  Name="Design"
+		  Title="Root"
+		  Level="0" >
+	<MenuItem Id="1"
+			  Name="LinearGradients"
+			  Title="Linear Gradients"
+			  Level="2"
+			  IsCacheable="False"
+			  IconKind="LineScan"
+			  ItemType="Item"
+			  ModuleName="DesignModule"
+			  ViewName="Aksl.Modules.LiveCharts.Design.Views.LinearGradientsView,Aksl.Modules.LiveCharts.Design"
+			  RequrePermissons=""/>
+	<MenuItem Id="1"
+			  Name="RadialGradients"
+			  Title="Radial Gradients"
+			  Level="2"
+			  IsCacheable="False"
+			  IconKind="LineScan"
+			  ItemType="Item"
+			  ModuleName="DesignModule"
+			  ViewName="Aksl.Modules.LiveCharts.Design.Views.RadialGradientsView,Aksl.Modules.LiveCharts.Design"
+			  RequrePermissons=""/>
+	<MenuItem Id="1"
+			  Name="StrokeDashArray"
+			  Title="Stroke DashArray"
+			  Level="2"
+			  IsCacheable="False"
+			  IconKind="LineScan"
+			  ItemType="Item"
+			  ModuleName="DesignModule"
+			  ViewName="Aksl.Modules.LiveCharts.Design.Views.StrokeDashArrayView,Aksl.Modules.LiveCharts.Design"
+			  RequrePermissons=""/>
+</MenuItem>
