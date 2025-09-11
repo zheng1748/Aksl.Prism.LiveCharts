@@ -188,15 +188,6 @@ namespace Aksl.Wpf.Unity
 
             _ = moduleCatalog.AddModule(nameof(AccountModule), typeof(AccountModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
 
-            //_ = moduleCatalog.AddModule(nameof(PipelineModule), typeof(PipelineModule).AssemblyQualifiedName,nameof(IndustryNavigationBarModule));
-            //_ = moduleCatalog.AddModule(nameof(ThermometerModule), typeof(ThermometerModule).AssemblyQualifiedName, nameof(IndustryNavigationBarModule));
-            //_ = moduleCatalog.AddModule(nameof(CoolingTowerModule), typeof(CoolingTowerModule).AssemblyQualifiedName, nameof(IndustryNavigationBarModule));
-            //_ = moduleCatalog.AddModule(nameof(AirCompresserModule), typeof(AirCompresserModule).AssemblyQualifiedName, nameof(IndustryNavigationBarModule));
-            //_ = moduleCatalog.AddModule(nameof(IndustryNavigationBarModule), typeof(IndustryNavigationBarModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
-
-            //_ = moduleCatalog.AddModule(typeof(DataGridCustomerModule).Name, typeof(DataGridCustomerModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
-            //_ = moduleCatalog.AddModule(typeof(ListViewCustomerModule).Name, typeof(ListViewCustomerModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
-
             _ = moduleCatalog.AddModule(nameof(MenuSubModule), typeof(MenuSubModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
             _ = moduleCatalog.AddModule(nameof(HamburgerMenuModule),typeof(HamburgerMenuModule).AssemblyQualifiedName,InitializationMode.WhenAvailable);
             _ = moduleCatalog.AddModule(nameof(HamburgerMenuNavigationBarModule), typeof(HamburgerMenuNavigationBarModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
