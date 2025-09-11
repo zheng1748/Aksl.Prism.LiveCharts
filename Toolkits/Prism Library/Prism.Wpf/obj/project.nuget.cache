@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wiLzn5v0zvQRHPFj30LhaKb9PGo+Z8Pdd+25Unjli/DzlGc9Micj9rxTKZJWVTUv18Cw2UupuZTj43bEJstCYA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zheng\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Page Update="AddPointOnClickView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CartesianView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OverrideFindView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PieView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TutorialView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,2 +1,0 @@
-# Aksl.Prism.Wpf
-
