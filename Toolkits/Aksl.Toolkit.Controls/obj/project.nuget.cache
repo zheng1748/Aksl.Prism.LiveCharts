@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IoaKjSwFFYOSYlR63UW1rmKZBi59ICDN0GADZL2heBWhCXattWrLalSzh9ZvHQAlb7yc8kZbeGzkyI9PC/fi8A==",
+  "dgSpecHash": "PRbJD/r05GoWKEpsMFbVKCc8dJY3C2Hccl2H0xEqZww4bmmKkZ5Vij5toXbJausE5HonYvVY7mhbj481kMscKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Aksl.Toolkit.Controls\\Aksl.Toolkit.Controls.csproj",
+  "projectFilePath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Aksl.Toolkit.Controls\\Aksl.Toolkit.Controls.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

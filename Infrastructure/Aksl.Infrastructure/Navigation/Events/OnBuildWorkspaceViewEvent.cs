@@ -1,6 +1,5 @@
 ﻿using Prism.Events;
 using System;
-using System.Collections;
 
 namespace Aksl.Infrastructure.Events
 {

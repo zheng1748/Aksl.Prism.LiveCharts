@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P0jM5GTdNjrqXKbx87Hb7qhlvltChB/6ymE/V5NejwaTETHxBZe2mD4oWCGZN4T1tZmn7VSyjuomoSEgA+qglg==",
+  "dgSpecHash": "HLLFJT2ugiwreewgnPzGNCpuCqjmmt4sIhlbJhtTJobNseY800iqn70pghRTtKyVesWYmyjomKUYHka3Fvo9bQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Presentation\\Modules\\Navigations\\MenuSubView\\MenuSubView.csproj",
+  "projectFilePath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Presentation\\Modules\\Navigations\\MenuSubView\\MenuSubView.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zheng\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512",
     "C:\\Users\\zheng\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",

@@ -296,45 +296,45 @@ C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.sourcelink.json
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Industry\IndustryHamburgerMenuTreeBarHubView.g.cs
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Industry\IndustryHamburgerMenuTreeBarHubView.baml
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.deps.json
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.dll
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.pdb
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.dll
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.dll
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.dll
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.dll
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.Wpf.dll
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.pdb
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.pdb
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.pdb
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.pdb
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.pdb
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll.config
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.Wpf.pdb
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.csproj.AssemblyReference.cache
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Views\TreeBarItemView.baml
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Industry\IndustryHamburgerMenuTreeBarHubView.g.cs
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuTreeBarHubView.g.cs
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Views\TreeBarItemView.g.cs
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Views\TreeBarView.g.cs
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\GeneratedInternalTypeHelper.g.cs
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar_MarkupCompile.cache
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar_MarkupCompile.lref
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Industry\IndustryHamburgerMenuTreeBarHubView.baml
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuTreeBarHubView.baml
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Views\TreeBarView.baml
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.g.resources
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.AssemblyInfoInputs.cache
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.AssemblyInfo.cs
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.csproj.CoreCompileInputs.cache
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.sourcelink.json
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.csproj.CopyComplete
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.dll
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.HamburgerMenuTreeBar.dll
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.pdb
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.HamburgerMenuTreeBar.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.deps.json
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll.config
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.csproj.AssemblyReference.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Views\TreeBarItemView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Industry\IndustryHamburgerMenuTreeBarHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuTreeBarHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Views\TreeBarItemView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Views\TreeBarView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\GeneratedInternalTypeHelper.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar_MarkupCompile.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar_MarkupCompile.lref
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Industry\IndustryHamburgerMenuTreeBarHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuTreeBarHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Views\TreeBarView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.g.resources
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.AssemblyInfoInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.AssemblyInfo.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.csproj.CoreCompileInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.sourcelink.json
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.csproj.CopyComplete
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.HamburgerMenuTreeBar.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.HamburgerMenuTreeBar.dll
 C:\Users\zheng\Documents\GitHub\Aksl.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.deps.json
 C:\Users\zheng\Documents\GitHub\Aksl.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.dll
 C:\Users\zheng\Documents\GitHub\Aksl.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.pdb
@@ -374,3 +374,42 @@ C:\Users\zheng\Documents\GitHub\Aksl.LiveCharts\Presentation\Modules\Navigations
 C:\Users\zheng\Documents\GitHub\Aksl.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.HamburgerMenuTreeBar.dll
 C:\Users\zheng\Documents\GitHub\Aksl.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.pdb
 C:\Users\zheng\Documents\GitHub\Aksl.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.HamburgerMenuTreeBar.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.deps.json
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.Wpf.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Infrastructure.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.Controls.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Aksl.Toolkit.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll.config
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\bin\Debug\net8.0-windows8.0\Prism.Wpf.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.csproj.AssemblyReference.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Views\TreeBarItemView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Industry\IndustryHamburgerMenuTreeBarHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuTreeBarHubView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Views\TreeBarItemView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Views\TreeBarView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\GeneratedInternalTypeHelper.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar_MarkupCompile.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar_MarkupCompile.lref
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Industry\IndustryHamburgerMenuTreeBarHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Views\HamburgerMenuTreeBarHubView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Views\TreeBarView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.g.resources
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.AssemblyInfoInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.AssemblyInfo.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.csproj.CoreCompileInputs.cache
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.sourcelink.json
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\HamburgerMenuTreeBarView.csproj.CopyComplete
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.HamburgerMenuTreeBar.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenuTreeBar.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuTreeBarView\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.HamburgerMenuTreeBar.dll

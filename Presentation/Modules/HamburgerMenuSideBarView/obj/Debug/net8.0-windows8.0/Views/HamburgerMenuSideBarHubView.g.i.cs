@@ -237,8 +237,8 @@ namespace Aksl.Modules.HamburgerMenuSideBar.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.HamburgerMenuSideBar;V1.0.0.0;component/views/hamburgermenusidebarh" +
-                    "ubview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.HamburgerMenuSideBar;component/views/hamburgermenusidebarhubview.xa" +
+                    "ml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\HamburgerMenuSideBarHubView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

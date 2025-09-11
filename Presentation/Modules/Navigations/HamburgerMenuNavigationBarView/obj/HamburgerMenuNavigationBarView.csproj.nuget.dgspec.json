@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Presentation\\Modules\\Navigations\\HamburgerMenuNavigationBarView\\HamburgerMenuNavigationBarView.csproj": {}
+    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Presentation\\Modules\\Navigations\\HamburgerMenuNavigationBarView\\HamburgerMenuNavigationBarView.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Infrastructure\\Aksl.Infrastructure\\Aksl.Infrastructure.csproj": {
+    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Infrastructure\\Aksl.Infrastructure\\Aksl.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Infrastructure\\Aksl.Infrastructure\\Aksl.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Infrastructure\\Aksl.Infrastructure\\Aksl.Infrastructure.csproj",
         "projectName": "Aksl.Infrastructure",
-        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Infrastructure\\Aksl.Infrastructure\\Aksl.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Infrastructure\\Aksl.Infrastructure\\Aksl.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\zheng\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Infrastructure\\Aksl.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Infrastructure\\Aksl.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0-windows8.0": {
             "targetAlias": "net8.0-windows8.0",
             "projectReferences": {
-              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj": {
-                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj"
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj"
               }
             }
           }
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Presentation\\Modules\\Navigations\\HamburgerMenuNavigationBarView\\HamburgerMenuNavigationBarView.csproj": {
+    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Presentation\\Modules\\Navigations\\HamburgerMenuNavigationBarView\\HamburgerMenuNavigationBarView.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Presentation\\Modules\\Navigations\\HamburgerMenuNavigationBarView\\HamburgerMenuNavigationBarView.csproj",
+        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Presentation\\Modules\\Navigations\\HamburgerMenuNavigationBarView\\HamburgerMenuNavigationBarView.csproj",
         "projectName": "Aksl.Modules.HamburgerMenuNavigationBar",
-        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Presentation\\Modules\\Navigations\\HamburgerMenuNavigationBarView\\HamburgerMenuNavigationBarView.csproj",
+        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Presentation\\Modules\\Navigations\\HamburgerMenuNavigationBarView\\HamburgerMenuNavigationBarView.csproj",
         "packagesPath": "C:\\Users\\zheng\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Presentation\\Modules\\Navigations\\HamburgerMenuNavigationBarView\\obj\\",
+        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Presentation\\Modules\\Navigations\\HamburgerMenuNavigationBarView\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,23 +98,23 @@
           "net8.0-windows8.0": {
             "targetAlias": "net8.0-windows8.0",
             "projectReferences": {
-              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Infrastructure\\Aksl.Infrastructure\\Aksl.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Infrastructure\\Aksl.Infrastructure\\Aksl.Infrastructure.csproj"
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Infrastructure\\Aksl.Infrastructure\\Aksl.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Infrastructure\\Aksl.Infrastructure\\Aksl.Infrastructure.csproj"
               },
-              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Aksl.Toolkit.Controls\\Aksl.Toolkit.Controls.csproj": {
-                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Aksl.Toolkit.Controls\\Aksl.Toolkit.Controls.csproj"
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Aksl.Toolkit.Controls\\Aksl.Toolkit.Controls.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Aksl.Toolkit.Controls\\Aksl.Toolkit.Controls.csproj"
               },
-              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Aksl.Toolkit\\Aksl.Toolkit.csproj": {
-                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Aksl.Toolkit\\Aksl.Toolkit.csproj"
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Aksl.Toolkit\\Aksl.Toolkit.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Aksl.Toolkit\\Aksl.Toolkit.csproj"
               },
-              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj": {
-                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj"
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj"
               },
-              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj": {
-                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj"
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj"
               },
-              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj": {
-                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj"
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj"
               }
             }
           }
@@ -173,14 +173,14 @@
         }
       }
     },
-    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Aksl.Toolkit.Controls\\Aksl.Toolkit.Controls.csproj": {
+    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Aksl.Toolkit.Controls\\Aksl.Toolkit.Controls.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Aksl.Toolkit.Controls\\Aksl.Toolkit.Controls.csproj",
+        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Aksl.Toolkit.Controls\\Aksl.Toolkit.Controls.csproj",
         "projectName": "Aksl.Toolkit.Controls",
-        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Aksl.Toolkit.Controls\\Aksl.Toolkit.Controls.csproj",
+        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Aksl.Toolkit.Controls\\Aksl.Toolkit.Controls.csproj",
         "packagesPath": "C:\\Users\\zheng\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Aksl.Toolkit.Controls\\obj\\",
+        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Aksl.Toolkit.Controls\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -235,14 +235,14 @@
         }
       }
     },
-    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Aksl.Toolkit\\Aksl.Toolkit.csproj": {
+    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Aksl.Toolkit\\Aksl.Toolkit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Aksl.Toolkit\\Aksl.Toolkit.csproj",
+        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Aksl.Toolkit\\Aksl.Toolkit.csproj",
         "projectName": "Aksl.Toolkit",
-        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Aksl.Toolkit\\Aksl.Toolkit.csproj",
+        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Aksl.Toolkit\\Aksl.Toolkit.csproj",
         "packagesPath": "C:\\Users\\zheng\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Aksl.Toolkit\\obj\\",
+        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Aksl.Toolkit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -263,14 +263,14 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj": {
-                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj"
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj"
               },
-              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj": {
-                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj"
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj"
               },
-              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj": {
-                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj"
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj"
               }
             }
           }
@@ -313,14 +313,14 @@
         }
       }
     },
-    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj": {
+    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj",
+        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj",
         "projectName": "Prism.Core",
-        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj",
+        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj",
         "packagesPath": "C:\\Users\\zheng\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\obj\\",
+        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -373,14 +373,14 @@
         }
       }
     },
-    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj": {
+    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj",
+        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj",
         "projectName": "Prism.Unity",
-        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj",
+        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj",
         "packagesPath": "C:\\Users\\zheng\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\obj\\",
+        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -402,11 +402,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj": {
-                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj"
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj"
               },
-              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj": {
-                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj"
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj"
               }
             }
           }
@@ -449,14 +449,14 @@
         }
       }
     },
-    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj": {
+    "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj",
+        "projectUniqueName": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj",
         "projectName": "Prism.Wpf",
-        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj",
+        "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\Prism.Wpf.csproj",
         "packagesPath": "C:\\Users\\zheng\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\obj\\",
+        "outputPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Wpf\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -478,8 +478,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj": {
-                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj"
+              "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj": {
+                "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj"
               }
             }
           }

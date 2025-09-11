@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sweGYhyo8IxpoGOANq6SnXOOQlDadS8jrhpbAC9eqwzilN+3CpArsJmheWZUKQf68a/B1xU34NwN5GoIeQDcuQ==",
+  "dgSpecHash": "3AhOQJyc7Ds7FSgXBAr0eciiTWlK9gM7o+dD70y4mbENiMzLgAOpHV3WfpUA9sXiRFV3f5bQkOge+n4pm2YYUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj",
+  "projectFilePath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Unity.Wpf\\Prism.Unity.Wpf.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zheng\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512",
     "C:\\Users\\zheng\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",

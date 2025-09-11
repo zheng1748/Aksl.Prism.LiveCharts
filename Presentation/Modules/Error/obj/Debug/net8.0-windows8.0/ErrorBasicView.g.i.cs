@@ -60,7 +60,7 @@ namespace Aksl.Modules.LiveCharts.Error.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.Error;V1.0.0.0;component/errorbasicview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.Error;component/errorbasicview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ErrorBasicView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

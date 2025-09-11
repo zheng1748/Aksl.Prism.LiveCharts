@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "92QhbSW9QFym59d0eKpGEjgkge5301DdsUaLdhuSxanPtEuwaiEiNPPYJcv6GsIA0TDnx8+2FMkvGM5OFfEgtA==",
+  "dgSpecHash": "kD3TYmR0BsDXb+nCFLz9VUU3d/k4gGFK+FJy9R3ssqKTZLNwTf2rMv/5ELeB+ATVjg7GlOBLf+1INyaSo1WNVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Presentation\\Modules\\Axes\\Axes.csproj",
+  "projectFilePath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Presentation\\Modules\\Axes\\Axes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zheng\\.nuget\\packages\\harfbuzzsharp\\8.3.0.1\\harfbuzzsharp.8.3.0.1.nupkg.sha512",
     "C:\\Users\\zheng\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\8.3.0.1\\harfbuzzsharp.nativeassets.macos.8.3.0.1.nupkg.sha512",

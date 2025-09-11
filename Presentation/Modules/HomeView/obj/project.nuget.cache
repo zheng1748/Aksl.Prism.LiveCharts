@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E4JEn1vM10ONXic2VMy65hdZcy5iq11SaIjaliK8jUMswAoISrX4ubAIkwF/PbXDkH5xeDZtx4vgNkt9mrwcnA==",
+  "dgSpecHash": "cNydpKOwgopphgcpkxqoAwF/Me97IokuNuZ9iw/GH0iwXA57HEymCUZmLSKNqXnxynBnYAUEE9fDcedkq/i2/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Presentation\\Modules\\HomeView\\HomeView.csproj",
+  "projectFilePath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Presentation\\Modules\\HomeView\\HomeView.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zheng\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512",
     "C:\\Users\\zheng\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",

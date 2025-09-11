@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\zheng\Documents\GitHub\Aksl.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuNavigationBarView\obj\Debug\net8.0-windows8.0\
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuNavigationBarView\obj\Debug\net8.0-windows8.0\
 Aksl.Modules.HamburgerMenuNavigationBar
 none
 false
@@ -13,7 +13,7 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 7948938824
 
 19-1410517865
-210-639888822
+210398411267
 Industry\IndustryHamburgerMenuNavigationBarHubView.xaml;Views\GroupedMenusView.xaml;Views\GroupedMenuView.xaml;Views\HamburgerMenuNavigationBarHubView.xaml;Views\MenuContentView.xaml;Views\MenuItemHeader.xaml;Views\MenuItemView.xaml;
 
 False

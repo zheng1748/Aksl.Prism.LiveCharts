@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows8.0</TargetFramework>
+	<!--<TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
+	<RuntimeIdentifiers>win-x64;win-x86;win-arm64</RuntimeIdentifiers>
+	<WindowsPackageType>None</WindowsPackageType>-->
+    <!--<Nullable>enable</Nullable>-->
+    <!--<ImplicitUsings>enable</ImplicitUsings>-->
+    <UseWPF>true</UseWPF>
+	<AssemblyName>Aksl.Prism.LiveCharts</AssemblyName>
+	<RootNamespace>Aksl.Wpf</RootNamespace>
+	<Authors>zheng ming</Authors>
+	<Company>Aksl</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Configuration\appsettings.json" />
+    <None Remove="Data\AllMenus.xml" />
+    <None Remove="Data\Axes.xml" />
+    <None Remove="Data\Bars.xml" />
+    <None Remove="Data\Box.xml" />
+    <None Remove="Data\Design.xml" />
+    <None Remove="Data\Error.xml" />
+    <None Remove="Data\Events.xml" />
+    <None Remove="Data\Financial.xml" />
+    <None Remove="Data\General.xml" />
+    <None Remove="Data\Heat.xml" />
+    <None Remove="Data\Lines.xml" />
+    <None Remove="Data\Maps.xml" />
+    <None Remove="Data\Pies.xml" />
+    <None Remove="Data\Polar.xml" />
+    <None Remove="Data\Scatter.xml" />
+    <None Remove="Data\StackedArea.xml" />
+    <None Remove="Data\StackedBars.xml" />
+    <None Remove="Data\StepLines.xml" />
+    <None Remove="Data\Test.xml" />
+    <None Remove="Data\VisualTest.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Configuration\appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Data\AllMenus.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Box.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Financial.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Heat.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Pies.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Scatter.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\StackedArea.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\StepLines.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\VisualTest.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Test.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\StackedBars.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Polar.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Lines.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Maps.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\General.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Error.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Events.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Design.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Bars.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Data\Axes.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+	<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+	<PackageReference Include="CommonServiceLocator" Version="2.0.7" />
+	<PackageReference Include="LiveChartsCore.SkiaSharpView.WPF" Version="2.0.0-rc5.4" />
+    <PackageReference Include="Unity" Version="5.11.10" />
+	<PackageReference Include="Unity.Container" Version="5.11.11" />
+	<!--<PackageReference Include="Microsoft.Windows.Compatibility" Version="8.0.2" />-->
+	<!--<PackageReference Include="Microsoft.Toolkit.Wpf.UI.Controls" Version="6.1.2" />-->
+	<PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.77" />
+
+	<PackageReference Include="Microsoft.Extensions.Options" Version="8.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
+	<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+	  
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+	<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+	  
+	<PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+	<PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="8.0.0" />
+	<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
+	<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	  
+	<PackageReference Include="System.ValueTuple" Version="4.5.0" />
+
+	<PackageReference Include="System.Buffers" Version="4.5.1" />
+	<PackageReference Include="System.Memory" Version="4.5.5" />
+	<PackageReference Include="System.IO.Pipelines" Version="8.0.0" />
+
+	<PackageReference Include="System.Threading.Channels" Version="8.0.0" />
+	<PackageReference Include="System.Threading.Tasks.Dataflow" Version="8.0.0" />
+	<PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
+
+	<PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+	<PackageReference Include="Polly" Version="8.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Aksl.Infrastructure\Aksl.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Toolkits\Aksl.Toolkit\Aksl.Toolkit.csproj" />
+    <ProjectReference Include="..\..\Toolkits\Prism Library\Prism.Core\Prism.Core.csproj" />
+    <ProjectReference Include="..\..\Toolkits\Prism Library\Prism.Unity.Wpf\Prism.Unity.Wpf.csproj" />
+    <ProjectReference Include="..\..\Toolkits\Prism Library\Prism.Wpf\Prism.Wpf.csproj" />
+    <ProjectReference Include="..\Modules\Account\Account.csproj" />
+    <ProjectReference Include="..\Modules\Axes\Axes.csproj" />
+    <ProjectReference Include="..\Modules\Bars\Bars.csproj" />
+    <ProjectReference Include="..\Modules\Box\Box.csproj" />
+    <ProjectReference Include="..\Modules\Design\Design.csproj" />
+    <ProjectReference Include="..\Modules\Error\Error.csproj" />
+    <ProjectReference Include="..\Modules\Events\Events.csproj" />
+    <ProjectReference Include="..\Modules\HamburgerMenuNavigationSideBarView\HamburgerMenuNavigationSideBarView.csproj" />
+    <ProjectReference Include="..\Modules\HamburgerMenuSideBarView\HamburgerMenuSideBarView.csproj" />
+    <ProjectReference Include="..\Modules\HamburgerMenuTreeSideBarView\HamburgerMenuTreeSideBarView.csproj" />
+    <ProjectReference Include="..\Modules\HomeView\HomeView.csproj" />
+    <ProjectReference Include="..\Modules\Navigations\HamburgerMenuNavigationBarView\HamburgerMenuNavigationBarView.csproj" />
+    <ProjectReference Include="..\Modules\Navigations\HamburgerMenuTreeBarView\HamburgerMenuTreeBarView.csproj" />
+    <ProjectReference Include="..\Modules\Navigations\HamburgerMenuView\HamburgerMenuView.csproj" />
+    <ProjectReference Include="..\Modules\Navigations\MenuSubView\MenuSubView.csproj" />
+  </ItemGroup>
+
+  <!--<ItemGroup>
+    <PackageReference Update="Microsoft.VCRTForwarders.140" Version="1.1.0" />
+  </ItemGroup>-->
+
+  <ItemGroup>
+    <Page Update="Styles\Converters.xaml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+
+</Project>

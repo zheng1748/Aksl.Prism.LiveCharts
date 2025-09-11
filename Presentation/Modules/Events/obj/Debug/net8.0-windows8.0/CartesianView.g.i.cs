@@ -60,7 +60,7 @@ namespace Aksl.Modules.LiveCharts.Events.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.Events;V1.0.0.0;component/cartesianview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.Events;component/cartesianview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CartesianView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

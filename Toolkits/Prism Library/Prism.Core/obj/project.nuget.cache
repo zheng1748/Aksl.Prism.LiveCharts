@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1PfOzhD0v4cDZmDSNg4gbHju5K5O40hJU4ClfyEYYXitMDJV8JZC+psSpTbfPMI45G8X8vEuX9qUDxt5G6aSmw==",
+  "dgSpecHash": "xRt4W9g5WPFmRai6QTH8fBYmZnl6NPCXKpdStgpFpzqwFzFJZN7AbqZ7L67C/5QeXDQ/rO6Jq15y4R4YMnrC9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj",
+  "projectFilePath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Toolkits\\Prism Library\\Prism.Core\\Prism.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
