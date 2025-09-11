@@ -4,7 +4,7 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
     public class IndustryHamburgerMenuHubViewModel : HamburgerMenuHubViewModel
     {
         #region Constructors
-        public IndustryHamburgerMenuHubViewModel() : base()
+        public IndustryHamburgerMenuHubViewModel():base()
         {
         }
         #endregion
