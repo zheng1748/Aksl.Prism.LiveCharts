@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
-61966784562
+5-331216936
 
-18-1305233171
+16-975507826
 210-1009516756
-Axes\AxesHamburgerMenuHubView .xaml;Customers\CustomerHamburgerMenuHubView.xaml;Industry\IndustryHamburgerMenuHubView .xaml;Views\HamburgerMenuHubView.xaml;Views\HamburgerMenuItemView.xaml;Views\HamburgerMenuView.xaml;
+Customers\CustomerHamburgerMenuHubView.xaml;Industry\IndustryHamburgerMenuHubView .xaml;Views\HamburgerMenuHubView.xaml;Views\HamburgerMenuItemView.xaml;Views\HamburgerMenuView.xaml;
 
 False
 

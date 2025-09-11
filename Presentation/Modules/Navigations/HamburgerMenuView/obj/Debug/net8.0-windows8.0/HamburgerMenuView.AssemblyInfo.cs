@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aksl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea0d7593952d73b95df3408c0140908a78ce538b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aksl.Modules.HamburgerMenu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aksl.Modules.HamburgerMenu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -304,5 +304,3 @@ C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Industry\IndustryHamburgerMenuHubView .baml
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Customers\CustomerHamburgerMenuHubView.g.cs
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Customers\CustomerHamburgerMenuHubView.baml
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Axes\AxesHamburgerMenuHubView .g.cs
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.Wpf\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Axes\AxesHamburgerMenuHubView .baml
