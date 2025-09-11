@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lINn79XdJbBA+48Gmkl0FN6C41x54bucKtjKnEQlN7DodRICe6OUGKDO67WUOc2YNDENeCZuPyZO0h1nuFQFSw==",
+  "dgSpecHash": "vg/1Mu4IKrIFXwxaXdrPeFQQdruRGgy71GjoeBO/VQUg+3p/smWJ9IGr7GnbPpqKVsjjQPWvPrJGYhsnugfmkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Presentation\\Modules\\HamburgerMenuTreeSideBarView\\HamburgerMenuTreeSideBarView.csproj",
+  "projectFilePath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.LiveCharts\\Presentation\\Modules\\HamburgerMenuTreeSideBarView\\HamburgerMenuTreeSideBarView.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zheng\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\zheng\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

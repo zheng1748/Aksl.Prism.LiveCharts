@@ -60,7 +60,7 @@ namespace Aksl.Modules.LiveCharts.Bars.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.Bars;component/basicview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.Bars;V1.0.0.0;component/basicview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\BasicView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

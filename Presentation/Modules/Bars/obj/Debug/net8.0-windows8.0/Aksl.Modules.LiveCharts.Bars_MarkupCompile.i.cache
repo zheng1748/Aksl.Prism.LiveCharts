@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\
+C:\Users\zheng\Documents\GitHub\Aksl.LiveCharts\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\
 Aksl.Modules.LiveCharts.Bars
 none
 false
@@ -13,8 +13,8 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 2-576253664
 
 7-1256604982
-217574604529
+217-463695560
 AutoUpdateView.xaml;BasicView.xaml;
 
-False
+True
 

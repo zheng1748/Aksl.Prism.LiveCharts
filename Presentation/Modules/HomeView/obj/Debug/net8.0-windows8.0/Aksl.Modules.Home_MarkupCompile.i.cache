@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\HomeView\obj\Debug\net8.0-windows8.0\
+C:\Users\zheng\Documents\GitHub\Aksl.LiveCharts\Presentation\Modules\HomeView\obj\Debug\net8.0-windows8.0\
 Aksl.Modules.Home
 none
 false
@@ -13,8 +13,8 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 1-865860160
 
 5-1465895007
-206-1372639615
+2061411391297
 Views\HomeView.xaml;
 
-True
+False
 

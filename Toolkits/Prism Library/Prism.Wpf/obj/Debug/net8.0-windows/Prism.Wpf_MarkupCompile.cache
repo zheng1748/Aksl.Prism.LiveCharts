@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Toolkits\Prism Library\Prism.Wpf\obj\Debug\net8.0-windows\
+C:\Users\zheng\Documents\GitHub\Aksl.LiveCharts\Toolkits\Prism Library\Prism.Wpf\obj\Debug\net8.0-windows\
 Prism
 none
 false
@@ -13,7 +13,7 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 1205013464
 
 126-1768584420
-200923618422
+200160156222
 Services\Dialogs\DialogWindow.xaml;
 
 False
