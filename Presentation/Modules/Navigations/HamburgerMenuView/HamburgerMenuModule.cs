@@ -40,7 +40,7 @@ namespace Aksl.Modules.HamburgerMenu
                                                () => this._container.Resolve<HamburgerMenuHubViewModel>());
 
             ViewModelLocationProvider.Register(typeof(IndustryHamburgerMenuHubView).ToString(),
-                                             () => this._container.Resolve<AxesHamburgerMenuHubViewModel>());
+                                             () => this._container.Resolve<IndustryHamburgerMenuHubViewModel>());
 
             ViewModelLocationProvider.Register(typeof(CustomerHamburgerMenuHubView).ToString(),
                                            () => this._container.Resolve<CustomerHamburgerMenuHubViewModel>());
