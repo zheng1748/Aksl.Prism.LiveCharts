@@ -12,7 +12,7 @@
              xmlns:a="clr-namespace:Aksl.Modules.HamburgerMenu"
              xmlns:sv="clr-namespace:Aksl.Modules.HamburgerMenu"
              mc:Ignorable="d"
-             x:Name="hamburgerMenuContainer"
+             x:Name="customerHamburgerMenuContainer"
              prism:ViewModelLocator.AutoWireViewModel="True">
     <UserControl.Resources>
 
@@ -920,7 +920,7 @@
                 <Grid x:Name="ContentRoot"
                       Grid.ColumnSpan="2">
                     <Border>
-                        <ContentControl x:Name="hamburgerMenuWorkspaceRegion"
+                        <ContentControl x:Name="customerHamburgerMenuWorkspaceRegion"
                                         HorizontalAlignment="Stretch"
                                         VerticalAlignment="Stretch"
                                         Margin="0,0,0,0"
