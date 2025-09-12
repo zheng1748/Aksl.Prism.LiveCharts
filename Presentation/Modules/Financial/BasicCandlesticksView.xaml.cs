@@ -15,9 +15,9 @@ using System.Windows.Shapes;
 
 namespace Aksl.Modules.LiveCharts.Financial.Views
 {
-    public partial class BasicView : UserControl
+    public partial class BasicCandlesticksView : UserControl
     {
-        public BasicView()
+        public BasicCandlesticksView()
         {
             InitializeComponent();
         }

@@ -4,13 +4,13 @@
 		  Title="Root"
 		  Level="0" >
 	<MenuItem Id="1"
-			  Name="FinancialBasic"
-			  Title="FinancialBasic"
+			  Name="BasicCandlesticks"
+			  Title="Basic Candlesticks"
 			  Level="2"
 			  IsCacheable="True"
 			  IconKind="LineScan"
 			  ItemType="Item"
 			  ModuleName="FinancialModule"
-			  ViewName="Aksl.Modules.LiveCharts.Financial.Views.BasicView,Aksl.Modules.LiveCharts.Financial"
+			  ViewName="Aksl.Modules.LiveCharts.Financial.Views.BasicCandlesticksView,Aksl.Modules.LiveCharts.Financial"
 			  RequrePermissons=""/>
 </MenuItem>

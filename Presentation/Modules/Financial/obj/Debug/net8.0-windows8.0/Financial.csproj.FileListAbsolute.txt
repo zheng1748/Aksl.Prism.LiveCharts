@@ -15,8 +15,6 @@ C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Finan
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Financial\bin\Debug\net8.0-windows8.0\Prism.Unity.Wpf.dll.config
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Financial\bin\Debug\net8.0-windows8.0\Prism.Wpf.pdb
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Financial\obj\Debug\net8.0-windows8.0\Financial.csproj.AssemblyReference.cache
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Financial\obj\Debug\net8.0-windows8.0\BasicView.baml
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Financial\obj\Debug\net8.0-windows8.0\BasicView.g.cs
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Financial\obj\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Financial_MarkupCompile.cache
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Financial\obj\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Financial.g.resources
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Financial\obj\Debug\net8.0-windows8.0\Financial.GeneratedMSBuildEditorConfig.editorconfig
@@ -29,3 +27,5 @@ C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Finan
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Financial\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.LiveCharts.Financial.dll
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Financial\obj\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Financial.pdb
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Financial\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.LiveCharts.Financial.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Financial\obj\Debug\net8.0-windows8.0\BasicCandlesticksView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Financial\obj\Debug\net8.0-windows8.0\BasicCandlesticksView.g.cs

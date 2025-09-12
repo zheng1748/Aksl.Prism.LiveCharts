@@ -26,13 +26,13 @@ namespace Aksl.Modules.LiveCharts.Financial
         #region IModule 成员
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            containerRegistry.RegisterForNavigation<BasicView>();
+            containerRegistry.RegisterForNavigation<BasicCandlesticksView>();
         }
 
         public void OnInitialized(IContainerProvider containerProvider)
         {
-            ViewModelLocationProvider.Register(typeof(BasicView).ToString(),
-                                        () => this._container.Resolve<BasicViewModel>());
+            ViewModelLocationProvider.Register(typeof(BasicCandlesticksView).ToString(),
+                                        () => this._container.Resolve<BasicCandlesticksViewModel>());
         }
         #endregion
     }
