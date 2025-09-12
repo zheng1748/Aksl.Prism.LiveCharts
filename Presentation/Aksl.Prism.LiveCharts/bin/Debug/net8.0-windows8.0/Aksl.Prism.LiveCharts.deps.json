@@ -23,6 +23,7 @@
           "Aksl.Modules.LiveCharts.Design": "1.0.0",
           "Aksl.Modules.LiveCharts.Error": "1.0.0",
           "Aksl.Modules.LiveCharts.Events": "1.0.0",
+          "Aksl.Modules.LiveCharts.Financial": "1.0.0",
           "Aksl.Modules.MenuSub": "1.0.0",
           "Aksl.Toolkit": "1.0.0",
           "AutoMapper": "12.0.1",
@@ -71,6 +72,7 @@
           "Aksl.Modules.LiveCharts.Design.Reference": "1.0.0.0",
           "Aksl.Modules.LiveCharts.Error.Reference": "1.0.0.0",
           "Aksl.Modules.LiveCharts.Events.Reference": "1.0.0.0",
+          "Aksl.Modules.LiveCharts.Financial.Reference": "1.0.0.0",
           "Aksl.Modules.MenuSub.Reference": "1.0.0.0",
           "Prism.Unity.Wpf": "1.0.0.0"
         },
@@ -837,6 +839,20 @@
           "Aksl.Modules.LiveCharts.Events.dll": {}
         }
       },
+      "Aksl.Modules.LiveCharts.Financial/1.0.0": {
+        "dependencies": {
+          "Aksl.Infrastructure": "1.0.0",
+          "Aksl.Toolkit": "1.0.0",
+          "Aksl.Toolkit.Controls": "1.0.0",
+          "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+          "Prism.Core": "1.0.0",
+          "Prism.Unity": "1.0.0",
+          "Prism.Wpf": "1.0.0"
+        },
+        "runtime": {
+          "Aksl.Modules.LiveCharts.Financial.dll": {}
+        }
+      },
       "Aksl.Modules.MenuSub/1.0.0": {
         "dependencies": {
           "Aksl.Infrastructure": "1.0.0",
@@ -998,6 +1014,14 @@
       "Aksl.Modules.LiveCharts.Events.Reference/1.0.0.0": {
         "runtime": {
           "Aksl.Modules.LiveCharts.Events.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aksl.Modules.LiveCharts.Financial.Reference/1.0.0.0": {
+        "runtime": {
+          "Aksl.Modules.LiveCharts.Financial.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1494,6 +1518,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Aksl.Modules.LiveCharts.Financial/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Aksl.Modules.MenuSub/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -1590,6 +1619,11 @@
       "sha512": ""
     },
     "Aksl.Modules.LiveCharts.Events.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.Financial.Reference/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

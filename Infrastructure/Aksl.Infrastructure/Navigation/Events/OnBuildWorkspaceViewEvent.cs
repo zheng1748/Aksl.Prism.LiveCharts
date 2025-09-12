@@ -141,4 +141,14 @@ namespace Aksl.Infrastructure.Events
         }
         #endregion
     }
+
+    public class OnBuildFinancialManagerHamburgerMenuWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildFinancialManagerHamburgerMenuWorkspaceViewEvent()
+        {
+            Name = nameof(OnBuildFinancialManagerHamburgerMenuWorkspaceViewEvent);
+        }
+        #endregion
+    }
 }

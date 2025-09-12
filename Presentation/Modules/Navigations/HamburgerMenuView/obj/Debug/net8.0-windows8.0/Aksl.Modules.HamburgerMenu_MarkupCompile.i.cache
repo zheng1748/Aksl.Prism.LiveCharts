@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
-9222253970
+10-2132503520
 
-2622958005
+281207147297
 210398411267
-Axes\AxesHamburgerMenuHubView .xaml;Bars\BarsHamburgerMenuHubView .xaml;Box\BoxHamburgerMenuHubView .xaml;Design\DesignHamburgerMenuHubView .xaml;Error\ErrorHamburgerMenuHubView .xaml;Events\EventsHamburgerMenuHubView .xaml;Views\HamburgerMenuHubView.xaml;Views\HamburgerMenuItemView.xaml;Views\HamburgerMenuView.xaml;
+Axes\AxesHamburgerMenuHubView .xaml;Bars\BarsHamburgerMenuHubView .xaml;Box\BoxHamburgerMenuHubView .xaml;Design\DesignHamburgerMenuHubView .xaml;Error\ErrorHamburgerMenuHubView .xaml;Events\EventsHamburgerMenuHubView .xaml;Financial\FinancialHamburgerMenuHubView .xaml;Views\HamburgerMenuHubView.xaml;Views\HamburgerMenuItemView.xaml;Views\HamburgerMenuView.xaml;
 
-False
+True
 

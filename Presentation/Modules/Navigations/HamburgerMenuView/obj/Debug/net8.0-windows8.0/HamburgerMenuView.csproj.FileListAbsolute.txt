@@ -404,3 +404,5 @@ C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Module
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.HamburgerMenu.dll
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Aksl.Modules.HamburgerMenu.pdb
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.HamburgerMenu.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Financial\FinancialHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Financial\FinancialHamburgerMenuHubView .baml

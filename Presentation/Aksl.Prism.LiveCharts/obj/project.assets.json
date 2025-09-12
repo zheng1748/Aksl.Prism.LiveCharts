@@ -1314,6 +1314,28 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "Aksl.Modules.LiveCharts.Financial/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Aksl.Infrastructure": "1.0.0",
+          "Aksl.Toolkit": "1.0.0",
+          "Aksl.Toolkit.Controls": "1.0.0",
+          "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+          "Prism.Core": "1.0.0",
+          "Prism.Unity": "1.0.0",
+          "Prism.Wpf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Aksl.Modules.LiveCharts.Financial.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Aksl.Modules.LiveCharts.Financial.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Aksl.Modules.MenuSub/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -3270,6 +3292,11 @@
       "path": "../Modules/Events/Events.csproj",
       "msbuildProject": "../Modules/Events/Events.csproj"
     },
+    "Aksl.Modules.LiveCharts.Financial/1.0.0": {
+      "type": "project",
+      "path": "../Modules/Financial/Financial.csproj",
+      "msbuildProject": "../Modules/Financial/Financial.csproj"
+    },
     "Aksl.Modules.MenuSub/1.0.0": {
       "type": "project",
       "path": "../Modules/Navigations/MenuSubView/MenuSubView.csproj",
@@ -3318,6 +3345,7 @@
       "Aksl.Modules.LiveCharts.Design >= 1.0.0",
       "Aksl.Modules.LiveCharts.Error >= 1.0.0",
       "Aksl.Modules.LiveCharts.Events >= 1.0.0",
+      "Aksl.Modules.LiveCharts.Financial >= 1.0.0",
       "Aksl.Modules.MenuSub >= 1.0.0",
       "Aksl.Toolkit >= 1.0.0",
       "AutoMapper >= 12.0.1",
@@ -3409,6 +3437,9 @@
             },
             "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Presentation\\Modules\\Events\\Events.csproj": {
               "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Presentation\\Modules\\Events\\Events.csproj"
+            },
+            "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Presentation\\Modules\\Financial\\Financial.csproj": {
+              "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Presentation\\Modules\\Financial\\Financial.csproj"
             },
             "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Presentation\\Modules\\HamburgerMenuNavigationSideBarView\\HamburgerMenuNavigationSideBarView.csproj": {
               "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Prism.LiveCharts\\Presentation\\Modules\\HamburgerMenuNavigationSideBarView\\HamburgerMenuNavigationSideBarView.csproj"

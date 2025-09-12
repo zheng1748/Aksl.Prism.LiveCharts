@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Use these extensions to build Prism applications based on Unity.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+988c6e5f1c93b246c27e24b8dd626de087d166a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Prism.Unity.Wpf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Prism.Unity.Wpf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

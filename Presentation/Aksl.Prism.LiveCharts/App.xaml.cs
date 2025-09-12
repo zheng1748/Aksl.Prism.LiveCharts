@@ -50,6 +50,7 @@ using Aksl.Modules.LiveCharts.Box;
 using Aksl.Modules.LiveCharts.Design;
 using Aksl.Modules.LiveCharts.Error;
 using Aksl.Modules.LiveCharts.Events;
+using Aksl.Modules.LiveCharts.Financial;
 
 namespace Aksl.Wpf.Unity
 {
@@ -143,7 +144,8 @@ namespace Aksl.Wpf.Unity
                                                                  "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Box.xml",
                                                                  "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Design.xml",
                                                                  "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Error.xml",
-                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Events.xml"
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Events.xml",
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Financial.xml"
                                                                  });
 
                 await menuService.CreateMenusAsync();
@@ -172,6 +174,7 @@ namespace Aksl.Wpf.Unity
                 _ = eventAggregator.GetEvent<OnBuildDesignManagerHamburgerMenuWorkspaceViewEvent>();
                 _ = eventAggregator.GetEvent<OnBuildErrorManagerHamburgerMenuWorkspaceViewEvent>();
                 _ = eventAggregator.GetEvent<OnBuildEventsManagerHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildFinancialManagerHamburgerMenuWorkspaceViewEvent>();
             }
             catch (Exception ex)
             {
@@ -213,6 +216,7 @@ namespace Aksl.Wpf.Unity
             _ = moduleCatalog.AddModule(nameof(DesignModule), typeof(DesignModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
             _ = moduleCatalog.AddModule(nameof(ErrorModule), typeof(ErrorModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
             _ = moduleCatalog.AddModule(nameof(EventsModule), typeof(EventsModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(nameof(FinancialModule), typeof(FinancialModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
         }
 
         protected override Window CreateShell()

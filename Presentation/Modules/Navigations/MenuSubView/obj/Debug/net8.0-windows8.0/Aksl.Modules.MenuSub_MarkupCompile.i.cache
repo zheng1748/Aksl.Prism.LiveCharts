@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 207664514007
 Views\HierarchicalMenuItemView.xaml;Views\HierarchicalMenusView.xaml;Views\MenuItemCommandView.xaml;Views\MenuItemSeparatorView.xaml;Views\MenuSubHubView.xaml;
 
-False
+True
 

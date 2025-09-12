@@ -232,3 +232,5 @@ C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Aksl.P
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Aksl.Prism.LiveCharts\obj\Debug\net8.0-windows8.0\Aksl.Prism.LiveCharts.pdb
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Aksl.Prism.LiveCharts\obj\Debug\net8.0-windows8.0\Aksl.Prism.LiveCharts.genruntimeconfig.cache
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Aksl.Prism.LiveCharts\obj\Debug\net8.0-windows8.0\ref\Aksl.Prism.LiveCharts.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Financial.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Financial.pdb

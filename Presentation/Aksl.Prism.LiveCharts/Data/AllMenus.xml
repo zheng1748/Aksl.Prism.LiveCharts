@@ -92,4 +92,17 @@
 			  ViewName="Aksl.Modules.HamburgerMenu.Views.EventsHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
 			  NavigationName="Events">
 	</MenuItem>
+	<MenuItem Id="0"
+			  Name="FinancialManagerHamburgerMenu"
+			  Title="Financial"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="FinancialManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildFinancialManagerHamburgerMenuWorkspaceViewEvent"
+			  ModuleName="FinancialModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.FinancialHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="Financial">
+	</MenuItem>
 </MenuItem>
