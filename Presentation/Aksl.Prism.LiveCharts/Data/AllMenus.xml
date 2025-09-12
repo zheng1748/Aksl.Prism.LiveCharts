@@ -23,7 +23,7 @@
 			  IsCacheable="True"
 			  WorkspaceRegionName="AxesManagerHamburgerMenuWorkspaceRegion"
 			  WorkspaceViewEventName="OnBuildAxesManagerHamburgerMenuWorkspaceViewEvent"
-			  ModuleName="AxesModule"
+			  ModuleName="HamburgerMenuModule"
 			  ViewName="Aksl.Modules.HamburgerMenu.Views.AxesHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
 			  NavigationName="Axes">
 	</MenuItem>
@@ -36,7 +36,7 @@
 			  IsCacheable="True"
 			  WorkspaceRegionName="BarsManagerHamburgerMenuWorkspaceRegion"
 			  WorkspaceViewEventName="OnBuildBarsManagerHamburgerMenuWorkspaceViewEvent"
-			  ModuleName="AxesModule"
+			  ModuleName="HamburgerMenuModule"
 			  ViewName="Aksl.Modules.HamburgerMenu.Views.BarsHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
 			  NavigationName="Bars">
 	</MenuItem>
@@ -49,7 +49,7 @@
 			  IsCacheable="True"
 			  WorkspaceRegionName="BoxManagerHamburgerMenuWorkspaceRegion"
 			  WorkspaceViewEventName="OnBuildBoxManagerHamburgerMenuWorkspaceViewEvent"
-			  ModuleName="BoxModule"
+			  ModuleName="HamburgerMenuModule"
 			  ViewName="Aksl.Modules.HamburgerMenu.Views.BoxHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
 			  NavigationName="Box">
 	</MenuItem>
@@ -62,7 +62,7 @@
 			  IsCacheable="True"
 			  WorkspaceRegionName="DesignManagerHamburgerMenuWorkspaceRegion"
 			  WorkspaceViewEventName="OnBuildDesignManagerHamburgerMenuWorkspaceViewEvent"
-			  ModuleName="BoxModule"
+			  ModuleName="HamburgerMenuModule"
 			  ViewName="Aksl.Modules.HamburgerMenu.Views.DesignHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
 			  NavigationName="Design">
 	</MenuItem>
@@ -75,7 +75,7 @@
 			  IsCacheable="True"
 			  WorkspaceRegionName="ErrorManagerHamburgerMenuWorkspaceRegion"
 			  WorkspaceViewEventName="OnBuildErrorManagerHamburgerMenuWorkspaceViewEvent"
-			  ModuleName="ErrorModule"
+			  ModuleName="HamburgerMenuModule"
 			  ViewName="Aksl.Modules.HamburgerMenu.Views.ErrorHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
 			  NavigationName="Error">
 	</MenuItem>
@@ -88,7 +88,7 @@
 			  IsCacheable="True"
 			  WorkspaceRegionName="EventsManagerHamburgerMenuWorkspaceRegion"
 			  WorkspaceViewEventName="OnBuildEventsManagerHamburgerMenuWorkspaceViewEvent"
-			  ModuleName="EventsModule"
+			  ModuleName="HamburgerMenuModule"
 			  ViewName="Aksl.Modules.HamburgerMenu.Views.EventsHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
 			  NavigationName="Events">
 	</MenuItem>
@@ -101,8 +101,164 @@
 			  IsCacheable="True"
 			  WorkspaceRegionName="FinancialManagerHamburgerMenuWorkspaceRegion"
 			  WorkspaceViewEventName="OnBuildFinancialManagerHamburgerMenuWorkspaceViewEvent"
-			  ModuleName="FinancialModule"
+			  ModuleName="HamburgerMenuModule"
 			  ViewName="Aksl.Modules.HamburgerMenu.Views.FinancialHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
 			  NavigationName="Financial">
+	</MenuItem>
+	<MenuItem Id="0"
+			  Name="GeneralManagerHamburgerMenu"
+			  Title="General"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="GeneralManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildGeneralManagerHamburgerMenuWorkspaceViewEvent"
+			  ModuleName="HamburgerMenuModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.GeneralHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="General">
+	</MenuItem>
+	<MenuItem Id="0"
+			  Name="HeatlManagerHamburgerMenu"
+			  Title="Heat"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="HeatManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildHeatManagerHamburgerMenuWorkspaceViewEvent"
+			  ModuleName="HamburgerMenuModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.HeatHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="Heat">
+	</MenuItem>
+	<MenuItem Id="0"
+			  Name="LinesManagerHamburgerMenu"
+			  Title="Lines"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="LinesManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildLinesManagerHamburgerMenuWorkspaceViewEvent"
+			  ModuleName="HamburgerMenuModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.LinesHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="Lines">
+	</MenuItem>
+	<MenuItem Id="0"
+			  Name="MapsManagerHamburgerMenu"
+			  Title="Maps"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="MapsManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildMapsManagerHamburgerMenuWorkspaceViewEvent"
+			  ModuleName="HamburgerMenuModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.MapsHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="Maps">
+	</MenuItem>
+	<MenuItem Id="0"
+			  Name="PiesManagerHamburgerMenu"
+			  Title="Pies"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="PiesManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildPiesManagerHamburgerMenuWorkspaceViewEvent"
+			  ModuleName="HamburgerMenuModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.PiesHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="Financial">
+	</MenuItem>
+	<MenuItem Id="0"
+			  Name="PolarManagerHamburgerMenu"
+			  Title="Polar"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="PolarManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildPolarManagerHamburgerMenuWorkspaceViewEvent"
+			  ModuleName="HamburgerMenuModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.PolarHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="Polar">
+	</MenuItem>
+	<MenuItem Id="0"
+			  Name="ScatterManagerHamburgerMenu"
+			  Title="Scatter"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="ScatterManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildScatterManagerHamburgerMenuWorkspaceViewEvent"
+			   ModuleName="HamburgerMenuModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.ScatterHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="Scatter">
+	</MenuItem>
+	<MenuItem Id="0"
+			  Name="StackedAreaManagerHamburgerMenu"
+			  Title="StackedArea"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="StackedAreaManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildStackedAreaManagerHamburgerMenuWorkspaceViewEvent"
+			   ModuleName="HamburgerMenuModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.StackedAreaHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="StackedArea">
+	</MenuItem>
+	<MenuItem Id="0"
+			  Name="StackedBarsManagerHamburgerMenu"
+			  Title="StackedBars"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="StackedBarsManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildStackedBarsManagerHamburgerMenuWorkspaceViewEvent"
+			  ModuleName="HamburgerMenuModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.StackedBarsHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="StackedBars">
+	</MenuItem>
+	<MenuItem Id="0"
+			  Name="StepLinesManagerHamburgerMenu"
+			  Title="StepLines"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="StepLinesManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildStepLinesManagerHamburgerMenuWorkspaceViewEvent"
+			  ModuleName="HamburgerMenuModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.StepLinesHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="StepLines">
+	</MenuItem>
+	<MenuItem Id="0"
+			  Name="TestManagerHamburgerMenu"
+			  Title="Test"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="TestManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildTestManagerHamburgerMenuWorkspaceViewEvent"
+			  ModuleName="HamburgerMenuModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.TestHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="Test">
+	</MenuItem>
+	<MenuItem Id="0"
+			  Name="VisualTestManagerHamburgerMenu"
+			  Title="VisualTest"
+			  Level="2"
+			  IconKind="HamburgerMenuBack"
+			  ItemType="Item"
+			  IsCacheable="True"
+			  WorkspaceRegionName="VisualTestManagerHamburgerMenuWorkspaceRegion"
+			  WorkspaceViewEventName="OnBuildVisualTestManagerHamburgerMenuWorkspaceViewEvent"
+			  ModuleName="HamburgerMenuModule"
+			  ViewName="Aksl.Modules.HamburgerMenu.Views.VisualTestHamburgerMenuHubView,Aksl.Modules.HamburgerMenu"
+			  NavigationName="VisualTest">
 	</MenuItem>
 </MenuItem>

@@ -51,6 +51,17 @@ using Aksl.Modules.LiveCharts.Design;
 using Aksl.Modules.LiveCharts.Error;
 using Aksl.Modules.LiveCharts.Events;
 using Aksl.Modules.LiveCharts.Financial;
+using Aksl.Modules.LiveCharts.General;
+using Aksl.Modules.LiveCharts.Heat;
+using Aksl.Modules.LiveCharts.Maps;
+using Aksl.Modules.LiveCharts.Pies;
+using Aksl.Modules.LiveCharts.Polar;
+using Aksl.Modules.LiveCharts.Scatter;
+using Aksl.Modules.LiveCharts.StackedArea;
+using Aksl.Modules.LiveCharts.StackedBars;
+using Aksl.Modules.LiveCharts.StepLines;
+using Aksl.Modules.LiveCharts.Test;
+using Aksl.Modules.LiveCharts.VisualTest;
 
 namespace Aksl.Wpf.Unity
 {
@@ -145,7 +156,19 @@ namespace Aksl.Wpf.Unity
                                                                  "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Design.xml",
                                                                  "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Error.xml",
                                                                  "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Events.xml",
-                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Financial.xml"
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Financial.xml",
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/General.xml",
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Heat.xml",
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Lines.xml",
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Maps.xml",
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Pies.xml",
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Polar.xml",
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Scatter.xml",
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/StackedArea.xml",
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/StackedBars.xml",
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/StepLines.xml",
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/Test.xml",
+                                                                 "pack://application:,,,/Aksl.Prism.LiveCharts;Component/Data/VisualTest.xml",
                                                                  });
 
                 await menuService.CreateMenusAsync();
@@ -175,6 +198,18 @@ namespace Aksl.Wpf.Unity
                 _ = eventAggregator.GetEvent<OnBuildErrorManagerHamburgerMenuWorkspaceViewEvent>();
                 _ = eventAggregator.GetEvent<OnBuildEventsManagerHamburgerMenuWorkspaceViewEvent>();
                 _ = eventAggregator.GetEvent<OnBuildFinancialManagerHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildGeneralManagerHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildHeatManagerHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildLinesManagerHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildMapsManagerHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildPiesManagerHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildPolarManagerHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildScatterManagerHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildStackedAreaManagerHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildStackedBarsManagerHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildStepLinesManagerHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildTestManagerHamburgerMenuWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildVisualTestManagerHamburgerMenuWorkspaceViewEvent>();
             }
             catch (Exception ex)
             {
@@ -190,15 +225,6 @@ namespace Aksl.Wpf.Unity
             _ = moduleCatalog.AddModule(nameof(HomeModule), typeof(HomeModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
 
             _ = moduleCatalog.AddModule(nameof(AccountModule), typeof(AccountModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
-
-            //_ = moduleCatalog.AddModule(nameof(PipelineModule), typeof(PipelineModule).AssemblyQualifiedName,nameof(IndustryNavigationBarModule));
-            //_ = moduleCatalog.AddModule(nameof(ThermometerModule), typeof(ThermometerModule).AssemblyQualifiedName, nameof(IndustryNavigationBarModule));
-            //_ = moduleCatalog.AddModule(nameof(CoolingTowerModule), typeof(CoolingTowerModule).AssemblyQualifiedName, nameof(IndustryNavigationBarModule));
-            //_ = moduleCatalog.AddModule(nameof(AirCompresserModule), typeof(AirCompresserModule).AssemblyQualifiedName, nameof(IndustryNavigationBarModule));
-            //_ = moduleCatalog.AddModule(nameof(IndustryNavigationBarModule), typeof(IndustryNavigationBarModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
-
-            //_ = moduleCatalog.AddModule(typeof(DataGridCustomerModule).Name, typeof(DataGridCustomerModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
-            //_ = moduleCatalog.AddModule(typeof(ListViewCustomerModule).Name, typeof(ListViewCustomerModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
 
             _ = moduleCatalog.AddModule(nameof(MenuSubModule), typeof(MenuSubModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
             _ = moduleCatalog.AddModule(nameof(HamburgerMenuModule),typeof(HamburgerMenuModule).AssemblyQualifiedName,InitializationMode.WhenAvailable);
@@ -217,6 +243,18 @@ namespace Aksl.Wpf.Unity
             _ = moduleCatalog.AddModule(nameof(ErrorModule), typeof(ErrorModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
             _ = moduleCatalog.AddModule(nameof(EventsModule), typeof(EventsModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
             _ = moduleCatalog.AddModule(nameof(FinancialModule), typeof(FinancialModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(nameof(GeneralModule), typeof(GeneralModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(nameof(HeatModule), typeof(HeatModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(nameof(LinesModule), typeof(LinesModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(nameof(MapsModule), typeof(MapsModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(nameof(PiesModule), typeof(PiesModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(nameof(PolarModule), typeof(PolarModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(nameof(ScatterModule), typeof(ScatterModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(nameof(StackedAreaModule), typeof(StackedAreaModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(nameof(StackedBarsModule), typeof(StackedBarsModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(nameof(StepLinesModule), typeof(StepLinesModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(nameof(TestModule), typeof(TestModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(nameof(VisualTestModule), typeof(VisualTestModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
         }
 
         protected override Window CreateShell()

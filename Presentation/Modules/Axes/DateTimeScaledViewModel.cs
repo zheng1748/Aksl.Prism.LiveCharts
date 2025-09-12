@@ -18,7 +18,6 @@ using LiveChartsCore.SkiaSharpView.Painting;
 using LiveChartsCore.Themes;
 using LiveChartsCore.Defaults;
 using LiveChartsCore.Kernel.Sketches;
-using SkiaSharp;
 
 using Aksl.Toolkit.Services;
 

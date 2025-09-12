@@ -151,4 +151,125 @@ namespace Aksl.Infrastructure.Events
         }
         #endregion
     }
+
+    public class OnBuildGeneralManagerHamburgerMenuWorkspaceViewEvent: OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildGeneralManagerHamburgerMenuWorkspaceViewEvent()
+        {
+            Name = nameof(OnBuildGeneralManagerHamburgerMenuWorkspaceViewEvent);
+        }
+        #endregion
+    }
+
+    public class OnBuildHeatManagerHamburgerMenuWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildHeatManagerHamburgerMenuWorkspaceViewEvent()
+        {
+            Name = nameof(OnBuildHeatManagerHamburgerMenuWorkspaceViewEvent);
+        }
+        #endregion
+    }
+
+    public class OnBuildLinesManagerHamburgerMenuWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildLinesManagerHamburgerMenuWorkspaceViewEvent()
+        {
+            Name = nameof(OnBuildLinesManagerHamburgerMenuWorkspaceViewEvent);
+        }
+        #endregion
+    }
+
+    public class OnBuildMapsManagerHamburgerMenuWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildMapsManagerHamburgerMenuWorkspaceViewEvent()
+        {
+            Name = nameof(OnBuildMapsManagerHamburgerMenuWorkspaceViewEvent);
+        }
+        #endregion
+    }
+
+    public class OnBuildPiesManagerHamburgerMenuWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildPiesManagerHamburgerMenuWorkspaceViewEvent()
+        {
+            Name = nameof(OnBuildPiesManagerHamburgerMenuWorkspaceViewEvent);
+        }
+        #endregion
+    }
+
+
+    public class OnBuildPolarManagerHamburgerMenuWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildPolarManagerHamburgerMenuWorkspaceViewEvent()
+        {
+            Name = nameof(OnBuildPolarManagerHamburgerMenuWorkspaceViewEvent);
+        }
+        #endregion
+    }
+
+    public class OnBuildScatterManagerHamburgerMenuWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildScatterManagerHamburgerMenuWorkspaceViewEvent()
+        {
+            Name = nameof(OnBuildScatterManagerHamburgerMenuWorkspaceViewEvent);
+        }
+        #endregion
+    }
+
+    public class OnBuildStackedAreaManagerHamburgerMenuWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildStackedAreaManagerHamburgerMenuWorkspaceViewEvent()
+        {
+            Name = nameof(OnBuildStackedAreaManagerHamburgerMenuWorkspaceViewEvent);
+        }
+        #endregion
+    }
+
+    public class OnBuildStackedBarsManagerHamburgerMenuWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildStackedBarsManagerHamburgerMenuWorkspaceViewEvent()
+        {
+            Name = nameof(OnBuildStackedBarsManagerHamburgerMenuWorkspaceViewEvent);
+        }
+        #endregion
+    }
+
+    public class OnBuildStepLinesManagerHamburgerMenuWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildStepLinesManagerHamburgerMenuWorkspaceViewEvent()
+        {
+            Name = nameof(OnBuildStepLinesManagerHamburgerMenuWorkspaceViewEvent);
+        }
+        #endregion
+    }
+
+    public class OnBuildTestManagerHamburgerMenuWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildTestManagerHamburgerMenuWorkspaceViewEvent()
+        {
+            Name = nameof(OnBuildTestManagerHamburgerMenuWorkspaceViewEvent);
+        }
+        #endregion
+    }
+
+    public class OnBuildVisualTestManagerHamburgerMenuWorkspaceViewEvent : OnBuildWorkspaceViewEventbase
+    {
+        #region Constructors
+        public OnBuildVisualTestManagerHamburgerMenuWorkspaceViewEvent()
+        {
+            Name = nameof(OnBuildVisualTestManagerHamburgerMenuWorkspaceViewEvent);
+        }
+        #endregion
+    }
 }

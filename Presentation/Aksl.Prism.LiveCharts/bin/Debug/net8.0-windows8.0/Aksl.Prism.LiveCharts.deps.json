@@ -24,6 +24,18 @@
           "Aksl.Modules.LiveCharts.Error": "1.0.0",
           "Aksl.Modules.LiveCharts.Events": "1.0.0",
           "Aksl.Modules.LiveCharts.Financial": "1.0.0",
+          "Aksl.Modules.LiveCharts.General": "1.0.0",
+          "Aksl.Modules.LiveCharts.Heat": "1.0.0",
+          "Aksl.Modules.LiveCharts.Lines": "1.0.0",
+          "Aksl.Modules.LiveCharts.Maps": "1.0.0",
+          "Aksl.Modules.LiveCharts.Pies": "1.0.0",
+          "Aksl.Modules.LiveCharts.Polar": "1.0.0",
+          "Aksl.Modules.LiveCharts.Scatter": "1.0.0",
+          "Aksl.Modules.LiveCharts.StackedArea": "1.0.0",
+          "Aksl.Modules.LiveCharts.StackedBars": "1.0.0",
+          "Aksl.Modules.LiveCharts.StepLines": "1.0.0",
+          "Aksl.Modules.LiveCharts.Test": "1.0.0",
+          "Aksl.Modules.LiveCharts.VisualTest": "1.0.0",
           "Aksl.Modules.MenuSub": "1.0.0",
           "Aksl.Toolkit": "1.0.0",
           "AutoMapper": "12.0.1",
@@ -73,6 +85,18 @@
           "Aksl.Modules.LiveCharts.Error.Reference": "1.0.0.0",
           "Aksl.Modules.LiveCharts.Events.Reference": "1.0.0.0",
           "Aksl.Modules.LiveCharts.Financial.Reference": "1.0.0.0",
+          "Aksl.Modules.LiveCharts.General.Reference": "1.0.0.0",
+          "Aksl.Modules.LiveCharts.Heat.Reference": "1.0.0.0",
+          "Aksl.Modules.LiveCharts.Lines.Reference": "1.0.0.0",
+          "Aksl.Modules.LiveCharts.Maps.Reference": "1.0.0.0",
+          "Aksl.Modules.LiveCharts.Pies.Reference": "1.0.0.0",
+          "Aksl.Modules.LiveCharts.Polar.Reference": "1.0.0.0",
+          "Aksl.Modules.LiveCharts.Scatter.Reference": "1.0.0.0",
+          "Aksl.Modules.LiveCharts.StackedArea.Reference": "1.0.0.0",
+          "Aksl.Modules.LiveCharts.StackedBars.Reference": "1.0.0.0",
+          "Aksl.Modules.LiveCharts.StepLines.Reference": "1.0.0.0",
+          "Aksl.Modules.LiveCharts.Test.Reference": "1.0.0.0",
+          "Aksl.Modules.LiveCharts.VisualTest.Reference": "1.0.0.0",
           "Aksl.Modules.MenuSub.Reference": "1.0.0.0",
           "Prism.Unity.Wpf": "1.0.0.0"
         },
@@ -853,6 +877,174 @@
           "Aksl.Modules.LiveCharts.Financial.dll": {}
         }
       },
+      "Aksl.Modules.LiveCharts.General/1.0.0": {
+        "dependencies": {
+          "Aksl.Infrastructure": "1.0.0",
+          "Aksl.Toolkit": "1.0.0",
+          "Aksl.Toolkit.Controls": "1.0.0",
+          "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+          "Prism.Core": "1.0.0",
+          "Prism.Unity": "1.0.0",
+          "Prism.Wpf": "1.0.0"
+        },
+        "runtime": {
+          "Aksl.Modules.LiveCharts.General.dll": {}
+        }
+      },
+      "Aksl.Modules.LiveCharts.Heat/1.0.0": {
+        "dependencies": {
+          "Aksl.Infrastructure": "1.0.0",
+          "Aksl.Toolkit": "1.0.0",
+          "Aksl.Toolkit.Controls": "1.0.0",
+          "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+          "Prism.Core": "1.0.0",
+          "Prism.Unity": "1.0.0",
+          "Prism.Wpf": "1.0.0"
+        },
+        "runtime": {
+          "Aksl.Modules.LiveCharts.Heat.dll": {}
+        }
+      },
+      "Aksl.Modules.LiveCharts.Lines/1.0.0": {
+        "dependencies": {
+          "Aksl.Infrastructure": "1.0.0",
+          "Aksl.Toolkit": "1.0.0",
+          "Aksl.Toolkit.Controls": "1.0.0",
+          "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+          "Prism.Core": "1.0.0",
+          "Prism.Unity": "1.0.0",
+          "Prism.Wpf": "1.0.0"
+        },
+        "runtime": {
+          "Aksl.Modules.LiveCharts.Lines.dll": {}
+        }
+      },
+      "Aksl.Modules.LiveCharts.Maps/1.0.0": {
+        "dependencies": {
+          "Aksl.Infrastructure": "1.0.0",
+          "Aksl.Toolkit": "1.0.0",
+          "Aksl.Toolkit.Controls": "1.0.0",
+          "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+          "Prism.Core": "1.0.0",
+          "Prism.Unity": "1.0.0",
+          "Prism.Wpf": "1.0.0"
+        },
+        "runtime": {
+          "Aksl.Modules.LiveCharts.Maps.dll": {}
+        }
+      },
+      "Aksl.Modules.LiveCharts.Pies/1.0.0": {
+        "dependencies": {
+          "Aksl.Infrastructure": "1.0.0",
+          "Aksl.Toolkit": "1.0.0",
+          "Aksl.Toolkit.Controls": "1.0.0",
+          "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+          "Prism.Core": "1.0.0",
+          "Prism.Unity": "1.0.0",
+          "Prism.Wpf": "1.0.0"
+        },
+        "runtime": {
+          "Aksl.Modules.LiveCharts.Pies.dll": {}
+        }
+      },
+      "Aksl.Modules.LiveCharts.Polar/1.0.0": {
+        "dependencies": {
+          "Aksl.Infrastructure": "1.0.0",
+          "Aksl.Toolkit": "1.0.0",
+          "Aksl.Toolkit.Controls": "1.0.0",
+          "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+          "Prism.Core": "1.0.0",
+          "Prism.Unity": "1.0.0",
+          "Prism.Wpf": "1.0.0"
+        },
+        "runtime": {
+          "Aksl.Modules.LiveCharts.Polar.dll": {}
+        }
+      },
+      "Aksl.Modules.LiveCharts.Scatter/1.0.0": {
+        "dependencies": {
+          "Aksl.Infrastructure": "1.0.0",
+          "Aksl.Toolkit": "1.0.0",
+          "Aksl.Toolkit.Controls": "1.0.0",
+          "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+          "Prism.Core": "1.0.0",
+          "Prism.Unity": "1.0.0",
+          "Prism.Wpf": "1.0.0"
+        },
+        "runtime": {
+          "Aksl.Modules.LiveCharts.Scatter.dll": {}
+        }
+      },
+      "Aksl.Modules.LiveCharts.StackedArea/1.0.0": {
+        "dependencies": {
+          "Aksl.Infrastructure": "1.0.0",
+          "Aksl.Toolkit": "1.0.0",
+          "Aksl.Toolkit.Controls": "1.0.0",
+          "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+          "Prism.Core": "1.0.0",
+          "Prism.Unity": "1.0.0",
+          "Prism.Wpf": "1.0.0"
+        },
+        "runtime": {
+          "Aksl.Modules.LiveCharts.StackedArea.dll": {}
+        }
+      },
+      "Aksl.Modules.LiveCharts.StackedBars/1.0.0": {
+        "dependencies": {
+          "Aksl.Infrastructure": "1.0.0",
+          "Aksl.Toolkit": "1.0.0",
+          "Aksl.Toolkit.Controls": "1.0.0",
+          "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+          "Prism.Core": "1.0.0",
+          "Prism.Unity": "1.0.0",
+          "Prism.Wpf": "1.0.0"
+        },
+        "runtime": {
+          "Aksl.Modules.LiveCharts.StackedBars.dll": {}
+        }
+      },
+      "Aksl.Modules.LiveCharts.StepLines/1.0.0": {
+        "dependencies": {
+          "Aksl.Infrastructure": "1.0.0",
+          "Aksl.Toolkit": "1.0.0",
+          "Aksl.Toolkit.Controls": "1.0.0",
+          "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+          "Prism.Core": "1.0.0",
+          "Prism.Unity": "1.0.0",
+          "Prism.Wpf": "1.0.0"
+        },
+        "runtime": {
+          "Aksl.Modules.LiveCharts.StepLines.dll": {}
+        }
+      },
+      "Aksl.Modules.LiveCharts.Test/1.0.0": {
+        "dependencies": {
+          "Aksl.Infrastructure": "1.0.0",
+          "Aksl.Toolkit": "1.0.0",
+          "Aksl.Toolkit.Controls": "1.0.0",
+          "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+          "Prism.Core": "1.0.0",
+          "Prism.Unity": "1.0.0",
+          "Prism.Wpf": "1.0.0"
+        },
+        "runtime": {
+          "Aksl.Modules.LiveCharts.Test.dll": {}
+        }
+      },
+      "Aksl.Modules.LiveCharts.VisualTest/1.0.0": {
+        "dependencies": {
+          "Aksl.Infrastructure": "1.0.0",
+          "Aksl.Toolkit": "1.0.0",
+          "Aksl.Toolkit.Controls": "1.0.0",
+          "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+          "Prism.Core": "1.0.0",
+          "Prism.Unity": "1.0.0",
+          "Prism.Wpf": "1.0.0"
+        },
+        "runtime": {
+          "Aksl.Modules.LiveCharts.VisualTest.dll": {}
+        }
+      },
       "Aksl.Modules.MenuSub/1.0.0": {
         "dependencies": {
           "Aksl.Infrastructure": "1.0.0",
@@ -1022,6 +1214,102 @@
       "Aksl.Modules.LiveCharts.Financial.Reference/1.0.0.0": {
         "runtime": {
           "Aksl.Modules.LiveCharts.Financial.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aksl.Modules.LiveCharts.General.Reference/1.0.0.0": {
+        "runtime": {
+          "Aksl.Modules.LiveCharts.General.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aksl.Modules.LiveCharts.Heat.Reference/1.0.0.0": {
+        "runtime": {
+          "Aksl.Modules.LiveCharts.Heat.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aksl.Modules.LiveCharts.Lines.Reference/1.0.0.0": {
+        "runtime": {
+          "Aksl.Modules.LiveCharts.Lines.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aksl.Modules.LiveCharts.Maps.Reference/1.0.0.0": {
+        "runtime": {
+          "Aksl.Modules.LiveCharts.Maps.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aksl.Modules.LiveCharts.Pies.Reference/1.0.0.0": {
+        "runtime": {
+          "Aksl.Modules.LiveCharts.Pies.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aksl.Modules.LiveCharts.Polar.Reference/1.0.0.0": {
+        "runtime": {
+          "Aksl.Modules.LiveCharts.Polar.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aksl.Modules.LiveCharts.Scatter.Reference/1.0.0.0": {
+        "runtime": {
+          "Aksl.Modules.LiveCharts.Scatter.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aksl.Modules.LiveCharts.StackedArea.Reference/1.0.0.0": {
+        "runtime": {
+          "Aksl.Modules.LiveCharts.StackedArea.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aksl.Modules.LiveCharts.StackedBars.Reference/1.0.0.0": {
+        "runtime": {
+          "Aksl.Modules.LiveCharts.StackedBars.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aksl.Modules.LiveCharts.StepLines.Reference/1.0.0.0": {
+        "runtime": {
+          "Aksl.Modules.LiveCharts.StepLines.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aksl.Modules.LiveCharts.Test.Reference/1.0.0.0": {
+        "runtime": {
+          "Aksl.Modules.LiveCharts.Test.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aksl.Modules.LiveCharts.VisualTest.Reference/1.0.0.0": {
+        "runtime": {
+          "Aksl.Modules.LiveCharts.VisualTest.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1523,6 +1811,66 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Aksl.Modules.LiveCharts.General/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.Heat/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.Lines/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.Maps/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.Pies/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.Polar/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.Scatter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.StackedArea/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.StackedBars/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.StepLines/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.VisualTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Aksl.Modules.MenuSub/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -1624,6 +1972,66 @@
       "sha512": ""
     },
     "Aksl.Modules.LiveCharts.Financial.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.General.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.Heat.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.Lines.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.Maps.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.Pies.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.Polar.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.Scatter.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.StackedArea.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.StackedBars.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.StepLines.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.Test.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.LiveCharts.VisualTest.Reference/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

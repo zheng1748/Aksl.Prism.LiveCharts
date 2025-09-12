@@ -20,6 +20,42 @@
     <Page Update="Events\EventsHamburgerMenuHubView .xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Heat\HeatHamburgerMenuHubView .xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Scatter\ScatterHamburgerMenuHubView .xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StackedArea\StackedAreaHamburgerMenuHubView .xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StackedBars\StackedBarsHamburgerMenuHubView .xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Test\TestHamburgerMenuHubView .xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VisualTest\FinancialHamburgerMenuHubView .xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StepLines\StepLinesHamburgerMenuHubView .xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Polar\PolarHamburgerMenuHubView .xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pies\PiesHamburgerMenuHubView .xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Maps\MapsHamburgerMenuHubView .xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Lines\LinesHamburgerMenuHubView .xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="General\GeneralHamburgerMenuHubView .xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Financial\FinancialHamburgerMenuHubView .xaml">
       <SubType>Designer</SubType>
     </Page>

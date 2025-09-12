@@ -4,8 +4,8 @@
   <PropertyGroup>
     <TargetFramework>net8.0-windows8.0</TargetFramework>
 	<UseWPF>true</UseWPF>
-	<AssemblyName>Aksl.Modules.LiveCharts.Box</AssemblyName>
-	<RootNamespace>Aksl.Modules.LiveCharts.Box</RootNamespace>
+	<AssemblyName>Aksl.Modules.LiveCharts.Heat</AssemblyName>
+	<RootNamespace>Aksl.Modules.LiveCharts.Heat</RootNamespace>
 	<Authors>zheng ming</Authors>
 	<Company>Aksl</Company>
   </PropertyGroup>

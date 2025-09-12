@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="Aksl.Modules.LiveCharts.General.Views.AnimationsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:prism="http://prismlibrary.com/"
+             xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
+             mc:Ignorable="d"
+             d:DesignHeight="500"
+             d:DesignWidth="900"
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <UserControl.Resources>
+
+    </UserControl.Resources>
+
+    <Grid Margin="5,5,5,5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <ComboBox Grid.Row="0"
+                  ItemsSource="{Binding AvalaibaleCurves}"
+                  DisplayMemberPath="Name"
+                  SelectedValuePath="EasingFunction"
+                  SelectedValue="{Binding ActualCurve}" />
+        <ComboBox Grid.Row="1"
+                  ItemsSource="{Binding AvailableSpeeds}"
+                  DisplayMemberPath="Name"
+                  SelectedValuePath="Speed"
+                  SelectedValue="{Binding ActualSpeed}" />
+        <lvc:CartesianChart Grid.Row="2"
+                            Series="{Binding Series}"
+                            TooltipPosition="Hidden"
+                            EasingFunction="{Binding ActualCurve}"
+                            AnimationsSpeed="{Binding ActualSpeed}" />
+
+    </Grid>
+
+</UserControl>

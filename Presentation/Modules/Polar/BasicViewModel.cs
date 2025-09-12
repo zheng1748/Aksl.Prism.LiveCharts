@@ -19,7 +19,7 @@ using SkiaSharp;
 
 using Aksl.Toolkit.Services;
 
-namespace Aksl.Modules.LiveCharts.Box.ViewModels
+namespace Aksl.Modules.LiveCharts.Polar.ViewModels
 {
     public class BasicViewModel : BindableBase, INavigationAware
     {

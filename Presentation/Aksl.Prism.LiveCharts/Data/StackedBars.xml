@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <MenuItem Id="0"
-		  Name="Bars"
+		  Name="StackedBars"
 		  Title="Root"
 		  Level="0" >
 	<MenuItem Id="1"
@@ -11,16 +11,6 @@
 			  IconKind="LineScan"
 			  ItemType="Item"
 			  ModuleName="BarsModule"
-			  ViewName="Aksl.Modules.LiveCharts.Bars.Views.AutoUpdateView,Aksl.Modules.LiveCharts.Bars"
-			  RequrePermissons=""/>
-	<MenuItem Id="1"
-			  Name="BasicView"
-			  Title="Basic"
-			  Level="2"
-			  IsCacheable="True"
-			  IconKind="LineScan"
-			  ItemType="Item"
-			  ModuleName="BarsModule"
-			  ViewName="Aksl.Modules.LiveCharts.Bars.Views.BasicView,Aksl.Modules.LiveCharts.Bars"
+			  ViewName="Aksl.Modules.LiveCharts.StackedBars.Views.AutoUpdateView,Aksl.Modules.LiveCharts.StackedBars"
 			  RequrePermissons=""/>
 </MenuItem>

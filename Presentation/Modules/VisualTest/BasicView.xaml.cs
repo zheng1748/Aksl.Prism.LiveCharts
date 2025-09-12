@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Aksl.Modules.LiveCharts.Box.Views
+namespace Aksl.Modules.LiveCharts.VisualTest.Views
 {
     public partial class BasicView : UserControl
     {

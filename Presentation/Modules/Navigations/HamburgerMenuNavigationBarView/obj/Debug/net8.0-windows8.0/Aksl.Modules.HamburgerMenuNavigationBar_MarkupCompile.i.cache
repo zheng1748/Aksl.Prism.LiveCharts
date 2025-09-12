@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 210398411267
 Industry\IndustryHamburgerMenuNavigationBarHubView.xaml;Views\GroupedMenusView.xaml;Views\GroupedMenuView.xaml;Views\HamburgerMenuNavigationBarHubView.xaml;Views\MenuContentView.xaml;Views\MenuItemHeader.xaml;Views\MenuItemView.xaml;
 
-True
+False
 

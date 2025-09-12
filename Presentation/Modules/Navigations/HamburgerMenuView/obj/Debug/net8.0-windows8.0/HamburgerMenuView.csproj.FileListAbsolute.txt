@@ -406,3 +406,27 @@ C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Module
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.HamburgerMenu.dll
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Financial\FinancialHamburgerMenuHubView .g.cs
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Financial\FinancialHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\General\GeneralHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Heat\HeatHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Lines\LinesHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Maps\MapsHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Pies\PiesHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Polar\PolarHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Scatter\ScatterHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\StackedArea\StackedAreaHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\StackedBars\StackedBarsHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\StepLines\StepLinesHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Test\TestHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\VisualTest\FinancialHamburgerMenuHubView .g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\General\GeneralHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Heat\HeatHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Lines\LinesHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Maps\MapsHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Pies\PiesHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Polar\PolarHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Scatter\ScatterHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\StackedArea\StackedAreaHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\StackedBars\StackedBarsHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\StepLines\StepLinesHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\Test\TestHamburgerMenuHubView .baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Navigations\HamburgerMenuView\obj\Debug\net8.0-windows8.0\VisualTest\FinancialHamburgerMenuHubView .baml

@@ -234,3 +234,27 @@ C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Aksl.P
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Aksl.Prism.LiveCharts\obj\Debug\net8.0-windows8.0\ref\Aksl.Prism.LiveCharts.dll
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Financial.dll
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Financial.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.General.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Heat.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Lines.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Maps.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Pies.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Polar.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Scatter.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.StackedArea.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.StackedBars.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.StepLines.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Test.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.VisualTest.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.General.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Heat.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Lines.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Maps.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Pies.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Polar.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Scatter.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.StackedArea.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.StackedBars.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.StepLines.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Test.pdb
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Aksl.Prism.LiveCharts\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.VisualTest.pdb

@@ -1,26 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <MenuItem Id="0"
-		  Name="Bars"
+		  Name="Heat"
 		  Title="Root"
 		  Level="0" >
 	<MenuItem Id="1"
-			  Name="AutoUpdateView"
-			  Title="Auto Update"
+			  Name="Heat"
+			  Title="Heat"
 			  Level="2"
 			  IsCacheable="False"
 			  IconKind="LineScan"
 			  ItemType="Item"
-			  ModuleName="BarsModule"
-			  ViewName="Aksl.Modules.LiveCharts.Bars.Views.AutoUpdateView,Aksl.Modules.LiveCharts.Bars"
-			  RequrePermissons=""/>
-	<MenuItem Id="1"
-			  Name="BasicView"
-			  Title="Basic"
-			  Level="2"
-			  IsCacheable="True"
-			  IconKind="LineScan"
-			  ItemType="Item"
-			  ModuleName="BarsModule"
-			  ViewName="Aksl.Modules.LiveCharts.Bars.Views.BasicView,Aksl.Modules.LiveCharts.Bars"
+			  ModuleName="HeatModule"
+			  ViewName="Aksl.Modules.LiveCharts.Heat.Views.HeatBasicView,Aksl.Modules.LiveCharts.Heat"
 			  RequrePermissons=""/>
 </MenuItem>

@@ -3,21 +3,21 @@ using Prism.Modularity;
 using Prism.Mvvm;
 using Unity;
 
-using Aksl.Modules.LiveCharts.Box.ViewModels;
-using Aksl.Modules.LiveCharts.Box.Views;
+using Aksl.Modules.LiveCharts.Polar.ViewModels;
+using Aksl.Modules.LiveCharts.Polar.Views;
 
 //install-package LiveChartsCore.SkiaSharpView.WPF -Version 2.0.0-beta.90
 
-namespace Aksl.Modules.LiveCharts.Box
+namespace Aksl.Modules.LiveCharts.Polar
 {
-    public class BoxModule : IModule
+    public class PolarModule : IModule
     {
         #region Members
         private readonly IUnityContainer _container;
         #endregion
 
         #region Constructors
-        public BoxModule(IUnityContainer container)
+        public PolarModule(IUnityContainer container)
         {
             this._container = container;
         }

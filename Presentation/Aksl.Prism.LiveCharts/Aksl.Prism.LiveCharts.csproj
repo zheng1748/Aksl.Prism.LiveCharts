@@ -164,14 +164,26 @@
     <ProjectReference Include="..\Modules\Error\Error.csproj" />
     <ProjectReference Include="..\Modules\Events\Events.csproj" />
     <ProjectReference Include="..\Modules\Financial\Financial.csproj" />
+    <ProjectReference Include="..\Modules\General\General.csproj" />
     <ProjectReference Include="..\Modules\HamburgerMenuNavigationSideBarView\HamburgerMenuNavigationSideBarView.csproj" />
     <ProjectReference Include="..\Modules\HamburgerMenuSideBarView\HamburgerMenuSideBarView.csproj" />
     <ProjectReference Include="..\Modules\HamburgerMenuTreeSideBarView\HamburgerMenuTreeSideBarView.csproj" />
+    <ProjectReference Include="..\Modules\Heat\Heat.csproj" />
     <ProjectReference Include="..\Modules\HomeView\HomeView.csproj" />
+    <ProjectReference Include="..\Modules\Lines\Lines.csproj" />
+    <ProjectReference Include="..\Modules\Maps\Maps.csproj" />
     <ProjectReference Include="..\Modules\Navigations\HamburgerMenuNavigationBarView\HamburgerMenuNavigationBarView.csproj" />
     <ProjectReference Include="..\Modules\Navigations\HamburgerMenuTreeBarView\HamburgerMenuTreeBarView.csproj" />
     <ProjectReference Include="..\Modules\Navigations\HamburgerMenuView\HamburgerMenuView.csproj" />
     <ProjectReference Include="..\Modules\Navigations\MenuSubView\MenuSubView.csproj" />
+    <ProjectReference Include="..\Modules\Pies\Pies.csproj" />
+    <ProjectReference Include="..\Modules\Polar\Polar.csproj" />
+    <ProjectReference Include="..\Modules\Scatter\Scatter.csproj" />
+    <ProjectReference Include="..\Modules\StackedArea\StackedArea.csproj" />
+    <ProjectReference Include="..\Modules\StackedBars\StackedBars.csproj" />
+    <ProjectReference Include="..\Modules\StepLines\StepLines.csproj" />
+    <ProjectReference Include="..\Modules\Test\Test.csproj" />
+    <ProjectReference Include="..\Modules\VisualTest\VisualTest.csproj" />
   </ItemGroup>
 
   <!--<ItemGroup>
