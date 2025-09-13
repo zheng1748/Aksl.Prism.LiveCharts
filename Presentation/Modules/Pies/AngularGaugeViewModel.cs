@@ -94,7 +94,7 @@ namespace Aksl.Modules.LiveCharts.Pies.ViewModels
         }
         #endregion
 
-        #region  Set Style Method
+        #region Set Style Method
         private static void SetStyle(double sectionsOuter, double sectionsWidth, PieSeries<ObservableValue> series)
         {
             series.OuterRadiusOffset = sectionsOuter;
