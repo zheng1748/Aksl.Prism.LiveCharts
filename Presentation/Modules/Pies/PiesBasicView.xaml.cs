@@ -15,9 +15,9 @@ using System.Windows.Shapes;
 
 namespace Aksl.Modules.LiveCharts.Pies.Views
 {
-    public partial class BasicView : UserControl
+    public partial class PiesBasicView : UserControl
     {
-        public BasicView()
+        public PiesBasicView()
         {
             InitializeComponent();
         }

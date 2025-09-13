@@ -28,7 +28,7 @@
 			  Title="Basic"
 			  Level="2"
 			  IsCacheable="False"
-			  IconKind="LineScan"
+			  IconKind="CellphoneBasic"
 			  ItemType="Item"
 			  ModuleName="PiesModule"
 			  ViewName="Aksl.Modules.LiveCharts.Pies.Views.PiesBasicView,Aksl.Modules.LiveCharts.Pies"
