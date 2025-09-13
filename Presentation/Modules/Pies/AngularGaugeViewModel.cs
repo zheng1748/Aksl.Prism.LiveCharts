@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Windows.Input;
 
 using Prism;
@@ -15,7 +16,6 @@ using LiveChartsCore.Defaults;
 using LiveChartsCore.SkiaSharpView;
 using LiveChartsCore.SkiaSharpView.VisualElements;
 using LiveChartsCore.VisualElements;
-using System.Collections.Generic;
 using LiveChartsCore.SkiaSharpView.Extensions;
 
 using Aksl.Toolkit.Services;

@@ -27,15 +27,15 @@ namespace Aksl.Modules.LiveCharts.Pies
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterForNavigation<AngularGaugeView>();
-            containerRegistry.RegisterForNavigation<BasicView>();
+            containerRegistry.RegisterForNavigation<PiesAutoUpdateView>();
         }
 
         public void OnInitialized(IContainerProvider containerProvider)
         {
             ViewModelLocationProvider.Register(typeof(AngularGaugeView).ToString(),
                                         () => this._container.Resolve<AngularGaugeViewModel>());
-            ViewModelLocationProvider.Register(typeof(BasicView).ToString(),
-                                        () => this._container.Resolve<BasicViewModel>());
+            ViewModelLocationProvider.Register(typeof(PiesAutoUpdateView).ToString(),
+                                        () => this._container.Resolve<PiesAutoUpdateViewModel>());
         }
         #endregion
     }

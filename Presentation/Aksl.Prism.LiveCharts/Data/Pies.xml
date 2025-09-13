@@ -18,7 +18,7 @@
 			  Title="Auto Update"
 			  Level="2"
 			  IsCacheable="False"
-			  IconKind="LineScan"
+			  IconKind="Update"
 			  ItemType="Item"
 			  ModuleName="PiesModule"
 			  ViewName="Aksl.Modules.LiveCharts.Pies.Views.PiesAutoUpdateView,Aksl.Modules.LiveCharts.Pies"

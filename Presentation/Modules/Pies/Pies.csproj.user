@@ -5,5 +5,8 @@
     <Page Update="AngularGaugeView.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="PiesAutoUpdateView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
 </Project>

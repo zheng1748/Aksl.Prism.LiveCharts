@@ -31,3 +31,5 @@ C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.LiveCharts.Pies.dll
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\AngularGaugeView.baml
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\AngularGaugeView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\PiesAutoUpdateView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\PiesAutoUpdateView.g.cs
