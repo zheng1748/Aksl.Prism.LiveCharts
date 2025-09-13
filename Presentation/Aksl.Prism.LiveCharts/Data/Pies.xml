@@ -8,7 +8,7 @@
 			  Title="Angular Gauge"
 			  Level="2"
 			  IsCacheable="False"
-			  IconKind="LineScan"
+			  IconKind="Gauge"
 			  ItemType="Item"
 			  ModuleName="PiesModule"
 			  ViewName="Aksl.Modules.LiveCharts.Pies.Views.AngularGaugeView,Aksl.Modules.LiveCharts.Pies"

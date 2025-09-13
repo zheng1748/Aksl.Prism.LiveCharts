@@ -14,10 +14,22 @@
     </UserControl.Resources>
 
     <Grid Margin="5,5,5,5">
-        <lvc:CartesianChart Series="{Binding Series}"
-                            XAxes="{Binding XAxes}"
-                            LegendPosition="Right">
-        </lvc:CartesianChart>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="0"
+                Command="{Binding DoRandomChangeCommand}">Change Value</Button>
+
+        <lvc:PieChart Grid.Row="1"
+                      Series="{Binding Series}"
+                      VisualElements="{Binding VisualElements}"
+                      InitialRotation="-225"
+                      MaxAngle="270"
+                      MinValue="0"
+                      MaxValue="100">
+        </lvc:PieChart>
     </Grid>
 
 </UserControl>
