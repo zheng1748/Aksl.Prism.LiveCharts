@@ -60,7 +60,7 @@ namespace Aksl.Modules.LiveCharts.VisualTest.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.VisualTest;component/basicview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.VisualTest;V1.0.0.0;component/basicview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\BasicView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

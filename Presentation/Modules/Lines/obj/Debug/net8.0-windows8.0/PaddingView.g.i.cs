@@ -60,7 +60,7 @@ namespace Aksl.Modules.LiveCharts.Lines.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.Lines;component/paddingview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.Lines;V1.0.0.0;component/paddingview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PaddingView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

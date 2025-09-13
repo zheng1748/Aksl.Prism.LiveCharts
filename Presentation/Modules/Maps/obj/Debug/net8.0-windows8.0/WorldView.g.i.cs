@@ -60,7 +60,7 @@ namespace Aksl.Modules.LiveCharts.Maps.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.Maps;component/worldview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.Maps;V1.0.0.0;component/worldview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\WorldView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

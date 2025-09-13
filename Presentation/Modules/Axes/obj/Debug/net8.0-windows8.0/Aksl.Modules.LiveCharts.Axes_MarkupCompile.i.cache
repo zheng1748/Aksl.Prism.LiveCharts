@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 217574604529
 ColorsAndPositionView.xaml;CrosshairsView.xaml;CustomSeparatorsIntervalView.xaml;DateTimeScaledView.xaml;LabelsFormatView.xaml;
 
-False
+True
 

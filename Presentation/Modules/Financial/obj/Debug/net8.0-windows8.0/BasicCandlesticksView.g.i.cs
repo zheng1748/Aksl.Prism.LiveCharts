@@ -60,7 +60,7 @@ namespace Aksl.Modules.LiveCharts.Financial.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.Financial;component/basiccandlesticksview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.Financial;V1.0.0.0;component/basiccandlesticksview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\BasicCandlesticksView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

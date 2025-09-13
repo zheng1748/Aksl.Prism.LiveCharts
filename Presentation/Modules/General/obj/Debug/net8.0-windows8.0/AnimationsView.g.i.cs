@@ -60,7 +60,7 @@ namespace Aksl.Modules.LiveCharts.General.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.General;component/animationsview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.General;V1.0.0.0;component/animationsview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AnimationsView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
