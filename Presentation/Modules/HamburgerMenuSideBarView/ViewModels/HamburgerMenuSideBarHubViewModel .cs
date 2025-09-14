@@ -339,7 +339,8 @@ namespace Aksl.Modules.HamburgerMenuSideBar.ViewModels
                     {
                         NavigationParameters navigationParameters = new()
                         {
-                           {"CurrentMenuItem", currentMenuItem }
+                           {"CurrentMenuItem", currentMenuItem },
+                           {"SelectedHamburgerMenuItem", HamburgerMenuSideBar.SelectedHamburgerMenuSideBarItem }
                         };
 
                         _regionManager.RequestNavigate(regionName, viewName, navigationParameters);
