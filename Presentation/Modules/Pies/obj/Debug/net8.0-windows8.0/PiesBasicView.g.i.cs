@@ -60,7 +60,7 @@ namespace Aksl.Modules.LiveCharts.Pies.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.Pies;component/piesbasicview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.Pies;V1.0.0.0;component/piesbasicview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PiesBasicView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
