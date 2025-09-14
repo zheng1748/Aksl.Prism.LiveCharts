@@ -2,6 +2,15 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Page Update="Gauge1View.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GaugeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DoughnutView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="CustomView.xaml">
       <SubType>Designer</SubType>
     </Page>

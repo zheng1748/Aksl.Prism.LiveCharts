@@ -30,19 +30,28 @@ namespace Aksl.Modules.LiveCharts.Pies
             containerRegistry.RegisterForNavigation<PiesAutoUpdateView>();
             containerRegistry.RegisterForNavigation<PiesBasicView>();
             containerRegistry.RegisterForNavigation<CustomView>();
+            containerRegistry.RegisterForNavigation<DoughnutView>();
+            containerRegistry.RegisterForNavigation<GaugeView>();
+            containerRegistry.RegisterForNavigation<Gauge1View>();
         }
 
         public void OnInitialized(IContainerProvider containerProvider)
         {
             ViewModelLocationProvider.Register(typeof(AngularGaugeView).ToString(),
-                                        () => this._container.Resolve<AngularGaugeViewModel>());
+                                               () => this._container.Resolve<AngularGaugeViewModel>());
             ViewModelLocationProvider.Register(typeof(PiesAutoUpdateView).ToString(),
-                                        () => this._container.Resolve<PiesAutoUpdateViewModel>());
+                                               () => this._container.Resolve<PiesAutoUpdateViewModel>());
             ViewModelLocationProvider.Register(typeof(PiesBasicView).ToString(),
-                                      () => this._container.Resolve<PiesBasicViewModel>());
+                                               () => this._container.Resolve<PiesBasicViewModel>());
             ViewModelLocationProvider.Register(typeof(CustomView).ToString(),
-                                    () => this._container.Resolve<CustomViewModel>());
+                                               () => this._container.Resolve<CustomViewModel>());
+            ViewModelLocationProvider.Register(typeof(DoughnutView).ToString(),
+                                               () => this._container.Resolve<DoughnutViewModel>());
+            ViewModelLocationProvider.Register(typeof(GaugeView).ToString(),
+                                               () => this._container.Resolve<GaugeViewModel>());
+            ViewModelLocationProvider.Register(typeof(Gauge1View).ToString(),
+                                              () => this._container.Resolve<Gauge1ViewModel>());
         }
-        #endregion
     }
+    #endregion
 }
