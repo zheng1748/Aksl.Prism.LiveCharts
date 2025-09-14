@@ -33,6 +33,7 @@ namespace Aksl.Modules.LiveCharts.Pies
             containerRegistry.RegisterForNavigation<DoughnutView>();
             containerRegistry.RegisterForNavigation<GaugeView>();
             containerRegistry.RegisterForNavigation<Gauge1View>();
+            containerRegistry.RegisterForNavigation<Gauge2View>();
         }
 
         public void OnInitialized(IContainerProvider containerProvider)
@@ -51,6 +52,8 @@ namespace Aksl.Modules.LiveCharts.Pies
                                                () => this._container.Resolve<GaugeViewModel>());
             ViewModelLocationProvider.Register(typeof(Gauge1View).ToString(),
                                               () => this._container.Resolve<Gauge1ViewModel>());
+            ViewModelLocationProvider.Register(typeof(Gauge2View).ToString(),
+                                             () => this._container.Resolve<Gauge2ViewModel>());
         }
     }
     #endregion

@@ -41,3 +41,5 @@ C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\GaugeView.g.cs
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\Gauge1View.baml
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\Gauge1View.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\Gauge2View.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\Gauge2View.g.cs
