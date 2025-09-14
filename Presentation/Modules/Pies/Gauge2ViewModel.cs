@@ -46,8 +46,8 @@ namespace Aksl.Modules.LiveCharts.Pies.ViewModels
                 }),
                 new GaugeItem(GaugeItem.Background, series =>
                 {
-                   series.InnerRadius = 75;
-                   series.Fill = new SolidColorPaint(new SKColor(100, 181, 246, 90));
+                    series.Fill = new SolidColorPaint(new SKColor(100, 181, 246, 90));
+                    series.InnerRadius = 75;
                  })
              );
         }
