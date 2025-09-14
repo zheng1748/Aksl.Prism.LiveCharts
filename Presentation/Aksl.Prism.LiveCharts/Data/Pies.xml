@@ -38,7 +38,7 @@
 			  Title="Custom"
 			  Level="2"
 			  IsCacheable="False"
-			  IconKind="LineScan"
+			  IconKind="Pig"
 			  ItemType="Item"
 			  ModuleName="PiesModule"
 			  ViewName="Aksl.Modules.LiveCharts.Pies.Views.CustomView,Aksl.Modules.LiveCharts.Pies"

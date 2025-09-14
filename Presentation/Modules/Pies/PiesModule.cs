@@ -29,6 +29,7 @@ namespace Aksl.Modules.LiveCharts.Pies
             containerRegistry.RegisterForNavigation<AngularGaugeView>();
             containerRegistry.RegisterForNavigation<PiesAutoUpdateView>();
             containerRegistry.RegisterForNavigation<PiesBasicView>();
+            containerRegistry.RegisterForNavigation<CustomView>();
         }
 
         public void OnInitialized(IContainerProvider containerProvider)
@@ -39,6 +40,8 @@ namespace Aksl.Modules.LiveCharts.Pies
                                         () => this._container.Resolve<PiesAutoUpdateViewModel>());
             ViewModelLocationProvider.Register(typeof(PiesBasicView).ToString(),
                                       () => this._container.Resolve<PiesBasicViewModel>());
+            ViewModelLocationProvider.Register(typeof(CustomView).ToString(),
+                                    () => this._container.Resolve<CustomViewModel>());
         }
         #endregion
     }

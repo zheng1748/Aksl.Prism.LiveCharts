@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aksl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d62e7da865f55be92cf442ef5b5a342df6666f57")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aksl.Prism.LiveCharts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aksl.Prism.LiveCharts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -33,3 +33,5 @@ C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\PiesAutoUpdateView.g.cs
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\PiesBasicView.baml
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\PiesBasicView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\CustomView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\CustomView.g.cs
