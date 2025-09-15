@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
-81036706093
+12276768324
 
-18-972286509
+261432813567
 217574604529
-AngularGaugeView.xaml;CustomView.xaml;DoughnutView.xaml;Gauge1View.xaml;Gauge2View.xaml;GaugeView.xaml;PiesAutoUpdateView.xaml;PiesBasicView.xaml;
+AngularGaugeView.xaml;CustomView.xaml;DoughnutView.xaml;Gauge1View.xaml;Gauge2View.xaml;Gauge3View.xaml;Gauge4View.xaml;Gauge5View.xaml;GaugesView.xaml;GaugeView.xaml;PiesAutoUpdateView.xaml;PiesBasicView.xaml;
 
 False
 

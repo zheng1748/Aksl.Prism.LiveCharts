@@ -43,3 +43,11 @@ C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\Gauge1View.g.cs
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\Gauge2View.baml
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\Gauge2View.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\Gauge3View.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\Gauge4View.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\Gauge5View.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\GaugesView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\Gauge3View.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\Gauge4View.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\Gauge5View.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Pies\obj\Debug\net8.0-windows8.0\GaugesView.g.cs

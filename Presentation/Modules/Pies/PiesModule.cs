@@ -34,6 +34,10 @@ namespace Aksl.Modules.LiveCharts.Pies
             containerRegistry.RegisterForNavigation<GaugeView>();
             containerRegistry.RegisterForNavigation<Gauge1View>();
             containerRegistry.RegisterForNavigation<Gauge2View>();
+            containerRegistry.RegisterForNavigation<Gauge3View>();
+            containerRegistry.RegisterForNavigation<Gauge4View>();
+            containerRegistry.RegisterForNavigation<Gauge5View>();
+            containerRegistry.RegisterForNavigation<GaugesView>();
         }
 
         public void OnInitialized(IContainerProvider containerProvider)
@@ -51,9 +55,17 @@ namespace Aksl.Modules.LiveCharts.Pies
             ViewModelLocationProvider.Register(typeof(GaugeView).ToString(),
                                                () => this._container.Resolve<GaugeViewModel>());
             ViewModelLocationProvider.Register(typeof(Gauge1View).ToString(),
-                                              () => this._container.Resolve<Gauge1ViewModel>());
+                                               () => this._container.Resolve<Gauge1ViewModel>());
             ViewModelLocationProvider.Register(typeof(Gauge2View).ToString(),
-                                             () => this._container.Resolve<Gauge2ViewModel>());
+                                               () => this._container.Resolve<Gauge2ViewModel>());
+            ViewModelLocationProvider.Register(typeof(Gauge3View).ToString(),
+                                               () => this._container.Resolve<Gauge3ViewModel>());
+            ViewModelLocationProvider.Register(typeof(Gauge4View).ToString(),
+                                               () => this._container.Resolve<Gauge4ViewModel>());
+            ViewModelLocationProvider.Register(typeof(Gauge5View).ToString(),
+                                               () => this._container.Resolve<Gauge5ViewModel>());
+            ViewModelLocationProvider.Register(typeof(GaugesView).ToString(),
+                                               () => this._container.Resolve<GaugesViewModel>());
         }
     }
     #endregion
