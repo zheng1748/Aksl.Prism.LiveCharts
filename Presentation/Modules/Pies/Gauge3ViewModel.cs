@@ -36,25 +36,33 @@ namespace Aksl.Modules.LiveCharts.Pies.ViewModels
 
             Series = GaugeGenerator.BuildSolidGauge
             (
-                new GaugeItem(30, series =>
-                {
-                    series.Fill = new SolidColorPaint(SKColors.YellowGreen);
-                    series.DataLabelsSize = 50;
-                    series.DataLabelsPaint = new SolidColorPaint(SKColors.Red);
-                    series.DataLabelsPosition = PolarLabelsPosition.ChartCenter;
-                    series.InnerRadius = 75;
-                }),
-                new GaugeItem(GaugeItem.Background, series =>
-                {
-                    series.Fill = new SolidColorPaint(new SKColor(100, 181, 246, 90));
-                    series.InnerRadius = 75;
-                 })
-             );
+               new GaugeItem(30, series => SetStyle("Vanessa", series)),
+               new GaugeItem(50, series => SetStyle("Charles", series)),
+               new GaugeItem(70, series => SetStyle("Ana", series)),
+               new GaugeItem(GaugeItem.Background, series =>
+               {
+                   series.InnerRadius = 20;
+               }
+             )
+          );
         }
         #endregion
 
         #region Properties
         public IEnumerable<PieSeries<ObservableValue>> Series { get; set; }
+        #endregion
+
+        #region Set Style Method
+        public static void SetStyle(string name, PieSeries<ObservableValue> series)
+        {
+            series.Name = name;
+            series.DataLabelsPosition = PolarLabelsPosition.Start;
+            series.DataLabelsFormatter =
+                    point => $"{point.Coordinate.PrimaryValue} {point.Context.Series.Name}";
+            series.InnerRadius = 20;
+            series.RelativeOuterRadius = 8;
+            series.RelativeInnerRadius = 8;
+        }
         #endregion
 
         #region INavigationAware

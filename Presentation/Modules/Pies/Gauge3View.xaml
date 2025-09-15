@@ -15,7 +15,7 @@
 
     <Grid Margin="5,5,5,5">
         <lvc:PieChart Series="{Binding Series}"
-                      InitialRotation="-225"
+                      InitialRotation="45"
                       MaxAngle="270"
                       MinValue="0"
                       MaxValue="100">
