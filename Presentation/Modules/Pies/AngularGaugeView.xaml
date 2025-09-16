@@ -20,7 +20,9 @@
         </Grid.RowDefinitions>
 
         <Button Grid.Row="0"
-                Command="{Binding DoRandomChangeCommand}">Change Value</Button>
+                Content="Change Value"
+                Command="{Binding DoRandomChangeCommand}">
+        </Button>
 
         <lvc:PieChart Grid.Row="1"
                       Series="{Binding Series}"

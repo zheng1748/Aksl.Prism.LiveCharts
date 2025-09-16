@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Windows.Input;
 
 using Prism;
 using Prism.Commands;
@@ -27,6 +27,7 @@ namespace Aksl.Modules.LiveCharts.Pies.ViewModels
     {
         #region Members
         private readonly IDialogViewService _dialogViewService;
+        private readonly Random _random = new();
         #endregion
 
         #region Constructors
@@ -34,27 +35,54 @@ namespace Aksl.Modules.LiveCharts.Pies.ViewModels
         {
             _dialogViewService = (PrismApplication.Current as PrismApplicationBase).Container.Resolve<IDialogViewService>();
 
+            ObservableValue1 = new ObservableValue { Value = 50 };
+            ObservableValue2 = new ObservableValue { Value = 80 };
+
             Series = GaugeGenerator.BuildSolidGauge
             (
-                new GaugeItem(30, series =>
+                new GaugeItem(ObservableValue1, series =>
                 {
-                    series.Fill = new SolidColorPaint(SKColors.YellowGreen);
-                    series.DataLabelsSize = 50;
-                    series.DataLabelsPaint = new SolidColorPaint(SKColors.Red);
-                    series.DataLabelsPosition = PolarLabelsPosition.ChartCenter;
-                    series.InnerRadius = 75;
+                    series.Name = "North";
+                    series.DataLabelsPosition = PolarLabelsPosition.Start;
                 }),
-                new GaugeItem(GaugeItem.Background, series =>
+                new GaugeItem(ObservableValue2, series =>
                 {
-                    series.Fill = new SolidColorPaint(new SKColor(100, 181, 246, 90));
-                    series.InnerRadius = 75;
-                 })
+                    series.Name = "South";
+                    series.DataLabelsPosition = PolarLabelsPosition.Start;
+                })
              );
+
+            CreateDoRandomChangeCommand();
         }
         #endregion
 
         #region Properties
-        public IEnumerable<PieSeries<ObservableValue>> Series { get; set; }
+        public ObservableValue ObservableValue1 { get; set; }
+        public ObservableValue ObservableValue2 { get; set; }
+        public IEnumerable<ISeries> Series { get; set; }
+        #endregion
+
+        #region DoRandomChange Command
+        public ICommand DoRandomChangeCommand { get; private set; }
+
+        private void CreateDoRandomChangeCommand()
+        {
+            DoRandomChangeCommand = new DelegateCommand(() =>
+            {
+                ExecuteDoRandomChangeCommand();
+            },
+            () =>
+            {
+                return true;
+            });
+        }
+
+        private void ExecuteDoRandomChangeCommand()
+        {
+            // modifying the Value property updates and animates the chart automatically
+            ObservableValue1.Value = _random.Next(0, 100);
+            ObservableValue2.Value = _random.Next(0, 100);
+        }
         #endregion
 
         #region INavigationAware

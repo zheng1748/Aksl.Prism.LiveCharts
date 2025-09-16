@@ -14,11 +14,21 @@
     </UserControl.Resources>
 
     <Grid Margin="5,5,5,5">
-        <lvc:PieChart Series="{Binding Series}"
-                      InitialRotation="-225"
-                      MaxAngle="270"
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="0"
+                Command="{Binding DoRandomChangeCommand}">Change Value</Button>
+        
+        <lvc:PieChart Grid.Row="1"
+                      Series="{Binding Series}"
+                      InitialRotation="-90"
                       MinValue="0"
-                      MaxValue="100">
+                      MaxValue="100"
+                      MaxAngle="270"
+                      LegendPosition="Bottom">
         </lvc:PieChart>
     </Grid>
 
