@@ -1,13 +1,17 @@
-﻿using Unity;
+﻿using Prism;
+using Prism.Events;
 using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Mvvm;
 using Prism.Regions;
+using Prism.Unity;
+using Unity;
 
 using Aksl.Infrastructure;
 using Aksl.Modules.Account.Views;
 using Aksl.Modules.HamburgerMenuSideBar.Views;
 using Aksl.Modules.HamburgerMenuNavigationSideBar.Views;
+using Aksl.Toolkit.Services;
 
 namespace Aksl.Modules.Shell
 {
@@ -19,10 +23,10 @@ namespace Aksl.Modules.Shell
         #endregion
 
         #region Constructors
-        public ShellModule(IUnityContainer container, IRegionManager regionManager)
+        public ShellModule()
         {
-            _container = container;
-            _regionManager = regionManager;
+            _container = (PrismApplication.Current as PrismApplicationBase).Container.Resolve<IUnityContainer>();
+            _regionManager = (PrismApplication.Current as PrismApplicationBase).Container.Resolve<IRegionManager>();
         }
         #endregion
 
