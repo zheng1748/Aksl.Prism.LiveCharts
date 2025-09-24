@@ -2,7 +2,37 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Page Update="LabelsFormat2View.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="LabelsFormatView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LogicGateAndView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MatchScaleView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MultipleView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="NamedLabelsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PagingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SharedView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TimeSpanScaledView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StyleView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LabelsRotationView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="DateTimeScaledView.xaml">

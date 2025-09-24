@@ -95,6 +95,15 @@
           }
         }
       },
+      "LiveCharts.Core/0.9.8": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/LiveCharts.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LiveCharts.dll": {}
+        }
+      },
       "LiveChartsCore/2.0.0-rc5.4": {
         "type": "package",
         "compile": {
@@ -1841,6 +1850,19 @@
         "runtimes/win-arm64/native/libHarfBuzzSharp.dll",
         "runtimes/win-x64/native/libHarfBuzzSharp.dll",
         "runtimes/win-x86/native/libHarfBuzzSharp.dll"
+      ]
+    },
+    "LiveCharts.Core/0.9.8": {
+      "sha512": "USb2TBOeER19X0ar5Zgki1ezjrSXBOmUoz3IqzTeksDm6hoaLFqs3iW9+wjHFuWNQGy9lLcVh2YIhhxVIg+zNQ==",
+      "type": "package",
+      "path": "livecharts.core/0.9.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/LiveCharts.dll",
+        "lib/netstandard2.0/LiveCharts.dll",
+        "livecharts.core.0.9.8.nupkg.sha512",
+        "livecharts.core.nuspec"
       ]
     },
     "LiveChartsCore/2.0.0-rc5.4": {
@@ -3687,6 +3709,7 @@
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "CommonServiceLocator >= 2.0.7",
+      "LiveCharts.Core >= 0.9.8",
       "LiveChartsCore.SkiaSharpView.WPF >= 2.0.0-rc5.4",
       "Microsoft.Extensions.Configuration >= 8.0.0",
       "Microsoft.Extensions.Configuration.Abstractions >= 8.0.0",
@@ -3873,6 +3896,10 @@
           "CommonServiceLocator": {
             "target": "Package",
             "version": "[2.0.7, )"
+          },
+          "LiveCharts.Core": {
+            "target": "Package",
+            "version": "[0.9.8, )"
           },
           "LiveChartsCore.SkiaSharpView.WPF": {
             "target": "Package",

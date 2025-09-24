@@ -68,8 +68,6 @@ C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\CustomSeparatorsIntervalView.baml
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\DateTimeScaledView.g.cs
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\DateTimeScaledView.baml
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\LabelsFormatView.g.cs
-C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\LabelsFormatView.baml
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Axes\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Axes.deps.json
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Axes\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Axes.dll
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Axes\bin\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Axes.pdb
@@ -110,3 +108,25 @@ C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Module
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.LiveCharts.Axes.dll
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Axes.pdb
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.LiveCharts.Axes.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\LabelsFormat2View.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\LabelsRotationView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\LogicGateAndView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\MatchScaleView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\MultipleView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\NamedLabelsView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\PagingView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\SharedView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\StyleView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\TimeSpanScaledView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\LabelsFormat2View.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\LabelsRotationView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\LogicGateAndView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\MatchScaleView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\MultipleView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\NamedLabelsView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\PagingView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\SharedView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\StyleView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\TimeSpanScaledView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\LabelsFormatView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Axes\obj\Debug\net8.0-windows8.0\LabelsFormatView.baml

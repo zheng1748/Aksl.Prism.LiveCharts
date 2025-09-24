@@ -74,7 +74,7 @@ namespace Aksl.Wpf.Unity
         {
             base.ConfigureViewModelLocator();
 
-            ViewModelLocationProvider.Register(typeof(ShellView).ToString(), () => Container.Resolve<ShellViewModel>());
+            //ViewModelLocationProvider.Register(typeof(ShellView).ToString(), () => Container.Resolve<ShellViewModel>());
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)

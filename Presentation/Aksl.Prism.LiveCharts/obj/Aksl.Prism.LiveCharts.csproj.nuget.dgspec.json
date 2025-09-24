@@ -222,6 +222,10 @@
               "target": "Package",
               "version": "[2.0.7, )"
             },
+            "LiveCharts.Core": {
+              "target": "Package",
+              "version": "[0.9.8, )"
+            },
             "LiveChartsCore.SkiaSharpView.WPF": {
               "target": "Package",
               "version": "[2.0.0-rc5.4, )"

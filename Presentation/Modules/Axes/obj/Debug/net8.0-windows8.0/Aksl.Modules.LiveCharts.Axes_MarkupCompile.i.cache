@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
-5-142675281
+151964598861
 
-13-1427564227
+33-467223389
 217574604529
-ColorsAndPositionView.xaml;CrosshairsView.xaml;CustomSeparatorsIntervalView.xaml;DateTimeScaledView.xaml;LabelsFormatView.xaml;
+ColorsAndPositionView.xaml;CrosshairsView.xaml;CustomSeparatorsIntervalView.xaml;DateTimeScaledView.xaml;LabelsFormat2View.xaml;LabelsFormatView.xaml;LabelsRotationView.xaml;LogicGateAndView.xaml;MatchScaleView.xaml;MultipleView.xaml;NamedLabelsView.xaml;PagingView.xaml;SharedView.xaml;StyleView.xaml;TimeSpanScaledView.xaml;
 
 False
 

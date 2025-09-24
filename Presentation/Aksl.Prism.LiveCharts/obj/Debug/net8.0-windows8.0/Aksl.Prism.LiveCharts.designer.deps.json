@@ -77,6 +77,14 @@
           }
         }
       },
+      "LiveCharts.Core/0.9.8": {
+        "runtime": {
+          "lib/netstandard2.0/LiveCharts.dll": {
+            "assemblyVersion": "0.9.7.0",
+            "fileVersion": "0.9.7.0"
+          }
+        }
+      },
       "LiveChartsCore/2.0.0-rc5.4": {
         "runtime": {
           "lib/net8.0-windows7.0/LiveChartsCore.dll": {
@@ -651,6 +659,13 @@
       "sha512": "sha512-ow0DtGEUjo65qhiI22of7qiVbN1xDFsZ5P5xJljRmGZ5WSxNy+1batLNJFGxahqhB1MTHYV8kAXf0GqC8WaevQ==",
       "path": "harfbuzzsharp.nativeassets.win32/8.3.0.1",
       "hashPath": "harfbuzzsharp.nativeassets.win32.8.3.0.1.nupkg.sha512"
+    },
+    "LiveCharts.Core/0.9.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-USb2TBOeER19X0ar5Zgki1ezjrSXBOmUoz3IqzTeksDm6hoaLFqs3iW9+wjHFuWNQGy9lLcVh2YIhhxVIg+zNQ==",
+      "path": "livecharts.core/0.9.8",
+      "hashPath": "livecharts.core.0.9.8.nupkg.sha512"
     },
     "LiveChartsCore/2.0.0-rc5.4": {
       "type": "package",

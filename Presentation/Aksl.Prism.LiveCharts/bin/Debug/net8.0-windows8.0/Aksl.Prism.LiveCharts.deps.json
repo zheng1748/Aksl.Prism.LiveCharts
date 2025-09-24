@@ -41,6 +41,7 @@
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "CommonServiceLocator": "2.0.7",
+          "LiveCharts.Core": "0.9.8",
           "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
           "Microsoft.Extensions.Configuration": "8.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
@@ -172,6 +173,14 @@
             "rid": "win-x86",
             "assetType": "native",
             "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "LiveCharts.Core/0.9.8": {
+        "runtime": {
+          "lib/netstandard2.0/LiveCharts.dll": {
+            "assemblyVersion": "0.9.7.0",
+            "fileVersion": "0.9.7.0"
           }
         }
       },
@@ -1380,6 +1389,13 @@
       "sha512": "sha512-ow0DtGEUjo65qhiI22of7qiVbN1xDFsZ5P5xJljRmGZ5WSxNy+1batLNJFGxahqhB1MTHYV8kAXf0GqC8WaevQ==",
       "path": "harfbuzzsharp.nativeassets.win32/8.3.0.1",
       "hashPath": "harfbuzzsharp.nativeassets.win32.8.3.0.1.nupkg.sha512"
+    },
+    "LiveCharts.Core/0.9.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-USb2TBOeER19X0ar5Zgki1ezjrSXBOmUoz3IqzTeksDm6hoaLFqs3iW9+wjHFuWNQGy9lLcVh2YIhhxVIg+zNQ==",
+      "path": "livecharts.core/0.9.8",
+      "hashPath": "livecharts.core.0.9.8.nupkg.sha512"
     },
     "LiveChartsCore/2.0.0-rc5.4": {
       "type": "package",
