@@ -19,15 +19,9 @@ namespace Aksl.Xaml.Behaviors
 
         public static DependencyProperty AutoPasswordProperty =
              DependencyProperty.RegisterAttached("AutoPassword", typeof(bool), typeof(PasswordManager), new PropertyMetadata(defaultValue: false, propertyChangedCallback: OnAutoPasswordChanged));
-        public static bool GetAutoPassword(DependencyObject obj)
-        {
-            return (bool)obj.GetValue(AutoPasswordProperty);
-        }
+        public static bool GetAutoPassword(DependencyObject obj) => (bool)obj.GetValue(AutoPasswordProperty);
 
-        public static void SetAutoPassword(DependencyObject obj, bool value)
-        {
-            obj.SetValue(AutoPasswordProperty, value);
-        }
+        public static void SetAutoPassword(DependencyObject obj, bool value) => obj.SetValue(AutoPasswordProperty, value);
 
         private static void OnAutoPasswordChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {

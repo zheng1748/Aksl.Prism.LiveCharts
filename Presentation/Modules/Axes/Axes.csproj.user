@@ -8,10 +8,10 @@
     <Page Update="LabelsFormatView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="LogicGateAndView.xaml">
+    <Page Update="Logarithmic\LogarithmicView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MatchScaleView.xaml">
+    <Page Update="MatchScale\MatchScaleView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MultipleView.xaml">

@@ -66,7 +66,7 @@ namespace Aksl.Modules.LiveCharts.Axes.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.Axes;component/logicgateandview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Aksl.Modules.LiveCharts.Axes;V1.0.0.0;component/logicgateandview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\LogicGateAndView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

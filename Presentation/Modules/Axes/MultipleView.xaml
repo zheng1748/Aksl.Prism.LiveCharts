@@ -16,12 +16,13 @@
     </UserControl.Resources>
 
     <Grid Margin="5,5,5,5">
-
         <lvc:CartesianChart Series="{Binding Series}"
-                            XAxes="{Binding XAxes}"
-                            YAxes="{Binding YAxes}">
+                            YAxes="{Binding YAxes}"
+                            LegendPosition="Left"
+                            LegendBackgroundPaint="{Binding LedgendBackgroundPaint}"
+                            LegendTextPaint="{Binding LegendTextPaint}"
+                            LegendTextSize="16">
         </lvc:CartesianChart>
-
     </Grid>
 
 </UserControl>

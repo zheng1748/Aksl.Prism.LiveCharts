@@ -17,9 +17,59 @@
 
     <Grid Margin="5,5,5,5">
 
-        <lvc:CartesianChart Series="{Binding Series}"
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <!--<Button Command="{Binding GoToPage1Command}">Page 1</Button>
+            <Button Command="{Binding GoToPage2Command}">Page 2</Button>
+            <Button Command="{Binding GoToPage3Command}">Page 3</Button>
+            <Button Command="{Binding SeeAllCommand}">Clear</Button>-->
+            <Button x:Name="GoToPage1Button" Width="100"
+                    Content="Page 1">
+                <ei:Interaction.Triggers>
+                    <ei:EventTrigger EventName="Click">
+                        <ei:CallMethodAction TargetObject="{Binding DataContext,ElementName=GoToPage1Button}"
+                                             MethodName="GoToPage1" />
+                    </ei:EventTrigger>
+                </ei:Interaction.Triggers>
+            </Button>
+            <Button x:Name="GoToPage2Button"
+                    Width="100"
+                    Content="Page 2">
+                <ei:Interaction.Triggers>
+                    <ei:EventTrigger EventName="Click">
+                        <ei:CallMethodAction TargetObject="{Binding DataContext,ElementName=GoToPage2Button}"
+                                             MethodName="GoToPage2" />
+                    </ei:EventTrigger>
+                </ei:Interaction.Triggers>
+            </Button>
+            <Button x:Name="GoToPage3Button"
+                    Width="100"
+                    Content="Page 3">
+                <ei:Interaction.Triggers>
+                    <ei:EventTrigger EventName="Click">
+                        <ei:CallMethodAction TargetObject="{Binding DataContext,ElementName=GoToPage3Button}"
+                                             MethodName="GoToPage3" />
+                    </ei:EventTrigger>
+                </ei:Interaction.Triggers>
+            </Button>
+            <Button x:Name="GoToPage4Button"
+                    Width="100"
+                    Content="Clear">
+                <ei:Interaction.Triggers>
+                    <ei:EventTrigger EventName="Click">
+                        <ei:CallMethodAction TargetObject="{Binding DataContext,ElementName=GoToPage4Button}"
+                                             MethodName="SeeAll" />
+                    </ei:EventTrigger>
+                </ei:Interaction.Triggers>
+            </Button>
+        </StackPanel>
+        <lvc:CartesianChart Grid.Row="1"
+                            Series="{Binding Series}"
                             XAxes="{Binding XAxes}"
-                            YAxes="{Binding YAxes}">
+                            ZoomMode="X">
         </lvc:CartesianChart>
 
     </Grid>

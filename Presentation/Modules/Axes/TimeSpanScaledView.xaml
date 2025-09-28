@@ -16,12 +16,9 @@
     </UserControl.Resources>
 
     <Grid Margin="5,5,5,5">
-
         <lvc:CartesianChart Series="{Binding Series}"
-                            XAxes="{Binding XAxes}"
-                            YAxes="{Binding YAxes}">
+                            XAxes="{Binding XAxes}">
         </lvc:CartesianChart>
-
     </Grid>
 
 </UserControl>

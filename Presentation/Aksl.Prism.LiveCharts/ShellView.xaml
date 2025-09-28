@@ -12,6 +12,23 @@
         WindowStyle="SingleBorderWindow"
         WindowStartupLocation="CenterScreen"
         prism:ViewModelLocator.AutoWireViewModel="True">
+    <!--<WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="-1" />
+    </WindowChrome.WindowChrome>
+    <Window.Template>
+        <ControlTemplate TargetType="Window">
+            <Border Padding="10"
+                    Background="Transparent">
+                <Border CornerRadius="16"
+                        Background="White">
+                    <Border.Effect>
+                        <DropShadowEffect BlurRadius="64" />
+                    </Border.Effect>
+                    <ContentPresenter ClipToBounds="False"/>
+                </Border>
+            </Border>
+        </ControlTemplate>
+    </Window.Template>-->
     <Window.Resources>
         <Storyboard x:Key="inTransition">
             <DoubleAnimationUsingKeyFrames BeginTime="00:00:00"
@@ -429,11 +446,11 @@
             </Setter>
         </Style>
     </Window.Resources>
-    <!--<Window.Triggers>
+    <Window.Triggers>
         <EventTrigger RoutedEvent="Loaded">
             <BeginStoryboard Storyboard="{StaticResource inTransition}" />
         </EventTrigger>
-    </Window.Triggers>-->
+    </Window.Triggers>
     <Grid x:Name="layoutRootGrid"
           SnapsToDevicePixels="True">
         <Grid.RowDefinitions>
@@ -472,7 +489,7 @@
             </ContentControl>
             <ContentControl x:Name="loginRegion"
                             Grid.Column="2"
-                            Margin="2" 
+                            Margin="20,2,2,2" 
                             prism:RegionManager.RegionName="{x:Static inf:RegionNames.ShellLoginRegion}">
                 <ContentControl.RenderTransform>
                     <TransformGroup>

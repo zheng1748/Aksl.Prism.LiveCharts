@@ -21,6 +21,7 @@ using LiveChartsCore.Kernel.Sketches;
 using SkiaSharp;
 
 using Aksl.Toolkit.Services;
+using System.Collections.Generic;
 
 namespace Aksl.Modules.LiveCharts.Axes.ViewModels
 {
@@ -28,65 +29,62 @@ namespace Aksl.Modules.LiveCharts.Axes.ViewModels
     {
         #region Members
         private readonly IDialogViewService _dialogViewService;
-        private AxisPosition _selectedPosition = AxisPosition.End;
-        private int _selectedColor = 0;
-        private readonly LvcColor[] _colors = ColorPalletes.FluentDesign;
+        private readonly Random _random = new();
         #endregion
 
         #region Constructors
         public PagingViewModel()
         {
             _dialogViewService = (PrismApplication.Current as PrismApplicationBase).Container.Resolve<IDialogViewService>();
+
+            var trend = 100;
+            var values = new List<int>();
+
+            for (var i = 0; i < 100; i++)
+            {
+                trend += _random.Next(-30, 50);
+                values.Add(trend);
+            }
+
+            Series = [new ColumnSeries<int>(values)];
+            XAxes = [new Axis()];
         }
         #endregion
 
         #region Properties
-        public ISeries[] Series { get; set; } =
-        [
-             new ColumnSeries<double> { Values = [426, 583, 104] },
-             new LineSeries<double> { Values = [200, 558, 458], Fill = null },
-        ];
+        public ISeries[] Series { get; set; }
 
-        public ICartesianAxis[] XAxes { get; set; } =
-        [
-            new Axis
-            {
-                Name = "Salesman/woman",
-                // Use the labels property for named or static labels // mark
-                Labels = ["Sergio", "Lando", "Lewis"], // mark
-                LabelsRotation = 15,
-            }
-         ];
+        public ICartesianAxis[] XAxes { get; set; }
+        #endregion
 
-        public ICartesianAxis[] YAxes { get; set; } = 
-        [
-            new Axis
-            {
-                Name = "Salome",
-                NamePadding = new LiveChartsCore.Drawing.Padding(0, 15),
+        #region Methods
+        public void GoToPage1()
+        {
+            var axis = XAxes[0];
+            axis.MinLimit = -0.5;
+            axis.MaxLimit = 10.5;
+        }
 
-                LabelsPaint = new SolidColorPaint
-                {
-                    Color = SKColors.Blue,
-                    FontFamily = "Times New Roman",
-                    SKFontStyle = new SKFontStyle(SKFontStyleWeight.ExtraBold, SKFontStyleWidth.Normal, SKFontStyleSlant.Italic)
-                },
+        public void GoToPage2()
+        {
+            var axis = XAxes[0];
+            axis.MinLimit = 9.5;
+            axis.MaxLimit = 20.5;
+        }
 
-                // Use the Labeler property to give format to the axis values // mark
-                // Now the Y axis labels have a currency format.
+        public void GoToPage3()
+        {
+            var axis = XAxes[0];
+            axis.MinLimit = 19.5;
+            axis.MaxLimit = 30.5;
+        }
 
-                // LiveCharts provides some common formatters
-                // in this case we are using the currency formatter.
-                Labeler = Labelers.Currency // mark
-
-                // you could also build your own currency formatter
-                // for example:
-                // Labeler = (value) => value.ToString("C")
-                // but the one that LiveCharts provides creates shorter labels when
-                // the amount is in millions or trillions
-            }
-        ];
-
+        public void SeeAll()
+        {
+            var axis = XAxes[0];
+            axis.MinLimit = null;
+            axis.MaxLimit = null;
+        }
         #endregion
 
         #region INavigationAware

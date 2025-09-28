@@ -28,9 +28,6 @@ namespace Aksl.Modules.LiveCharts.Axes.ViewModels
     {
         #region Members
         private readonly IDialogViewService _dialogViewService;
-        private AxisPosition _selectedPosition = AxisPosition.End;
-        private int _selectedColor = 0;
-        private readonly LvcColor[] _colors = ColorPalletes.FluentDesign;
         #endregion
 
         #region Constructors
@@ -43,18 +40,25 @@ namespace Aksl.Modules.LiveCharts.Axes.ViewModels
         #region Properties
         public ISeries[] Series { get; set; } =
         [
-             new ColumnSeries<double> { Values = [426, 583, 104] },
-             new LineSeries<double> { Values = [200, 558, 458], Fill = null },
+            new ColumnSeries<int>
+            {
+                Name = "Sales",
+                Values = [200, 558, 458, 249],
+            },
+            new LineSeries<int>
+            {
+                Name = "Projected",
+                Values = [300, 450, 400, 280],
+                Fill = null
+            }
         ];
 
         public ICartesianAxis[] XAxes { get; set; } =
         [
             new Axis
             {
-                Name = "Salesman/woman",
-                // Use the labels property for named or static labels // mark
-                Labels = ["Sergio", "Lando", "Lewis"], // mark
-                LabelsRotation = 15,
+                // Use the labels property to define named labels.
+                Labels = ["Anne", "Johnny", "Zac", "Rosa"]
             }
          ];
 
@@ -62,31 +66,28 @@ namespace Aksl.Modules.LiveCharts.Axes.ViewModels
         [
             new Axis
             {
-                Name = "Salome",
-                NamePadding = new LiveChartsCore.Drawing.Padding(0, 15),
-
-                LabelsPaint = new SolidColorPaint
-                {
-                    Color = SKColors.Blue,
-                    FontFamily = "Times New Roman",
-                    SKFontStyle = new SKFontStyle(SKFontStyleWeight.ExtraBold, SKFontStyleWidth.Normal, SKFontStyleSlant.Italic)
-                },
-
-                // Use the Labeler property to give format to the axis values // mark
-                // Now the Y axis labels have a currency format.
-
+                // Now the Y axis we will display labels as currency
                 // LiveCharts provides some common formatters
                 // in this case we are using the currency formatter.
-                Labeler = Labelers.Currency // mark
+                Labeler = Labelers.Currency
 
                 // you could also build your own currency formatter
                 // for example:
                 // Labeler = (value) => value.ToString("C")
-                // but the one that LiveCharts provides creates shorter labels when
+
+                // But the one that LiveCharts provides creates shorter labels when
                 // the amount is in millions or trillions
             }
         ];
+        public SolidColorPaint TooltipTextPaint { get; set; } =
+       new SolidColorPaint
+       {
+           Color = new SKColor(242, 244, 195),
+           SKTypeface = SKTypeface.FromFamilyName("Courier New")
+       };
 
+        public SolidColorPaint TooltipBackgroundPaint { get; set; } =
+            new SolidColorPaint(new SKColor(72, 0, 50));
         #endregion
 
         #region INavigationAware

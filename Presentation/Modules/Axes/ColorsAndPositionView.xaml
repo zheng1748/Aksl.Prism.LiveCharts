@@ -17,13 +17,13 @@
 
     <Grid Margin="5,5,5,5">
         <Grid.RowDefinitions>
-            <RowDefinition Height="50" />
+            <RowDefinition Height="35" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Row="0"
                     Orientation="Horizontal">
-            <Button x:Name="setNewColorButton"
+            <Button x:Name="SetNewColorButtonAction"
                     Content="Set new color">
                 <ei:Interaction.Triggers>
                     <ei:EventTrigger EventName="Click">
@@ -32,7 +32,7 @@
                     </ei:EventTrigger>
                 </ei:Interaction.Triggers>
             </Button>
-            <Button x:Name="togglePositionButton"
+            <Button x:Name="TogglePositionButtonAction"
                     Content="Toggle Position">
                 <ei:Interaction.Triggers>
                     <ei:EventTrigger EventName="Click">

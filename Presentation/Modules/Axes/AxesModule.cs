@@ -34,7 +34,7 @@ namespace Aksl.Modules.LiveCharts.Axes
             containerRegistry.RegisterForNavigation<LabelsFormatView>();
             containerRegistry.RegisterForNavigation<LabelsFormat2View>();
             containerRegistry.RegisterForNavigation<LabelsRotationView>();
-            containerRegistry.RegisterForNavigation<LogicGateAndView>();
+            containerRegistry.RegisterForNavigation<LogarithmicView>();
             containerRegistry.RegisterForNavigation<MatchScaleView>();
             containerRegistry.RegisterForNavigation<MultipleView>();
             containerRegistry.RegisterForNavigation<NamedLabelsView>();
@@ -47,7 +47,7 @@ namespace Aksl.Modules.LiveCharts.Axes
         public void OnInitialized(IContainerProvider containerProvider)
         {
             ViewModelLocationProvider.Register(typeof(ColorsAndPositionView).ToString(),
-                                         () => this._container.Resolve<ColorsAndPositionViewModel>());
+                                     () => this._container.Resolve<ColorsAndPositionViewModel>());
             ViewModelLocationProvider.Register(typeof(CrosshairsView).ToString(),
                                      () => this._container.Resolve<CrosshairsViewModel>());
             ViewModelLocationProvider.Register(typeof(CustomSeparatorsIntervalView).ToString(),
@@ -60,8 +60,8 @@ namespace Aksl.Modules.LiveCharts.Axes
                               () => this._container.Resolve<LabelsFormat2ViewModel>());
             ViewModelLocationProvider.Register(typeof(LabelsRotationView).ToString(),
                               () => this._container.Resolve<LabelsRotationViewModel>());
-            ViewModelLocationProvider.Register(typeof(LogicGateAndView).ToString(),
-                              () => this._container.Resolve<LogicGateAndViewModel>());
+            ViewModelLocationProvider.Register(typeof(LogarithmicView).ToString(),
+                              () => this._container.Resolve<LogarithmicViewModel>());
             ViewModelLocationProvider.Register(typeof(MatchScaleView).ToString(),
                               () => this._container.Resolve<MatchScaleViewModel>());
             ViewModelLocationProvider.Register(typeof(MultipleView).ToString(),

@@ -28,9 +28,6 @@ namespace Aksl.Modules.LiveCharts.Axes.ViewModels
     {
         #region Members
         private readonly IDialogViewService _dialogViewService;
-        private AxisPosition _selectedPosition = AxisPosition.End;
-        private int _selectedColor = 0;
-        private readonly LvcColor[] _colors = ColorPalletes.FluentDesign;
         #endregion
 
         #region Constructors
@@ -43,50 +40,27 @@ namespace Aksl.Modules.LiveCharts.Axes.ViewModels
         #region Properties
         public ISeries[] Series { get; set; } =
         [
-             new ColumnSeries<double> { Values = [426, 583, 104] },
-             new LineSeries<double> { Values = [200, 558, 458], Fill = null },
+             new ColumnSeries<TimeSpanPoint>
+             {
+                 Values = [
+                new() { TimeSpan = TimeSpan.FromMilliseconds(1), Value = 10 },
+                     new() { TimeSpan = TimeSpan.FromMilliseconds(2), Value = 6 },
+                     new() { TimeSpan = TimeSpan.FromMilliseconds(3), Value = 3 },
+                     new() { TimeSpan = TimeSpan.FromMilliseconds(4), Value = 12 },
+                     new() { TimeSpan = TimeSpan.FromMilliseconds(5), Value = 8 }
+            ],
+             }
         ];
 
-        public ICartesianAxis[] XAxes { get; set; } =
-        [
-            new Axis
-            {
-                Name = "Salesman/woman",
-                // Use the labels property for named or static labels // mark
-                Labels = ["Sergio", "Lando", "Lewis"], // mark
-                LabelsRotation = 15,
-            }
-         ];
+        // You can use the TimeSpanAxis class to define a time span based axis // mark
 
-        public ICartesianAxis[] YAxes { get; set; } = 
-        [
-            new Axis
-            {
-                Name = "Salome",
-                NamePadding = new LiveChartsCore.Drawing.Padding(0, 15),
+        // The first parameter is the time between each point, in this case 1 day // mark
+        // you can also use 1 year, 1 month, 1 hour, 1 minute, 1 second, 1 millisecond, etc // mark
 
-                LabelsPaint = new SolidColorPaint
-                {
-                    Color = SKColors.Blue,
-                    FontFamily = "Times New Roman",
-                    SKFontStyle = new SKFontStyle(SKFontStyleWeight.ExtraBold, SKFontStyleWidth.Normal, SKFontStyleSlant.Italic)
-                },
-
-                // Use the Labeler property to give format to the axis values // mark
-                // Now the Y axis labels have a currency format.
-
-                // LiveCharts provides some common formatters
-                // in this case we are using the currency formatter.
-                Labeler = Labelers.Currency // mark
-
-                // you could also build your own currency formatter
-                // for example:
-                // Labeler = (value) => value.ToString("C")
-                // but the one that LiveCharts provides creates shorter labels when
-                // the amount is in millions or trillions
-            }
+        // The second parameter is a function that receives the value and returns the label // mark
+        public ICartesianAxis[] XAxes { get; set; } = [
+            new TimeSpanAxis(TimeSpan.FromMilliseconds(1), date => date.ToString("fff") + "ms")
         ];
-
         #endregion
 
         #region INavigationAware
