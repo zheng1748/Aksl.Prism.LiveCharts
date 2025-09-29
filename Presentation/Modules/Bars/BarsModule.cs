@@ -28,17 +28,36 @@ namespace Aksl.Modules.LiveCharts.Bars
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterForNavigation<AutoUpdateView>();
-
             containerRegistry.RegisterForNavigation<BasicView>();
+            containerRegistry.RegisterForNavigation<CustomView>();
+            containerRegistry.RegisterForNavigation<DelayedAnimationView>();
+            containerRegistry.RegisterForNavigation<LayeredView>();
+            containerRegistry.RegisterForNavigation<RaceView>();
+            containerRegistry.RegisterForNavigation<RowsWithLabelsView>();
+            containerRegistry.RegisterForNavigation<SpacingView>();
+            containerRegistry.RegisterForNavigation<WithBackgroundView>();
         }
 
         public void OnInitialized(IContainerProvider containerProvider)
         {
             ViewModelLocationProvider.Register(typeof(AutoUpdateView).ToString(),
                                          () => this._container.Resolve<AutoUpdateViewModel>());
-
             ViewModelLocationProvider.Register(typeof(BasicView).ToString(),
                                         () => this._container.Resolve<BasicViewModel>());
+            ViewModelLocationProvider.Register(typeof(CustomView).ToString(),
+                                       () => this._container.Resolve<CustomViewModel>());
+            ViewModelLocationProvider.Register(typeof(DelayedAnimationView).ToString(),
+                                       () => this._container.Resolve<DelayedAnimationViewModel>());
+            ViewModelLocationProvider.Register(typeof(LayeredView).ToString(),
+                                       () => this._container.Resolve<LayeredViewModel>());
+            ViewModelLocationProvider.Register(typeof(RaceView).ToString(),
+                                       () => this._container.Resolve<RaceViewModel>());
+            ViewModelLocationProvider.Register(typeof(RowsWithLabelsView).ToString(),
+                                       () => this._container.Resolve<RowsWithLabelsViewModel>());
+            ViewModelLocationProvider.Register(typeof(SpacingView).ToString(),
+                                     () => this._container.Resolve<SpacingViewModel>());
+            ViewModelLocationProvider.Register(typeof(WithBackgroundView).ToString(),
+                                     () => this._container.Resolve<WithBackgroundViewModel>());
         }
         #endregion
     }

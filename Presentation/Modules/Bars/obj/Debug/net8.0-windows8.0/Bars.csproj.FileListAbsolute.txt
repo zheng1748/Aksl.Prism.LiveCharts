@@ -66,3 +66,17 @@ C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Module
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\refint\Aksl.Modules.LiveCharts.Bars.dll
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\Aksl.Modules.LiveCharts.Bars.pdb
 C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts - Copy\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\ref\Aksl.Modules.LiveCharts.Bars.dll
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\CustomView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\DelayedAnimationView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\LayeredView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\RaceView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\RowsWithLabelsView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\CustomView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\DelayedAnimationView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\LayeredView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\RaceView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\RowsWithLabelsView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\SpacingView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\WithBackgroundView.baml
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\SpacingView.g.cs
+C:\Users\zheng\Documents\GitHub\Aksl.Prism.LiveCharts\Presentation\Modules\Bars\obj\Debug\net8.0-windows8.0\WithBackgroundView.g.cs

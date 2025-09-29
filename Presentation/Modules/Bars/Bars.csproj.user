@@ -2,6 +2,27 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Page Update="CustomView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DelayedAnimationView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LayeredView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RaceView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SpacingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WithBackgroundView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RowsWithLabelsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="BasicView.xaml">
       <SubType>Designer</SubType>
     </Page>
