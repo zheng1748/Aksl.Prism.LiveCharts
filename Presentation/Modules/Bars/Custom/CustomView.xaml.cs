@@ -15,9 +15,9 @@ using System.Windows.Shapes;
 
 namespace Aksl.Modules.LiveCharts.Bars.Views
 {
-    public partial class CustomView : UserControl
+    public partial class BarsCustomView : UserControl
     {
-        public CustomView()
+        public BarsCustomView()
         {
             InitializeComponent();
         }

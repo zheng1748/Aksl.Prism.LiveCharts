@@ -18,6 +18,7 @@ using LiveChartsCore.SkiaSharpView.Painting;
 using SkiaSharp;
 
 using Aksl.Toolkit.Services;
+using LiveChartsCore.Kernel.Sketches;
 
 namespace Aksl.Modules.LiveCharts.Bars.ViewModels
 {
@@ -25,7 +26,6 @@ namespace Aksl.Modules.LiveCharts.Bars.ViewModels
     {
         #region Members
         private readonly IDialogViewService _dialogViewService;
-        private readonly Random _random = new();
         #endregion
 
         #region Constructors
@@ -40,34 +40,25 @@ namespace Aksl.Modules.LiveCharts.Bars.ViewModels
         [
           new ColumnSeries<double>
           {
-              Name = "Mary",
-              Values = [2, 5, 4]
+              IsHoverable = false, // disables the series from the tooltips // mark
+              Values = [10, 10, 10, 10, 10, 10, 10],
+              Stroke = null,
+              Fill = new SolidColorPaint(new SKColor(30, 30, 30, 30)),
+              IgnoresBarPosition = true
           },
-          new ColumnSeries<double>
-          {
-              Name = "Ana",
-              Values = [3, 1, 6]
-          }
-        ];
-
-        public Axis[] XAxes { get; set; } =
-        [
-            new Axis
+            new ColumnSeries<double>
             {
-                Labels = ["Category 1", "Category 2", "Category 3"],
-                LabelsRotation = 0,
-                SeparatorsPaint = new SolidColorPaint(new SKColor(200, 200, 200)),
-                SeparatorsAtCenter = false,
-                TicksPaint = new SolidColorPaint(new SKColor(35, 35, 35)),
-                TicksAtCenter = true,
-                // By default the axis tries to optimize the number of // mark
-                // labels to fit the available space, // mark
-                // when you need to force the axis to show all the labels then you must: // mark
-                ForceStepToMin = true, // mark
-                MinStep = 1 // mark
+                Values = [3, 10, 5, 3, 7, 3, 8],
+                Stroke = null,
+                Fill = new SolidColorPaint(SKColors.CornflowerBlue),
+                IgnoresBarPosition = true
             }
         ];
 
+        public ICartesianAxis[] YAxes { get; set; } =
+        [
+            new Axis { MinLimit = 0, MaxLimit = 10 }
+         ];
         #endregion
 
         #region INavigationAware

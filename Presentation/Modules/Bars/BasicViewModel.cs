@@ -21,7 +21,7 @@ using Aksl.Toolkit.Services;
 
 namespace Aksl.Modules.LiveCharts.Bars.ViewModels
 {
-    public class BasicViewModel : BindableBase, INavigationAware
+    public class BarsBasicViewModel : BindableBase, INavigationAware
     {
         #region Members
         private readonly IDialogViewService _dialogViewService;
@@ -29,7 +29,7 @@ namespace Aksl.Modules.LiveCharts.Bars.ViewModels
         #endregion
 
         #region Constructors
-        public BasicViewModel()
+        public BarsBasicViewModel()
         {
             _dialogViewService = (PrismApplication.Current as PrismApplicationBase).Container.Resolve<IDialogViewService>();
         }
@@ -67,7 +67,6 @@ namespace Aksl.Modules.LiveCharts.Bars.ViewModels
                 MinStep = 1 // mark
             }
         ];
-
         #endregion
 
         #region INavigationAware

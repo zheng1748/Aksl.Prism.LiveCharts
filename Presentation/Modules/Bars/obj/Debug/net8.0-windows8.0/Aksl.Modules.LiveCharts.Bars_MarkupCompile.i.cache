@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
-91022462276
+9-879281632
 
-211607061679
+22890393507
 217574604529
-AutoUpdateView.xaml;BasicView.xaml;CustomView.xaml;DelayedAnimationView.xaml;LayeredView.xaml;RaceView.xaml;RowsWithLabelsView.xaml;SpacingView.xaml;WithBackgroundView.xaml;
+AutoUpdateView.xaml;BasicView.xaml;Custom\CustomView.xaml;DelayedAnimationView.xaml;LayeredView.xaml;RaceView.xaml;RowsWithLabelsView.xaml;SpacingView.xaml;WithBackgroundView.xaml;
 
 False
 

@@ -15,9 +15,9 @@ using System.Windows.Shapes;
 
 namespace Aksl.Modules.LiveCharts.Bars.Views
 {
-    public partial class BasicView : UserControl
+    public partial class BarsBasicView : UserControl
     {
-        public BasicView()
+        public BarsBasicView()
         {
             InitializeComponent();
         }

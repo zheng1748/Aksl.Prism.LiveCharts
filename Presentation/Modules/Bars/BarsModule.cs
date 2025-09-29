@@ -28,8 +28,8 @@ namespace Aksl.Modules.LiveCharts.Bars
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterForNavigation<AutoUpdateView>();
-            containerRegistry.RegisterForNavigation<BasicView>();
-            containerRegistry.RegisterForNavigation<CustomView>();
+            containerRegistry.RegisterForNavigation<BarsBasicView>();
+            containerRegistry.RegisterForNavigation<BarsCustomView>();
             containerRegistry.RegisterForNavigation<DelayedAnimationView>();
             containerRegistry.RegisterForNavigation<LayeredView>();
             containerRegistry.RegisterForNavigation<RaceView>();
@@ -42,10 +42,10 @@ namespace Aksl.Modules.LiveCharts.Bars
         {
             ViewModelLocationProvider.Register(typeof(AutoUpdateView).ToString(),
                                          () => this._container.Resolve<AutoUpdateViewModel>());
-            ViewModelLocationProvider.Register(typeof(BasicView).ToString(),
-                                        () => this._container.Resolve<BasicViewModel>());
-            ViewModelLocationProvider.Register(typeof(CustomView).ToString(),
-                                       () => this._container.Resolve<CustomViewModel>());
+            ViewModelLocationProvider.Register(typeof(BarsBasicView).ToString(),
+                                        () => this._container.Resolve<BarsBasicViewModel>());
+            ViewModelLocationProvider.Register(typeof(BarsCustomView).ToString(),
+                                       () => this._container.Resolve<BarsCustomViewModel>());
             ViewModelLocationProvider.Register(typeof(DelayedAnimationView).ToString(),
                                        () => this._container.Resolve<DelayedAnimationViewModel>());
             ViewModelLocationProvider.Register(typeof(LayeredView).ToString(),
