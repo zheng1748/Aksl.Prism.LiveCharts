@@ -29,7 +29,8 @@ namespace Aksl.Modules.LiveCharts.Box.ViewModels
         // for more info please see:
         // https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/graphics/skiasharp/effects/shaders/circular-gradients
 
-        private static readonly SKColor[] s_colors = [
+        private static readonly SKColor[] _colors = 
+        [
             new SKColor(179, 229, 252),
             new SKColor(1, 87, 155)
         // ...
@@ -56,7 +57,7 @@ namespace Aksl.Modules.LiveCharts.Box.ViewModels
                 Name = "Maria",
                 Values = [7],
                 Stroke = null,
-                Fill = new RadialGradientPaint(s_colors),
+                Fill = new RadialGradientPaint(_colors),
                 Pushout = 10,
                 OuterRadiusOffset = 20
             },

@@ -273,9 +273,9 @@ namespace Aksl.Modules.HamburgerMenu.ViewModels
                                 if (CanAddView())
                                 {
                                     NavigationParameters navigationParameters = new()
-                                {
-                                    { "CurrentMenuItem", currentMenuItem }
-                                };
+                                    {
+                                      { "CurrentMenuItem", currentMenuItem }
+                                    };
 
                                     // _regionManager.RequestNavigate(RegionNames.HamburgerMenuWorkspaceRegion, viewName, navigationParameters);
                                     _regionManager.RequestNavigate(WorkspaceRegionName, viewName, navigationParameters);

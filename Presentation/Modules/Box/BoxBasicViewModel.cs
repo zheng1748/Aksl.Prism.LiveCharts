@@ -25,7 +25,6 @@ namespace Aksl.Modules.LiveCharts.Box.ViewModels
     {
         #region Members
         private readonly IDialogViewService _dialogViewService;
-        private readonly Random _random = new();
         #endregion
 
         #region Constructors
@@ -41,32 +40,34 @@ namespace Aksl.Modules.LiveCharts.Box.ViewModels
             new BoxSeries<BoxValue>
             {
                 Name = "Year 2023",
-                Values = [
-                // max, upper quartile, median, lower quartile, min
-                new(100, 80, 60, 20, 70),
-                    new(90, 70, 50, 30, 60),
-                    new(80, 60, 40, 10, 50)
-            ]
+                Values =
+                [
+                   // max, upper quartile, median, lower quartile, min
+                   new(100, 80, 60, 20, 70),
+                   new(90, 70, 50, 30, 60),
+                   new(80, 60, 40, 10, 50)
+                 ]
             },
             new BoxSeries<BoxValue>
             {
                 Name = "Year 2024",
-                Values = [
-                new(90, 70, 50, 30, 60),
-                    new(80, 60, 40, 10, 50),
-                    new(70, 50, 30, 20, 40)
+                Values =
+                [
+                  new(90, 70, 50, 30, 60),
+                  new(80, 60, 40, 10, 50),
+                  new(70, 50, 30, 20, 40)
             ]
             },
             new BoxSeries<BoxValue>
             {
                 Name = "Year 2025",
-                Values = [
-                new(80, 60, 40, 10, 50),
-                    new(70, 50, 30, 20, 40),
-                    new(60, 40, 20, 10, 30)
+                Values =
+                [
+                  new(80, 60, 40, 10, 50),
+                  new(70, 50, 30, 20, 40),
+                  new(60, 40, 20, 10, 30)
             ]
-            }
-
+          }
         ];
 
         public Axis[] XAxes { get; set; } =

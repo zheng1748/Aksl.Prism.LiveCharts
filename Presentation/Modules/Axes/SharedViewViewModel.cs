@@ -51,17 +51,18 @@ namespace Aksl.Modules.LiveCharts.Axes.ViewModels
             X1 = 
             [
                 new Axis
-               {
-               MinLimit = start,
-               MaxLimit = end,
-               CrosshairLabelsBackground = SKColors.OrangeRed.AsLvcColor(),
-               CrosshairLabelsPaint = new SolidColorPaint(SKColors.White),
-               CrosshairPaint = new SolidColorPaint(SKColors.OrangeRed.WithAlpha(50), 4),
-               CrosshairPadding = new(8),
-               Labeler = value => value.ToString("N2")
-           }
-       ];
-            X2 = [
+                {
+                   MinLimit = start,
+                   MaxLimit = end,
+                   CrosshairLabelsBackground = SKColors.OrangeRed.AsLvcColor(),
+                   CrosshairLabelsPaint = new SolidColorPaint(SKColors.White),
+                   CrosshairPaint = new SolidColorPaint(SKColors.OrangeRed.WithAlpha(50), 4),
+                   CrosshairPadding = new(8),
+                   Labeler = value => value.ToString("N2")
+               }
+             ];
+            X2 = 
+            [
                 new Axis
                 {
                     MinLimit = start,

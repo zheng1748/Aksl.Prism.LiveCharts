@@ -27,7 +27,6 @@
                             XAxes="{Binding X1}"
                             DrawMargin="{Binding DrawMargin}"
                             ZoomMode="X">
-
         </lvc:CartesianChart>
         <lvc:CartesianChart Grid.Row="1"
                             Series="{Binding SeriesCollection2}"

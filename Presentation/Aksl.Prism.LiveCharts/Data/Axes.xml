@@ -131,7 +131,7 @@
 			  Name="Shared"
 			  Title="Shared"
 			  Level="2"
-			  IsCacheable="True"
+			  IsCacheable="False"
 			  IconKind="FolderShared"
 			  ItemType="Item"
 			  ModuleName="AxesModule"

@@ -48,15 +48,6 @@ namespace Aksl.Modules.LiveCharts.Bars.ViewModels
         #region Properties
         public ObservableCollection<ISeries> Series { get; set; }
         public ObservableCollection<ObservablePoint> ObservablePoints { get; set; }
-        private int[] FetchVales()
-        {
-            return
-            [
-                _random.Next(0, 10),
-                _random.Next(0, 10),
-                _random.Next(0, 10)
-            ];
-        }
         #endregion
 
         #region Methods
@@ -120,6 +111,16 @@ namespace Aksl.Modules.LiveCharts.Bars.ViewModels
                 AddItemClick();
                 await Task.Delay(1000);
             }
+        }
+
+        private int[] FetchVales()
+        {
+            return
+            [
+                _random.Next(0, 10),
+                _random.Next(0, 10),
+                _random.Next(0, 10)
+            ];
         }
         #endregion
 

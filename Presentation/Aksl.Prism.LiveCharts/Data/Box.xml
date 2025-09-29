@@ -8,7 +8,7 @@
 			  Title="Basic"
 			  Level="2"
 			  IsCacheable="True"
-			  IconKind="LineScan"
+			  IconKind="MobilePhoneBasic"
 			  ItemType="Item"
 			  ModuleName="BoxModule"
 			  ViewName="Aksl.Modules.LiveCharts.Box.Views.BoxBasicView,Aksl.Modules.LiveCharts.Box"
