@@ -27,7 +27,6 @@ namespace Aksl.Modules.LiveCharts.Error.ViewModels
     {
         #region Members
         private readonly IDialogViewService _dialogViewService;
-        private readonly Random _random = new();
         #endregion
 
         #region Constructors
@@ -81,7 +80,7 @@ namespace Aksl.Modules.LiveCharts.Error.ViewModels
 
             // LineSeries also supports error bars // mark
             Series1 =
-           [
+            [
                 new LineSeries<ErrorValue, RectangleGeometry>
                 {
                     Values = values0,
@@ -89,22 +88,22 @@ namespace Aksl.Modules.LiveCharts.Error.ViewModels
                     GeometrySize = 4,
                     Fill = null
                 }
-            ];
+             ];
 
             // You can also use DateTime on the X axis // mark
             var today = DateTime.Today;
 
             var values2 = new ErrorDateTimePoint[]
             {
-              // (X, Y, Y+- error, Y+- error) // mark
-              new(today.AddDays(0), 50, 0.2, 8),
-             // (X, Y, X- error, X+ erorr, Y+ error, Y- error) // mark
-              new(today.AddDays(1), 45, 0.1, 0.3, 15, 4),
-              new(today.AddDays(2), 25, 0.3, 4),
-              new(today.AddDays(3), 30, 0.2, 6),
-              new(today.AddDays(4), 70, 0.2, 8),
-              new(today.AddDays(5), 30, 0.4, 4),
-              new(today.AddDays(6), 50, 0.3, 6)
+               // (X, Y, Y+- error, Y+- error) // mark
+               new(today.AddDays(0), 50, 0.2, 8),
+              // (X, Y, X- error, X+ erorr, Y+ error, Y- error) // mark
+               new(today.AddDays(1), 45, 0.1, 0.3, 15, 4),
+               new(today.AddDays(2), 25, 0.3, 4),
+               new(today.AddDays(3), 30, 0.2, 6),
+               new(today.AddDays(4), 70, 0.2, 8),
+               new(today.AddDays(5), 30, 0.4, 4),
+               new(today.AddDays(6), 50, 0.3, 6)
             };
 
             // ScatterSeries also supports error bars // mark
@@ -127,9 +126,16 @@ namespace Aksl.Modules.LiveCharts.Error.ViewModels
 
         public ISeries[] Series2 { get; set; }
 
+        // To get more help about DateTime axes see:
+        // https://livecharts.dev/docs/{{ platform }}/{{ version }}/samples.axes.dateTimeScaled
+        public ICartesianAxis[] DateTimeAxis { get; set; } = 
+        [
+            //new DateTimeAxis(TimeSpan.FromDays(1), date => date.ToString("MMMM dd"))$"\"{date:yyyy-MM-dd HH:mm:ss.ffff}\"))
+            new DateTimeAxis(TimeSpan.FromDays(1), date => $"{date:MM-dd}")
+        ];
         #endregion
 
-        #region INavigationAware
+            #region INavigationAware
         public void OnNavigatedTo(NavigationContext navigationContext)
         {
         }

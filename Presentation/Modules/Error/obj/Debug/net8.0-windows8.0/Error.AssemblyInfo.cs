@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aksl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c6ed0b291e57a5939b6aeb3526691eef3a8a2c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aksl.Modules.LiveCharts.Error")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aksl.Modules.LiveCharts.Error")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

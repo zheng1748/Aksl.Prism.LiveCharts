@@ -8,7 +8,7 @@
 			  Title="Basic"
 			  Level="2"
 			  IsCacheable="False"
-			  IconKind="LineScan"
+			  IconKind="Error"
 			  ItemType="Item"
 			  ModuleName="ErrorModule"
 			  ViewName="Aksl.Modules.LiveCharts.Error.Views.ErrorBasicView,Aksl.Modules.LiveCharts.Error"
