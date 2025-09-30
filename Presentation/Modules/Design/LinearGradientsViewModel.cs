@@ -89,19 +89,6 @@ namespace Aksl.Modules.LiveCharts.Design.ViewModels
                 Fill = null
             }
         ];
-
-        public Axis[] XAxes { get; set; } =
-        [
-            new Axis
-            {
-                Labels = ["Apperitizers", "Mains", "Desserts"],
-                LabelsRotation = 0,
-                SeparatorsPaint = new SolidColorPaint(new SKColor(200, 200, 200)),
-                SeparatorsAtCenter = false,
-                TicksPaint = new SolidColorPaint(new SKColor(35, 35, 35)),
-                TicksAtCenter = true
-            }
-        ];
         #endregion
 
         #region INavigationAware
