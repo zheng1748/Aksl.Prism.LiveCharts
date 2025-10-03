@@ -51,7 +51,12 @@ namespace Aksl.Modules.LiveCharts.Bars.ViewModels
         #endregion
 
         #region Methods
-        public void AddItemClick()
+        public void AddItemClick(object sender, System.Windows.RoutedEventArgs e)
+        {
+            AddItem();
+        }
+
+        private void AddItem()
         {
             // Because the Series property is an ObservableCollection, // mark
             // the chart will listen for changes and update // mark
@@ -108,7 +113,7 @@ namespace Aksl.Modules.LiveCharts.Bars.ViewModels
             while (_isStreaming.Value)
             {
                 RemoveItemClick();
-                AddItemClick();
+                AddItem();
                 await Task.Delay(1000);
             }
         }
